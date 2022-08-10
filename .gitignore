@@ -4,9 +4,8 @@ afrh_prj/media/packages
 afrh_prj/logs/*.log
 afrh_prj/uploadedfiles
 afrh_prj/settings_local.py
-afrh_prj/tileserver/cache
-afrh_prj/node_modules
 *.djcache
 .DS_Store
 *.sublime*
 .vscode/
+CACHE
