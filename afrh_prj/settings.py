@@ -117,19 +117,15 @@ CACHE_BY_USER = {'anonymous': 3600 * 24}
 MOBILE_OAUTH_CLIENT_ID = ''  #'9JCibwrWQ4hwuGn5fu2u1oRZSs9V6gK8Vu8hpRC4'
 MOBILE_DEFAULT_ONLINE_BASEMAP = {'default': 'mapbox://styles/mapbox/streets-v9'}
 
-APP_TITLE = 'Arches | Heritage Data Management'
+APP_TITLE = 'AFRH-IRIS'
+APP_NAME = APP_TITLE
 COPYRIGHT_TEXT = 'All Rights Reserved.'
-COPYRIGHT_YEAR = '2019'
+COPYRIGHT_YEAR = '2022'
 
 CELERY_BROKER_URL = 'amqp://guest:guest@localhost'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_RESULT_BACKEND = 'django-db' # Use 'django-cache' if you want to use your cache as your backend
 CELERY_TASK_SERIALIZER = 'json'
-
-try:
-    from .package_settings import *
-except ImportError:
-    pass
 
 try:
     from .settings_local import *
