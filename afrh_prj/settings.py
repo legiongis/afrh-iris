@@ -67,6 +67,8 @@ INSTALLED_APPS += ('afrh_prj',)
 
 ALLOWED_HOSTS = ["*"]
 
+HIDE_EMPTY_NODES_IN_REPORT = True
+
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'afrh_prj.wsgi.application'
 
