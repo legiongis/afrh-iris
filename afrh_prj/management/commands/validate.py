@@ -57,14 +57,17 @@ class Command(BaseCommand):
             exit()
 
         print(f"{json_path.name} - {len(resource_list)}")
-        tiles_cts = []
+        resource_info = []
         for resource in resource_list:
-            tiles_ct = self.inspect_resource(resource)
-            tiles_cts.append(tiles_ct)
-        print(tiles_cts)
+            data = self.inspect_resource(resource)
+            resource_info.append(data)
+        for info in resource_info:
+            print(info)
 
     def inspect_resource(self, resource):
-        return(len(resource['tiles']))
+        resid = resource['resourceinstance']['resourceinstanceid']
+        tile_ct = len(resource['tiles'])
+        return (resid, tile_ct)
 
     def inspect_graph_file(self, json_path):
 
