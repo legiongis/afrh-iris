@@ -1,9 +1,9 @@
 *.pyc
 arches.log
-afrh_prj/media/packages
-afrh_prj/logs/*.log
-afrh_prj/uploadedfiles
-afrh_prj/settings_local.py
+afrh_iris/media/packages
+afrh_iris/logs/*.log
+afrh_iris/uploadedfiles
+afrh_iris/settings_local.py
 *.djcache
 .DS_Store
 *.sublime*

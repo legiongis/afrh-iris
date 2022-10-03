@@ -1,7 +1,7 @@
 {
     "name": "fpan",
     "repository": {
-        "url": "git@github.com:legiongis/afrh-prj.git",
+        "url": "git@github.com:legiongis/afrh-iris.git",
         "type": "git"
     },
     "dependencies": {
