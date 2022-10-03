@@ -1,0 +1,1528 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "10d13645-72ba-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ARPA Field Investigation",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "145c486d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ARPA Notification Date",
+                    "nodegroup_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "158e5055-72ba-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ARPA Discovery",
+                    "nodegroup_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ARPA Documentation",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "4e2cd3b4-72b9-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "4e2cd3b4-72b9-11ea-b9b7-027f24e6fd6b",
+                            "constraintid": "6b907aeb-f2e2-4305-8e8a-de47d0892ea4",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "4e2cd3b4-72b9-11ea-b9b7-027f24e6fd6b",
+                            "constraintid": "c71286c4-2e28-4006-b3a4-271f0e4f83fb",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ARPA Ground Disturbance Type",
+                    "nodegroup_id": "4e2cd3b2-72b9-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "7d7f9a8e-72b9-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "7d7f9a8e-72b9-11ea-b9b7-027f24e6fd6b",
+                            "constraintid": "303cbc88-83e4-490a-ae64-2260f5da167f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "7d7f9a8e-72b9-11ea-b9b7-027f24e6fd6b",
+                            "constraintid": "f14d606c-6d79-4005-bb88-4847c9a00564",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ARPA Ground Disturbance Location",
+                    "nodegroup_id": "7d7f9a8c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "99568a42-72b9-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "99568a42-72b9-11ea-b9b7-027f24e6fd6b",
+                            "constraintid": "2d8fa0a7-c5e3-4b1d-9126-5be2283fc6aa",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "99568a42-72b9-11ea-b9b7-027f24e6fd6b",
+                            "constraintid": "c86f71db-48dc-4fe7-813d-b8aa1a727d49",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "ARPA Determination Type",
+                    "nodegroup_id": "99568a40-72b9-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "10d13645-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Field Investigation Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "10d1364c-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Field Investigation Description",
+                    "node_id": "10d13646-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "10d13645-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA  Field Investigation Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "10d1364d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA  Field Investigation Type",
+                    "node_id": "10d13647-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "10d13645-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Artifact Status",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "10d1364e-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Artifact Status",
+                    "node_id": "10d13648-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "10d13645-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA Field Investigation End Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "10d1364f-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Field Investigation End Date",
+                    "node_id": "10d13649-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "10d13645-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA  Field Investigation Start Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "10d13650-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA  Field Investigation Start Date",
+                    "node_id": "10d1364a-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "10d13645-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Artifacts Discovered",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "10d13651-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Artifacts Discovered",
+                    "node_id": "10d1364b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "158e5055-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA Discovery Documentation Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "158e505b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Discovery Documentation Date",
+                    "node_id": "158e5056-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "158e5055-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA Discovery Notification Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "158e505c-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Discovery Notification Date",
+                    "node_id": "158e5057-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "158e5055-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Discovery Artifact Status",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "158e505d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Discovery Artifact Status",
+                    "node_id": "158e5058-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "158e5055-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Discovery Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "158e505e-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Discovery Notes",
+                    "node_id": "158e5059-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "158e5055-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA Discovery Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "158e505f-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Discovery Date",
+                    "node_id": "158e505a-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA Documentation Response Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "181a9166-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Response Date",
+                    "node_id": "181a915e-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Documentation Status",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "181a9167-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Status",
+                    "node_id": "181a915f-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA Documentation Submission Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "181a9168-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Submission Date",
+                    "node_id": "181a9160-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "label": "ARPA Documentation Report Number",
+                        "max": "",
+                        "min": "",
+                        "placeholder": "Enter number",
+                        "precision": "",
+                        "prefix": "",
+                        "step": "",
+                        "suffix": "",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "181a9169-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Report Number",
+                    "node_id": "181a9161-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Documentation Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "181a916a-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Type",
+                    "node_id": "181a9162-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Documentation Submission Method",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "181a916b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Submission Method",
+                    "node_id": "181a9163-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "ARPA Documentation Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "181a916c-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Date",
+                    "node_id": "181a9164-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "181a915d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ARPA Documentation Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "181a916d-72ba-11ea-b9b7-027f24e6fd6b",
+                    "label": "ARPA Documentation Notes",
+                    "node_id": "181a9165-72ba-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "10d13652-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "10d13647-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "10d13653-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "10d1364a-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "10d13654-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "10d13649-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "10d13655-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "10d1364b-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "10d13656-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "10d13646-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "10d13657-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "10d13648-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "10d13658-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P116_starts",
+                    "rangenode_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "145c4871-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "145c4870-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "145c4872-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "145c486e-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "145c4873-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "145c486f-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "145c4874-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "rangenode_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "158e5060-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "158e505a-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "158e5061-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "158e5056-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "158e5062-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "158e5058-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "158e5063-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "158e5059-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "158e5064-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "158e5057-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "158e5065-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P116_starts",
+                    "rangenode_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a916e-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "181a9165-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a916f-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+                    "rangenode_id": "181a9164-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a9170-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "181a9162-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a9171-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+                    "rangenode_id": "181a915e-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a9172-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "181a9161-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a9173-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "181a9163-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a9174-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "181a915f-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a9175-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+                    "rangenode_id": "181a9160-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "181a9176-72ba-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "4e2cd3b5-72b9-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "4e2cd3b2-72b9-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "7d7f9a8f-72b9-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7d7f9a8c-72b9-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "99568a43-72b9-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "99568a40-72b9-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "99568a40-72b9-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "ab7414b9-72b9-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "ab7414b8-72b9-11ea-b9b7-027f24e6fd6b"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+            "iconclass": "fa fa-archive",
+            "is_editable": true,
+            "isactive": false,
+            "isresource": true,
+            "jsonldcontext": null,
+            "name": "ARPA Review",
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "4e2cd3b2-72b9-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "7d7f9a8c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "99568a40-72b9-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "arpa_field_investigation",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Field Investigation",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P116_starts",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_field_investigation_description",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Field Investigation Description",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "10d13646-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_field_investigation_type",
+                    "config": {
+                        "rdmCollection": "ea2dd94e-3f29-4e97-ba59-bdf7db4281f1"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA  Field Investigation Type",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "10d13647-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_artifact_status",
+                    "config": {
+                        "rdmCollection": "dec71b34-5a55-4d35-ad79-a6c63119d31b"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Artifact Status",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "10d13648-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_field_investigation_end_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Field Investigation End Date",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "10d13649-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_field_investigation_start_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA  Field Investigation Start Date",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "10d1364a-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_artifacts_discovered",
+                    "config": {
+                        "rdmCollection": "fb6de61a-c379-481d-ad95-99805935e2e0"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Artifacts Discovered",
+                    "nodegroup_id": "10d13643-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "10d1364b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_notification_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Notification Date",
+                    "nodegroup_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_notification_method",
+                    "config": {
+                        "rdmCollection": "ff109867-3012-4a79-bd0c-de73d540ca56"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Notification Method",
+                    "nodegroup_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "145c486e-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_notification_notes",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA  Notification Notes",
+                    "nodegroup_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "145c486f-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_notification_response",
+                    "config": {
+                        "rdmCollection": "d6b0de1f-ae75-43e5-acff-94fcb45b143c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Notification Response",
+                    "nodegroup_id": "145c486b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "145c4870-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_discovery",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Discovery",
+                    "nodegroup_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P116_starts",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_discovery_documentation_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Discovery Documentation Date",
+                    "nodegroup_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "158e5056-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_discovery_notification_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Discovery Notification Date",
+                    "nodegroup_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "158e5057-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_discovery_artifact_status",
+                    "config": {
+                        "rdmCollection": "dec71b34-5a55-4d35-ad79-a6c63119d31b"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Discovery Artifact Status",
+                    "nodegroup_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "158e5058-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_discovery_notes",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Discovery Notes",
+                    "nodegroup_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "158e5059-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_discovery_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Discovery Date",
+                    "nodegroup_id": "158e5053-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "158e505a-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_response_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Response Date",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a915e-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_status",
+                    "config": {
+                        "rdmCollection": "8bda4ffc-01a4-48c3-bdd0-6b6319d5cc10"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Status",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a915f-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_submission_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Submission Date",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a9160-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_report_number",
+                    "config": null,
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Report Number",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a9161-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_type",
+                    "config": {
+                        "rdmCollection": "c897560b-188e-4cd0-b59f-4dbf45debf6e"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Type",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a9162-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_submission_method",
+                    "config": {
+                        "rdmCollection": "c480cbe5-8e6c-49e0-a008-30820cb7da72"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Submission Method",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a9163-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Date",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a9164-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_documentation_notes",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Documentation Notes",
+                    "nodegroup_id": "181a915b-72ba-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "181a9165-72ba-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_review",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "ARPA Review",
+                    "nodegroup_id": null,
+                    "nodeid": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_ground_disturbance_type",
+                    "config": {
+                        "rdmCollection": "fb6de61a-c379-481d-ad95-99805935e2e0"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Ground Disturbance Type",
+                    "nodegroup_id": "4e2cd3b2-72b9-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "4e2cd3b2-72b9-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_ground_disturbance_location",
+                    "config": {
+                        "rdmCollection": "4b384f4f-9352-472f-8fd0-a4997a3f6eab"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Ground Disturbance Location",
+                    "nodegroup_id": "7d7f9a8c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "7d7f9a8c-72b9-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_determination_type",
+                    "config": {
+                        "rdmCollection": "eee341d1-f3e7-4bd9-a9c3-13545ae51a07"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Determination Type",
+                    "nodegroup_id": "99568a40-72b9-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "99568a40-72b9-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "arpa_determination_type_notes",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ARPA Determination Type Notes",
+                    "nodegroup_id": "99568a40-72b9-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "ab7414b8-72b9-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "arpa_review",
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
+                "hascustomalias": false,
+                "is_collector": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "ARPA Review",
+                "nodegroup_id": null,
+                "nodeid": "29f3613c-72b9-11ea-b9b7-027f24e6fd6b",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "git hash": "8d98d33b3 2022-07-25 15:21:17 -0700",
+        "os": "Linux",
+        "os version": "5.15.0-48-generic"
+    }
+}
