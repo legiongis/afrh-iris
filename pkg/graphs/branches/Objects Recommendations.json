@@ -1,0 +1,99 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "ab14a8a2-3cad-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "ab14a89f-3cad-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Objects Recommendations",
+                    "nodegroup_id": "ab14a8a0-3cad-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [],
+            "functions_x_graphs": [],
+            "graphid": "ab14a89f-3cad-11ea-b9b7-027f24e6fd6b",
+            "iconclass": "",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "Objects Recommendations",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "ab14a8a0-3cad-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ab14a89f-3cad-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Objects Recommendations",
+                    "nodegroup_id": "ab14a8a0-3cad-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "ab14a8a0-3cad-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": {
+                    "rdmCollection": null
+                },
+                "datatype": "concept",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "ab14a89f-3cad-11ea-b9b7-027f24e6fd6b",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Objects Recommendations",
+                "nodegroup_id": "ab14a8a0-3cad-11ea-b9b7-027f24e6fd6b",
+                "nodeid": "ab14a8a0-3cad-11ea-b9b7-027f24e6fd6b",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

@@ -1,0 +1,1183 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "28d2ae9e-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Section 106 Notification",
+                    "nodegroup_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "28d2aea4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Section 106 Submission",
+                    "nodegroup_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 1,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "28d2aead-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "AFRH Section 106 Review",
+                    "nodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 19,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "28d2aea7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Section 106 Agreement",
+                    "nodegroup_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "28d2aeaa-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Section 106 Response",
+                    "nodegroup_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 2,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "28d2aea1-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "URR Number",
+                    "nodegroup_id": "28d2ae9f-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 0,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "28d2aea4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Section 106 Submission Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "28d2aec4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Submission Date",
+                    "node_id": "28d2aeb3-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "28d2aea4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Submission Method",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aec5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Submission Method",
+                    "node_id": "28d2aeb5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2aea4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Determination of Affect ",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aec6-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Determination of Affect ",
+                    "node_id": "28d2aeb7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2aead-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Determination",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aec7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Determination",
+                    "node_id": "28d2aebe-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2aead-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Justification",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "28d2aec8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Justification",
+                    "node_id": "28d2aeaf-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "28d2aead-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "FPO/CRM Confirmation Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "28d2aec9-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "FPO/CRM Confirmation Date",
+                    "node_id": "28d2aeae-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "28d2aead-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Dispute Resolution",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "28d2aeca-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Dispute Resolution",
+                    "node_id": "28d2aeb4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "28d2aea7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Agreement Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "28d2aecb-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Agreement Notes",
+                    "node_id": "28d2aeb9-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "28d2aea7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Agreement Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aecc-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Agreement Type",
+                    "node_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2aea7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Section 106 Agreement Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "28d2aecd-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Agreement Date",
+                    "node_id": "28d2aeb6-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "28d2aeaa-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Response Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "28d2aece-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Response Notes",
+                    "node_id": "28d2aebd-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "28d2aeaa-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Section 106 Response Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "28d2aecf-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Response Date",
+                    "node_id": "28d2aebc-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "28d2aeaa-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Response Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aed0-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Response Type",
+                    "node_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2aea1-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "label": "URR Number",
+                        "max": "",
+                        "min": "",
+                        "placeholder": "Enter number",
+                        "precision": "",
+                        "prefix": "",
+                        "step": "",
+                        "suffix": "",
+                        "width": "100%"
+                    },
+                    "id": "28d2aed3-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "URR Number",
+                    "node_id": "28d2ae9f-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "28d2aeaa-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Response",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aed1-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Response",
+                    "node_id": "28d2aeba-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2aeaa-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "label": "Section 106 Response File Number",
+                        "max": "",
+                        "min": "",
+                        "placeholder": "Enter number",
+                        "precision": "",
+                        "prefix": "",
+                        "step": "",
+                        "suffix": "",
+                        "width": "100%"
+                    },
+                    "id": "28d2aed2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Response File Number",
+                    "node_id": "28d2aebb-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "28d2ae9e-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Notification Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aebf-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Notification Type",
+                    "node_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2ae9e-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Notification Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "28d2aec0-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Notification Notes",
+                    "node_id": "28d2aeb2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "28d2ae9e-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Notification Method",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aec1-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Notification Method",
+                    "node_id": "28d2aeb0-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "28d2ae9e-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Section 106 Notification Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "28d2aec2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Notification Date",
+                    "node_id": "28d2aeb1-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "28d2aea4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Section 106 Submission Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "28d2aec3-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "label": "Section 106 Submission Type",
+                    "node_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee0-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "28d2aeaf-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee1-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "28d2aebd-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee3-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "28d2ae9f-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "rangenode_id": "28d2aebc-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee6-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "rangenode_id": "28d2aeb3-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aeb0-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aed4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aeb5-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aed5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "rangenode_id": "28d2aeb1-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aed6-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "28d2aeb9-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aed7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aeb7-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aed8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "28d2aeb2-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aed9-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "28d2aeb8-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aeda-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aedb-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aebe-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aedc-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "28d2aeba-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aebe-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aedd-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "rangenode_id": "28d2aeae-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aede-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "28d2aebb-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aedf-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "28d2aeb4-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "28d2aee9-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "rangenode_id": "28d2aeb6-3d6f-11ea-b9b7-027f24e6fd6b"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+            "iconclass": "",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "AFRH Section 106 Review",
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "28d2ae9f-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "parentnodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b"
+                }
+            ],
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Determination",
+                    "nodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aebe-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "AFRH Section 106 Review",
+                    "nodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "FPO/CRM Confirmation Date",
+                    "nodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeae-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Notification Type",
+                    "nodegroup_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Justification",
+                    "nodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeaf-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Notification Method",
+                    "nodegroup_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb0-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "URR Number",
+                    "nodegroup_id": "28d2ae9f-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2ae9f-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Notification Date",
+                    "nodegroup_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb1-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Submission Type",
+                    "nodegroup_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Notification Notes",
+                    "nodegroup_id": "28d2ae9c-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Submission Date",
+                    "nodegroup_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb3-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dispute Resolution",
+                    "nodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb4-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Submission Method",
+                    "nodegroup_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Agreement Type",
+                    "nodegroup_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Agreement Date",
+                    "nodegroup_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb6-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Determination of Affect ",
+                    "nodegroup_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb7-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Submission Notes",
+                    "nodegroup_id": "28d2aea2-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Agreement Notes",
+                    "nodegroup_id": "28d2aea5-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeb9-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Response Type",
+                    "nodegroup_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Response",
+                    "nodegroup_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aeba-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Response File Number",
+                    "nodegroup_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aebb-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Response Date",
+                    "nodegroup_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aebc-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Response Notes",
+                    "nodegroup_id": "28d2aea8-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "28d2aebd-3d6f-11ea-b9b7-027f24e6fd6b",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "28d2ae9b-3d6f-11ea-b9b7-027f24e6fd6b",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "AFRH Section 106 Review",
+                "nodegroup_id": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                "nodeid": "28d2aeab-3d6f-11ea-b9b7-027f24e6fd6b",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

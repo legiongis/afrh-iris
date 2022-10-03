@@ -1,0 +1,325 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "7f5f2bf8-1aba-11ea-a266-acde48001122",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "7f5f2bf8-1aba-11ea-a266-acde48001122",
+                            "constraintid": "ad9b745b-8470-4e3b-8836-9037d732334f",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "AFRH TimeSpan",
+                    "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "sortorder": null,
+                    "visible": false
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "7f5f2bf8-1aba-11ea-a266-acde48001122",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Time Span Begin",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "7f5f484a-1aba-11ea-a266-acde48001122",
+                    "label": "Time Span Begin",
+                    "node_id": "7f5f44c6-1aba-11ea-a266-acde48001122",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "7f5f2bf8-1aba-11ea-a266-acde48001122",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Time Span End",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "7f5f4872-1aba-11ea-a266-acde48001122",
+                    "label": "Time Span End",
+                    "node_id": "7f5f383c-1aba-11ea-a266-acde48001122",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "7f5f2bf8-1aba-11ea-a266-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Time Span Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "7f5f4890-1aba-11ea-a266-acde48001122",
+                    "label": "Time Span Type",
+                    "node_id": "7f5f3968-1aba-11ea-a266-acde48001122",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "7f5f2bf8-1aba-11ea-a266-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Time Span Note",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "7f5f48e0-1aba-11ea-a266-acde48001122",
+                    "label": "Time Span Note",
+                    "node_id": "7f5f3d64-1aba-11ea-a266-acde48001122",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "7f5f2bf8-1aba-11ea-a266-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Cultural Period(s)",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "c77f7fc2-1ac0-11ea-8211-acde48001122",
+                    "label": "Cultural Period(s)",
+                    "node_id": "25c45cfc-1ac0-11ea-bd7e-acde48001122",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "edgeid": "7f5fe8ea-1aba-11ea-a266-acde48001122",
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rangenode_id": "7f5f3d64-1aba-11ea-a266-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "edgeid": "7f5feb2e-1aba-11ea-a266-acde48001122",
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "7f5f44c6-1aba-11ea-a266-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "edgeid": "25c45fb8-1ac0-11ea-bd7e-acde48001122",
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "25c45cfc-1ac0-11ea-bd7e-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "edgeid": "7f5fed2c-1aba-11ea-a266-acde48001122",
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "7f5f383c-1aba-11ea-a266-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "edgeid": "7f5fea52-1aba-11ea-a266-acde48001122",
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7f5f3968-1aba-11ea-a266-acde48001122"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "7f5f232e-1aba-11ea-a266-acde48001122",
+            "iconclass": "fa fa-clock-o",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "AFRH TimeSpan",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Cultural Period(s)",
+                    "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "nodeid": "25c45cfc-1ac0-11ea-bd7e-acde48001122",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Time Span End",
+                    "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "nodeid": "7f5f383c-1aba-11ea-a266-acde48001122",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "c53d3557-e033-4aa1-b020-0dc2b690025f"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Time Span Type",
+                    "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "nodeid": "7f5f3968-1aba-11ea-a266-acde48001122",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Time Span Note",
+                    "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "nodeid": "7f5f3d64-1aba-11ea-a266-acde48001122",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
+                    "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Time Span Begin",
+                    "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "nodeid": "7f5f44c6-1aba-11ea-a266-acde48001122",
+                    "ontologyclass": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "AFRH TimeSpan",
+                    "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "nodeid": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "7f5f232e-1aba-11ea-a266-acde48001122",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "AFRH TimeSpan",
+                "nodegroup_id": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                "nodeid": "7f5f2aae-1aba-11ea-a266-acde48001122",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}

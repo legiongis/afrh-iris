@@ -1,0 +1,277 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "0525a270-1ab7-11ea-bd7e-acde48001122",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "0525a270-1ab7-11ea-bd7e-acde48001122",
+                            "constraintid": "e5260e87-ae6f-4953-add3-cbbf18493b21",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "AFRH External Cross References",
+                    "nodegroup_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "0525a270-1ab7-11ea-bd7e-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "External Cross Reference Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "900d115c-1ab7-11ea-bd7e-acde48001122",
+                    "label": "External Cross Reference Notes",
+                    "node_id": "6afea5b0-1ab7-11ea-bd7e-acde48001122",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "0525a270-1ab7-11ea-bd7e-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "External Cross Reference Number",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "900bdd3c-1ab7-11ea-bd7e-acde48001122",
+                    "label": "External Cross Reference Number",
+                    "node_id": "13e1a25a-1ab7-11ea-bd7e-acde48001122",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "0525a270-1ab7-11ea-bd7e-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "External Cross Reference Source",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "900c8926-1ab7-11ea-bd7e-acde48001122",
+                    "label": "External Cross Reference Source",
+                    "node_id": "2317581e-1ab7-11ea-bd7e-acde48001122",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "0525a270-1ab7-11ea-bd7e-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "External Cross Reference Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "900d9aaa-1ab7-11ea-bd7e-acde48001122",
+                    "label": "External Cross Reference Type",
+                    "node_id": "7e01f1a8-1ab7-11ea-bd7e-acde48001122",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "edgeid": "13e1a520-1ab7-11ea-bd7e-acde48001122",
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "13e1a25a-1ab7-11ea-bd7e-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "edgeid": "23175b0c-1ab7-11ea-bd7e-acde48001122",
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+                    "rangenode_id": "2317581e-1ab7-11ea-bd7e-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "edgeid": "6afea89e-1ab7-11ea-bd7e-acde48001122",
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "6afea5b0-1ab7-11ea-bd7e-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "edgeid": "7e01f45a-1ab7-11ea-bd7e-acde48001122",
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7e01f1a8-1ab7-11ea-bd7e-acde48001122"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+            "iconclass": "fa fa-arrows-alt",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "AFRH External Cross References",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "AFRH External Cross References",
+                    "nodegroup_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "nodeid": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "External Cross Reference Number",
+                    "nodegroup_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "nodeid": "13e1a25a-1ab7-11ea-bd7e-acde48001122",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "External Cross Reference Source",
+                    "nodegroup_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "nodeid": "2317581e-1ab7-11ea-bd7e-acde48001122",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "External Cross Reference Notes",
+                    "nodegroup_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "nodeid": "6afea5b0-1ab7-11ea-bd7e-acde48001122",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "External Cross Reference Type",
+                    "nodegroup_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                    "nodeid": "7e01f1a8-1ab7-11ea-bd7e-acde48001122",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": null,
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "0524f8ac-1ab7-11ea-bd7e-acde48001122",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "AFRH External Cross References",
+                "nodegroup_id": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                "nodeid": "0524f686-1ab7-11ea-bd7e-acde48001122",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ]
+}
