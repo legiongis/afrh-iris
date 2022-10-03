@@ -10,12 +10,13 @@ try:
 except ImportError:
     pass
 
+APP_NAME = 'AFRH IRIS'
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
-DATATYPE_LOCATIONS.append('afrh_iris.datatypes')
-FUNCTION_LOCATIONS.append('afrh_iris.functions')
-SEARCH_COMPONENT_LOCATIONS.append('afrh_iris.search_components')
+DATATYPE_LOCATIONS.append('afrh_prj.datatypes')
+FUNCTION_LOCATIONS.append('afrh_prj.functions')
+SEARCH_COMPONENT_LOCATIONS.append('afrh_prj.search_components')
 TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'functions', 'templates'))
 TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
 TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
@@ -28,7 +29,7 @@ SECRET_KEY = 'xxxx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ROOT_URLCONF = 'afrh_iris.urls'
+ROOT_URLCONF = 'afrh_prj.urls'
 
 # a prefix to append to all elasticsearch indexes, note: must be lower case
 ELASTICSEARCH_PREFIX = 'afrh_iris'
@@ -46,7 +47,7 @@ DATABASES = {
         "CONN_MAX_AGE": 0,
         "ENGINE": "django.contrib.gis.db.backends.postgis",
         "HOST": "localhost",
-        "NAME": "afrh_iris",
+        "NAME": "noname",
         "OPTIONS": {},
         "PASSWORD": "xxxx",
         "PORT": "5432",
@@ -62,14 +63,17 @@ DATABASES = {
     }
 }
 
-INSTALLED_APPS += ('afrh_iris',)
+INSTALLED_APPS += (
+    'afrh_prj',
+    'iris',
+)
 
 ALLOWED_HOSTS = ["*"]
 
 HIDE_EMPTY_NODES_IN_REPORT = True
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
-WSGI_APPLICATION = 'afrh_iris.wsgi.application'
+WSGI_APPLICATION = 'afrh_prj.wsgi.application'
 
 RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
 
