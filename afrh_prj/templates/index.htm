@@ -111,7 +111,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                 <li class="nav-item g-mx-20--lg">
                                     <a href="#help" class="nav-link px-0"><i class="far fa-question-circle"></i> {% trans "Help" %}</a>
                                 </li>
-                                {% if user|can_create_resource_instance %}
+                                {% if user.username != 'anonymous' %}
                                 <li class="nav-item g-mx-20--lg">
                                     <a href="{% url 'resource' %}" class="nav-link px-0">{% trans "Manage Data" %}</a>
                                 </li>
