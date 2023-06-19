@@ -70,6 +70,8 @@ INSTALLED_APPS += (
 
 ALLOWED_HOSTS = ["*"]
 
+ARCHES_NAMESPACE_FOR_DATA_EXPORT = "http://afrh-iris.com/"
+
 HIDE_EMPTY_NODES_IN_REPORT = True
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
