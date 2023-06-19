@@ -18,3 +18,50 @@
     background-color: #ad1f2d;
     box-shadow: none;
 }
+
+/* STYLING FOR THE REPORTS */
+
+.iris-card {
+    /* padding-bottom: 0;
+    padding-left: 5px; */
+}
+
+.hide-this-card {
+    display: none;
+}
+
+.rp-card-section {
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+
+.rp-tile-title {
+    font-weight: 800;
+}
+
+.rp-report-tile dt {
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 2px;
+}
+
+.rp-report-container-tile {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* .iris-card .rp-card-section {
+    padding-bottom: 0;
+    padding-left: 5px;
+} */
+
+hr.rp-tile-separator {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+/* .dl-horizontal dd {
+    margin-left: 190px;
+} */
