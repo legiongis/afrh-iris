@@ -1,0 +1,10 @@
+{
+    "pluginid": "b2778828-c8ce-5681-c38b-fd463d878f1f",
+    "name": "Management Activity",
+    "icon": "fa fa-file",
+    "component": "views/components/plugins/management-workflow",
+    "componentname": "management-workflow",
+    "config": {"show":true},
+    "slug": "management-workflow",
+    "sortorder": 0
+}
