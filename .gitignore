@@ -1,3 +1,6 @@
+pkg/business_data/local
+env
+
 *.pyc
 arches.log
 afrh_prj/media/packages
