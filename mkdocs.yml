@@ -1,0 +1,19 @@
+# mkdocs.yml
+site_name: AFRH-IRIS Developer Documentation
+use_directory_urls: false # This is important to correctly display the documentation via Django
+site_dir: .docs # This is a directory where the documentation will be generated
+theme:
+  name: material
+  features:
+    - navigation.expand
+markdown_extensions:
+  - admonition
+  - toc:
+      toc_depth: 3
+nav:
+  - 'index.md'
+  - 'project.md'
+  - 'package.md'
+  - 'map-layers.md'
+  - 'management.md'
+  - 'permissions.md'

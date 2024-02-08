@@ -1,5 +1,6 @@
 pkg/business_data/local
 env
+.docs
 
 *.pyc
 arches.log
