@@ -1,157 +1,153 @@
-## AFRH Permissions System
+# Permissions System
+
+Arches provides capabilities for granting specific permissions for data access and editing to individual users, or to groups of users. You can read more about how Arches handles permissions [here](https://arches.readthedocs.io/en/stable/administering/managing-permissions/).
+
+To implement permissions, we have created five Groups to which individual users can be added, and then used these groups to attach data-level permissions to each resource model. In this way different groups of users gain access to specific parts of each resource model.
+
+The five groups are:
+
+- **admin1**
+- **admin2**
+- **afrh_staff**
+- **afrh_volunteer**
+- **development**
+
+## Creating a New User
+
+When a new user is created, they should be added to the Group that corresponds to their permissions level, as well as the **Resource Editor** group.
+
+Any users at the **admin1** level should also be added to the **RDM Administrator** group, in order to give them access to the Reference Data Manager.
+
+!!! Note
+    The default `admin` user is already a "superuser" and automatically has all permissions, so that user need not be added to any groups.
+
+## Permissions by Resource Model
+
+To implement permissions on specific parts of a resource model so that certain users have edit, read-only, or no access at all, we must use the Permissions tab on that resource model in the Arches designer. **This must be performed manually after the initial installation of the package**.
+
+The following tables provide a guide for how this should be implemented on each model. Note that FULLREPORT means a group should have read-only access to every node in that resource model, while VIEW means they should only have read access to a subset of the nodes.
 
 !!! Important
-    Work in progress
-
-Following requests from the AFRH, an implementation-specific permission system has been created. However, it has been done so in a granular manner that should allow easy conversion to meet completely different needs.
-
-The main set of permissions is managed on a resource type basis. A standard set of Permission ojects are created per resource type, and then assigned to specific Group objects as necessary. Thus, a new user can be created as part of a preset group, thereby gaining a number of preset individual permissions, but can also have individual permissions added. The creation of all permissions and groups is handled in setup.py (as well as the prior removal of the default Arches-HIP permissions and groups), and the assignment of a resource type's subset permissions to a specific group is defined as a new key/value pair in settings.RESOURCE_TYPE_CONFIGS().
-
-A more specific configuration was added to allow any given Information Resource to be hidden from the public (i.e. any 'anonymous' user). This is based on the value of a single node in the Information Resource graph. In other words, it implemented completely outside of the built-in Django admin framework system.
-
-### Permission Objects
-
-For each resource type, CREATE, EDIT, FULLREPORT, and VIEW. CREATE and EDIT are self-explanatory. FULLREPORT means that the user will view an unfiltered report for resources of a certain type, and if a user lacks VIEW permission, the resource type will be screened from 1. the map view, 2. search results, and 3. related resource graphs.
-
-Therefore, the list of all available permissions looks something like this:
-
-CREATE | Inventory Resource
-CREATE | Actor
-..etc
-
-An additional permission object called "AFRH | RDM Access" gives users access to the Reference Data Manager.
-
-### Permission Groups
-
-The app has the following permission groups:
-
-+ *admin1*
-+ *admin2*
-+ *afrh_staff*
-+ *afrh_volunteer*
-+ *development*
-
-Each group is automatically assigned specific permissions, as defined in settings.RESOURCE_TYPE_CONFIGS(). During the install of this app, a sample user is made for each group, whose name and password are one of the groups listed above.
-
-### Permissions Detail
-
-#### RDM
-
-| Group           | RDM      |
-| --------------- | :------: |
-| public*         | **x**    |
-| admin1          | &#10004; |
-| admin2          | **x**    |
-| afrh_staff      | **x**    |
-| afrh_volunteer  | **x**    |
-| development     | **x**    |
+    We still need to determine which fields should be included in the VIEW level for each resource model. (We could also change this terminology).
 
 ### Inventory Resource
 
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | **x**      | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | **x**      | &#10004; |
-| development     | **x**     | **x**    | **x**      | &#10004; |
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | **x**      | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | **x**          | &#10004;   | &#10004; |
+| afrh_volunteer  | **x**          | **x**      | &#10004; |
+| development     | **x**          | **x**      | &#10004; |
 
 ### Master Plan Zone
 
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | &#10004;   | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | &#10004;   | &#10004; |
-| development     | **x**     | **x**    | &#10004;   | &#10004; |
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | &#10004;   | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | **x**          | &#10004;   | &#10004; |
+| afrh_volunteer  | **x**          | &#10004;   | &#10004; |
+| development     | **x**          | &#10004;   | &#10004; |
 
 ### Character Area
 
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | &#10004;   | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | &#10004;   | &#10004; |
-| development     | **x**     | **x**    | &#10004;   | &#10004; |
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | &#10004;   | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | **x**          | &#10004;   | &#10004; |
+| afrh_volunteer  | **x**          | &#10004;   | &#10004; |
+| development     | **x**          | &#10004;   | &#10004; |
 
 ### Archaeological Zone
 
-| Group           |  CREATE   | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | **x**      | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | **x**      | &#10004; |
-| development     | **x**     | **x**    | **x**      | &#10004; |
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | **x**      | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | **x**          | &#10004;   | &#10004; |
+| afrh_volunteer  | **x**          | **x**      | &#10004; |
+| development     | **x**          | **x**      | &#10004; |
 
 ### Historic Area
 
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | &#10004;   | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | &#10004;   | &#10004; |
-| development     | **x**     | **x**    | &#10004;   | &#10004; |
-
-### Field Investigation
-
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | **x**      | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | **x**      | &#10004; |
-| development     | **x**     | **x**    | **x**      | &#10004; |
-
-### Actor
-
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | **x**      | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_volunteer  | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| development     | &#10004;  | &#10004; | &#10004;   | &#10004; |
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | &#10004;   | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | **x**          | &#10004;   | &#10004; |
+| afrh_volunteer  | **x**          | &#10004;   | &#10004; |
+| development     | **x**          | &#10004;   | &#10004; |
 
 ### Information Resource
 
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | &#10004;   | &#10004; |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| development     | **x**     | **x**    | &#10004;   | &#10004; |
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | &#10004;   | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | **x**          | &#10004;   | &#10004; |
+| afrh_volunteer  | &#10004;       | &#10004;   | &#10004; |
+| development     | **x**          | &#10004;   | &#10004; |
 
-Management Activity (A)
+### Person
 
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | **x**      | **x**    |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | **x**      | **x**    |
-| development     | **x**     | **x**    | **x**      | **x**    |
+!!! Warning
+    Is this correct?
 
-Management Activity (B)
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | **x**      | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
+| afrh_volunteer  | &#10004;       | &#10004;   | &#10004; |
+| development     | &#10004;       | &#10004;   | &#10004; |
 
-| Group           | CREATE    | EDIT     | FULLREPORT | VIEW     |
-| --------------- | :-------: | :------: | :--------: | :------: |
-| public*         | **x**     | **x**    | **x**      | **x**    |
-| admin1          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| admin2          | &#10004;  | &#10004; | &#10004;   | &#10004; |
-| afrh_staff      | **x**     | **x**    | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**     | **x**    | **x**      | **x**    |
-| development     | &#10004;  | &#10004; | &#10004;   | &#10004; |
+### Organization
+
+!!! Warning
+    Is this correct?
+
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | **x**      | &#10004; |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
+| afrh_volunteer  | &#10004;       | &#10004;   | &#10004; |
+| development     | &#10004;       | &#10004;   | &#10004; |
+
+### ARPA Review
+
+!!! Warning
+    Is this correct?
+
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | **x**      | **x**    |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
+| afrh_volunteer  | **x**          | **x**      | **x**    |
+| development     | **x**          | **x**      | **x**    |
+
+### Management Activity
+
+!!! Warning
+    Is this correct?
+
+| Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
+| --------------- | :------------: | :--------: | :------: |
+| public*         | **x**          | **x**      | **x**    |
+| admin1          | &#10004;       | &#10004;   | &#10004; |
+| admin2          | &#10004;       | &#10004;   | &#10004; |
+| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
+| afrh_volunteer  | **x**          | **x**      | **x**    |
+| development     | **x**          | **x**      | **x**    |

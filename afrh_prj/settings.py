@@ -18,9 +18,6 @@ STATICFILES_DIRS =  (
     os.path.join(DOCS_ROOT, "assets")
 ) + STATICFILES_DIRS
 
-for i in STATICFILES_DIRS:
-    print(i)
-
 DATATYPE_LOCATIONS.append('afrh_prj.datatypes')
 FUNCTION_LOCATIONS.append('afrh_prj.functions')
 SEARCH_COMPONENT_LOCATIONS.append('afrh_prj.search_components')
@@ -80,6 +77,8 @@ ALLOWED_HOSTS = ["*"]
 ARCHES_NAMESPACE_FOR_DATA_EXPORT = "http://afrh-iris.com/"
 
 HIDE_EMPTY_NODES_IN_REPORT = True
+
+ENABLE_USER_SIGNUP = False
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'afrh_prj.wsgi.application'
