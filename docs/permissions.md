@@ -21,6 +21,25 @@ Any users at the **admin1** level should also be added to the **RDM Administrato
 !!! Note
     The default `admin` user is already a "superuser" and automatically has all permissions, so that user need not be added to any groups.
 
+## Test Accounts
+
+A suite of example user accounts, one per permission level, can be created with
+
+```
+python manage.py initialize test-users
+```
+
+The following users will be created and assigned to these groups:
+
+|username|password|groups|
+|---|---|---|
+|admin1|admin1|admin1, Resource Editor, RDM Administrator|
+|admin2|admin2|admin2, Resource Editor|
+|afrh_staff|afrh_staff|afrh_staff, Resource Editor|
+|afrh_volunteer|afrh_volunteer|afrh_volunteer, Resource Editor|
+|development|development|development, Resource Editor|
+
+
 ## Permissions by Resource Model
 
 To implement permissions on specific parts of a resource model so that certain users have edit, read-only, or no access at all, we must use the Permissions tab on that resource model in the Arches designer. **This must be performed manually after the initial installation of the package**.

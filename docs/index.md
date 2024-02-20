@@ -7,15 +7,15 @@ These docs will provide a comprehensive description of the AFRH-IRIS code base, 
 The AFRH-IRIS code base is organized as follows:
 
 - **`afrh_prj/`** - This is the Arches **project**, and it holds the main application logic and settings.
-    - see [Project Customizations](/docs/package)
+    - see [Project Customizations](/docs/package.html)
     - see [Understanding Projects](https://arches.readthedocs.io/en/stable/installing/projects-and-packages/) in the Arches documentation for more context.
 - **`pkg/`** - This is the Arches **package**, it holds database models, thesauri, and other configurations used during installation.
-    - see [Package Content](/docs/project)
+    - see [Package Content](/docs/project.html)
     - see [Understanding Packages](https://arches.readthedocs.io/en/stable/installing/projects-and-packages/#understanding-packages) in the Arches documentation for more context.
 - **`iris/`** - This is a custom Django app that holds a few management commands and fixtures.
-    - see [Management Commands](/docs/management) and [Custom Map Layers](/docs/map-layers)
+    - see [Management Commands](/docs/management.html) and [Custom Map Layers](/docs/map-layers.html)
 - **`docs/`** - This is a mkdocs documentation module that holds this documentation.
-    - see [Building the Docs](/docs/documentation)
+    - see [Building the Docs](#building-the-docs)
 
 ## Clean install
 
@@ -31,14 +31,19 @@ Run this with
 
     source ./clean_install.sh
 
-To create a set of test users, one per permissions level, use
+!!! Warning
+    This will drop and recreate your database (full data loss).
+
+To create a set of test user accounts, one per permissions level, use
 
     python manage.py initialize test-users
 
-The initialize command is also used within the clean install script. For more on that command, see [Management Commands](/docs/management).
+See [permissions > Test Accounts](/docs/permissions.html#test-accounts) > Test Accounts to learn more about these accounts (and permissions in general).
+
+The `initialize` command is also used within the clean install script. For more on that command, see [Management Commands](/docs/management.html).
 
 !!! Warning
-    This will drop and recreate your database (full data loss).
+    Arches does not support the load of resource model-level permissions from packages. This means that most of the permissions described.
 
 ## Building the Docs
 
