@@ -43,7 +43,7 @@ See [permissions > Test Accounts](/docs/permissions.html#test-accounts) > Test A
 The `initialize` command is also used within the clean install script. For more on that command, see [Management Commands](/docs/management.html).
 
 !!! Warning
-    Arches does not support the load of resource model-level permissions from packages. This means that most of the permissions described.
+    Arches does not support the load of resource model-level permissions from packages. This means all permissions described in [permissions > Permissions by Resource Model](/docs/permissions.html#permissions-by-resource-model) must be implemented manually after installation.
 
 ## Building the Docs
 
