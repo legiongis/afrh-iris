@@ -7,10 +7,10 @@ These docs will provide a comprehensive description of the AFRH-IRIS code base, 
 The AFRH-IRIS code base is organized as follows:
 
 - **`afrh_prj/`** - This is the Arches **project**, and it holds the main application logic and settings.
-    - see [Project Customizations](/docs/package.html)
+    - see [Project Customizations](/docs/project.html)
     - see [Understanding Projects](https://arches.readthedocs.io/en/stable/installing/projects-and-packages/) in the Arches documentation for more context.
 - **`pkg/`** - This is the Arches **package**, it holds database models, thesauri, and other configurations used during installation.
-    - see [Package Content](/docs/project.html)
+    - see [Package Content](/docs/package.html)
     - see [Understanding Packages](https://arches.readthedocs.io/en/stable/installing/projects-and-packages/#understanding-packages) in the Arches documentation for more context.
 - **`iris/`** - This is a custom Django app that holds a few management commands and fixtures.
     - see [Management Commands](/docs/management.html) and [Custom Map Layers](/docs/map-layers.html)
