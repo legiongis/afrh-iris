@@ -23,7 +23,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Related Inventory Resources",
                     "nodegroup_id": "2c8e1cc0-689b-11ea-9c7f-acde48001122",
                     "sortorder": null,
@@ -61,7 +61,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Descriptions",
                     "nodegroup_id": "5b2c8a9c-398a-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 4,
@@ -87,7 +87,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Roles",
                     "nodegroup_id": "5b2c8a9f-398a-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 3,
@@ -163,7 +163,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Names",
                     "nodegroup_id": "5b2c8aab-398a-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 0,
@@ -189,7 +189,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "TimeSpan",
                     "nodegroup_id": "5b2c8aae-398a-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 1,
@@ -226,14 +226,7 @@
                     "cardid": "cead80e8-6a4b-11ea-a42b-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "cead80e8-6a4b-11ea-a42b-acde48001122",
-                            "constraintid": "dab47782-8b93-486e-adf9-b6ff2f330df6",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "5b2c8a98-398a-11ea-b9b7-027f24e6fd6b",
@@ -241,7 +234,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Related Information Resources",
                     "nodegroup_id": "cead7e4a-6a4b-11ea-a42b-acde48001122",
                     "sortorder": null,
@@ -277,24 +270,6 @@
                     "sortorder": 4,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
-                    "card_id": "cead80e8-6a4b-11ea-a42b-acde48001122",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Related Information Resource From Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "57a6a2ad-6e05-4a6a-ae23-6f96d36b4e86",
-                    "label": "Related Information Resource From Date",
-                    "node_id": "cead8354-6a4b-11ea-a42b-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
                     "card_id": "581c12d5-415b-11ea-b9b7-027f24e6fd6b",
@@ -769,41 +744,6 @@
                 {
                     "card_id": "cead80e8-6a4b-11ea-a42b-acde48001122",
                     "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Related Information Resource To Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "65efe825-4aa3-4fd3-a523-7e96591f89a3",
-                    "label": "Related Information Resource To Date",
-                    "node_id": "cead8430-6a4b-11ea-a42b-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "cead80e8-6a4b-11ea-a42b-acde48001122",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Related Information Resource Notes",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "ad706b05-0670-4a20-a4d1-b77210ded0b2",
-                    "label": "Related Information Resource Notes",
-                    "node_id": "cead8502-6a4b-11ea-a42b-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "cead80e8-6a4b-11ea-a42b-acde48001122",
-                    "config": {
                         "defaultResourceInstance": [],
                         "label": "Related Actor",
                         "placeholder": ""
@@ -813,22 +753,7 @@
                     "node_id": "cead7e4a-6a4b-11ea-a42b-acde48001122",
                     "sortorder": null,
                     "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
-                    "card_id": "cead80e8-6a4b-11ea-a42b-acde48001122",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Related Information Resource Relation Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "e5882bb8-40c3-4d2c-a5a0-3911883f3f5f",
-                    "label": "Related Information Resource Relation Type",
-                    "node_id": "cead823c-6a4b-11ea-a42b-acde48001122",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 }
             ],
             "color": null,
@@ -1276,12 +1201,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "5b2c8a98-398a-11ea-b9b7-027f24e6fd6b",
-                    "id": "f64a5e19-c35b-4c8e-9768-474ee3648c06"
+                    "id": "8de648c1-19a7-11ed-811b-99846913423a"
                 }
             ],
             "graphid": "5b2c8a98-398a-11ea-b9b7-027f24e6fd6b",
             "iconclass": "fa fa-user",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -2373,9 +2298,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
-        "git hash": "d69d11e8a 2022-10-26 11:54:47 -0700",
+        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "git hash": "8d98d33b3 2022-07-25 15:21:17 -0700",
         "os": "Linux",
-        "os version": "5.15.0-92-generic"
+        "os version": "5.15.0-48-generic"
     }
 }
