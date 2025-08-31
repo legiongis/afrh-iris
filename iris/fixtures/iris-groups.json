@@ -1,0 +1,322 @@
+[
+  {
+    "model": "auth.group",
+    "pk": 101,
+    "fields": {
+      "name": "InventoryResource:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 102,
+    "fields": {
+      "name": "InventoryResource:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 103,
+    "fields": {
+      "name": "InventoryResource:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 104,
+    "fields": {
+      "name": "InventoryResource:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 105,
+    "fields": {
+      "name": "MasterPlanZone:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 106,
+    "fields": {
+      "name": "MasterPlanZone:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 107,
+    "fields": {
+      "name": "MasterPlanZone:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 108,
+    "fields": {
+      "name": "MasterPlanZone:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 109,
+    "fields": {
+      "name": "CharacterArea:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 110,
+    "fields": {
+      "name": "CharacterArea:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 111,
+    "fields": {
+      "name": "CharacterArea:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 112,
+    "fields": {
+      "name": "CharacterArea:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 113,
+    "fields": {
+      "name": "ArchaeologicalZone:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 114,
+    "fields": {
+      "name": "ArchaeologicalZone:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 115,
+    "fields": {
+      "name": "ArchaeologicalZone:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 116,
+    "fields": {
+      "name": "ArchaeologicalZone:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 117,
+    "fields": {
+      "name": "HistoricArea:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 118,
+    "fields": {
+      "name": "HistoricArea:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 119,
+    "fields": {
+      "name": "HistoricArea:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 120,
+    "fields": {
+      "name": "HistoricArea:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 121,
+    "fields": {
+      "name": "InformationResource:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 122,
+    "fields": {
+      "name": "InformationResource:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 123,
+    "fields": {
+      "name": "InformationResource:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 124,
+    "fields": {
+      "name": "InformationResource:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 125,
+    "fields": {
+      "name": "Person:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 126,
+    "fields": {
+      "name": "Person:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 127,
+    "fields": {
+      "name": "Person:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 128,
+    "fields": {
+      "name": "Person:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 129,
+    "fields": {
+      "name": "Organization:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 130,
+    "fields": {
+      "name": "Organization:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 131,
+    "fields": {
+      "name": "Organization:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 132,
+    "fields": {
+      "name": "Organization:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 133,
+    "fields": {
+      "name": "ARPAReview:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 134,
+    "fields": {
+      "name": "ARPAReview:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 135,
+    "fields": {
+      "name": "ARPAReview:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 136,
+    "fields": {
+      "name": "ARPAReview:Edit",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 137,
+    "fields": {
+      "name": "ManagementActivity:Full",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 138,
+    "fields": {
+      "name": "ManagementActivity:Limited",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 139,
+    "fields": {
+      "name": "ManagementActivity:Deny",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 140,
+    "fields": {
+      "name": "ManagementActivity:Edit",
+      "permissions": []
+    }
+  }
+]
