@@ -2,10 +2,9 @@
 
 Arches provides capabilities for granting specific permissions for data access and editing to individual users, or to groups of users. You can read more about how Arches handles permissions [here](https://arches.readthedocs.io/en/stable/administering/managing-permissions/).
 
-To implement permissions, we have created five Groups to which individual users can be added, and then used these groups to attach data-level permissions to each resource model. In this way different groups of users gain access to specific parts of each resource model.
+AFRH-IRIS must facilitate access by seven of different categories of users, which we classify as the following:
 
-The five groups are:
-
+- **public** (visitors to the site that aren't signed in)
 - **admin1**
 - **admin2**
 - **afrh_staff**
@@ -13,14 +12,42 @@ The five groups are:
 - **plc_staff**
 - **contractor**
 
+Each category of user has a different level of access to each resource model in the system, with regard to
+
+1. Viewing resource instances
+    - Full view, limited view, or access denied
+2. Creating/editing resource intances
+
+For a full breakdown by resource model, see [Permissions by Resource Model](#permissions-by-resource-model) below.
+
 ## Creating a New User
 
-When a new user is created, they should be added to the Group that corresponds to their permissions level, as well as the **Resource Editor** group.
+When a new user is created in the Django admin interface (afrh-iris.com/admin), they must be added to a series of groups in order to properly situate them within one of the permissions categories. The following table should be used to guide group assignment. Groups in **bold** are defalt Arches groups, all others are custom to the AFRH-IRIS system.
 
-Any users at the **admin1** level should also be added to the **RDM Administrator** group, in order to give them access to the Reference Data Manager.
-
-!!! Note
-    The default `admin` user is already a "superuser" and automatically has all permissions, so that user need not be added to any groups.
+| admin1                   | admin2                   | afrh_staff               | afrh_volunteer              | plc_staff                   | contractor                  |
+|--------------------------|--------------------------|--------------------------|-----------------------------|-----------------------------|-----------------------------|
+| ArchaeologicalZone:Full  | ArchaeologicalZone:Full  | ArchaeologicalZone:Full  | ArchaeologicalZone:Limited  | ArchaeologicalZone:Limited  | ArchaeologicalZone:Limited  |
+| CharacterArea:Full       | CharacterArea:Full       | CharacterArea:Full       | CharacterArea:Full          | CharacterArea:Full          | CharacterArea:Full          |
+| HistoricArea:Full        | HistoricArea:Full        | HistoricArea:Full        | HistoricArea:Full           | HistoricArea:Full           | HistoricArea:Full           |
+| MasterPlanZone:Full      | MasterPlanZone:Full      | MasterPlanZone:Full      | MasterPlanZone:Full         | MasterPlanZone:Full         | MasterPlanZone:Full         |
+| InventoryResource:Full   | InventoryResource:Full   | InventoryResource:Full   | InventoryResource:Limited   | InventoryResource:Full      | InventoryResource:Full      |
+| InformationResource:Full | InformationResource:Full | InformationResource:Full | InformationResource:Limited | InformationResource:Limited | InformationResource:Limited |
+| Person:Full              | Person:Full              | Person:Full              | Person:Full                 | Person:Full                 | Person:Full                 |
+| Organization:Full        | Organization:Full        | Organization:Full        | Organization:Full           | Organization:Full           | Organization:Full           |
+| ARPAReview:Full          | ARPAReview:Full          | ARPAReview:Deny          | ARPAReview:Deny             | ARPAReview:Full             | ARPAReview:Deny             |
+| ManagementActivity:Full  | ManagementActivity:Full  | ManagementActivity:Full  | ManagementActivity:Full     | ManagementActivity:Deny     | ManagementActivity:Deny     |
+| **Resource Editor**         | **Resource Editor**          | **Resource Editor**          | **Resource Editor**             |                             | **Resource Editor**            |
+| InventoryResource:Edit   | InventoryResource:Edit   | InventoryResource:Edit   | InventoryResource:Edit      |                             | InformationResource:Edit    |
+| CharacterArea:Edit       | Person:Edit              | Person:Edit              | Person:Edit                 |                             |                             |
+| HistoricArea:Edit        | Organization:Edit        | Organization:Edit        | Organization:Edit           |                             |                             |
+| MasterPlanZone:Edit      | InformationResource:Edit | InformationResource:Edit | InformationResource:Edit    |                             |                             |
+| ArchaeologicalZone:Edit  | ManagementActivity:Edit  |                          |                             |                             |                             |
+| Person:Edit              |                          |                          |                             |                             |                             |
+| Organization:Edit        |                          |                          |                             |                             |                             |
+| InformationResource:Edit |                          |                          |                             |                             |                             |
+| ManagementActivity:Edit  |                          |                          |                             |                             |                             |
+| ARPAReview:Edit          |                          |                          |                             |                             |                             |
+| **RDM Administrator**        |                          |                          |                             |                             |                             |
 
 ## Test Accounts
 
@@ -30,19 +57,16 @@ A suite of example user accounts, one per permission level, can be created with
 python manage.py initialize test-users
 ```
 
-The following users will be created and assigned to these groups:
+The following users will be created and automatically assigned to groups as described above:
 
-|username|password|groups|
-|---|---|---|
-|admin1|admin1|TBD admin1, Resource Editor, RDM Administrator|
-|admin2|admin2|TBD admin2, Resource Editor|
-|afrh_staff|afrh_staff|TBD afrh_staff, Resource Editor|
-|afrh_volunteer|afrh_volunteer|TBD afrh_volunteer, Resource Editor|
-|plc_staff|plc_staff|TBD plc_staff, Resource Editor|
-|contractor|contractor|TBD development, Resource Editor|
-
-!!! Warning
-    Group names and memberships still need to be finalized.
+|username|password|
+|---|---|
+|admin1|admin1|
+|admin2|admin2|
+|afrh_staff|afrh_staff|
+|afrh_volunteer|afrh_volunteer|
+|plc_staff|plc_staff|
+|contractor|contractor|
 
 ## Permissions by Resource Model
 
