@@ -1,14 +1,5 @@
 #! /usr/bin/bash
 
-python manage.py setup_db --force
-
-# add permission groups before loading the package (because the resource models may expect them)
-python manage.py initialize groups
-
-python manage.py packages -o import_business_data -s ./afrh_prj/system_settings/System_Settings.json -ow overwrite -di false
-
-python manage.py packages -o load_package -s ./pkg -y
-
 python manage.py packages -o import_business_data -s ./pkg/business_data/local/Archaeological_Zone.json -ow overwrite
 python manage.py packages -o import_business_data -s ./pkg/business_data/local/Character_Area.json -ow overwrite
 python manage.py packages -o import_business_data -s ./pkg/business_data/local/Master_Plan_Zone.json -ow overwrite
@@ -19,6 +10,3 @@ python manage.py packages -o import_business_data -s ./pkg/business_data/local/I
 python manage.py packages -o import_business_data -s ./pkg/business_data/local/Inventory_Resource-fixed.json -ow overwrite
 
 python manage.py es reindex_database
-
-# update the default map layer names, load overlays
-python manage.py initialize map-layers
