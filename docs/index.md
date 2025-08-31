@@ -7,15 +7,15 @@ These docs will provide a comprehensive description of the AFRH-IRIS code base, 
 The AFRH-IRIS code base is organized as follows:
 
 - **`afrh_prj/`** - This is the Arches **project**, and it holds the main application logic and settings.
-    - see [Project Customizations](/docs/project.html)
+    - see [Project Customizations](project.md)
     - see [Understanding Projects](https://arches.readthedocs.io/en/stable/installing/projects-and-packages/) in the Arches documentation for more context.
 - **`pkg/`** - This is the Arches **package**, it holds database models, thesauri, and other configurations used during installation.
-    - see [Package Content](/docs/package.html)
+    - see [Package Content](package.md)
     - see [Understanding Packages](https://arches.readthedocs.io/en/stable/installing/projects-and-packages/#understanding-packages) in the Arches documentation for more context.
 - **`iris/`** - This is a custom Django app that holds a few management commands and fixtures.
-    - see [Management Commands](/docs/management.html) and [Custom Map Layers](/docs/map-layers.html)
+    - see [Management Commands](management.md) and [Custom Map Layers](map-layers.md)
 - **`docs/`** - This is a mkdocs documentation module that holds this documentation.
-    - see [Building the Docs](#building-the-docs)
+    - see [Docs build](#docs-build)
 
 ## Clean install
 
@@ -38,19 +38,25 @@ To create a set of test user accounts, one per permissions level, use
 
     python manage.py initialize test-users
 
-See [permissions > Test Accounts](/docs/permissions.html#test-accounts) > Test Accounts to learn more about these accounts (and permissions in general).
+See [permissions > Test Accounts](permissions.md#test-accounts) > Test Accounts to learn more about these accounts (and permissions in general).
 
 The `initialize` command is also used within the clean install script. For more on that command, see [Management Commands](/docs/management.html).
 
 !!! Warning
     Arches does not support the load of resource model-level permissions from packages. This means all permissions described in [permissions > Permissions by Resource Model](/docs/permissions.html#permissions-by-resource-model) must be implemented manually after installation.
 
-## Building these docs
+## Docs build
 
-This documentation is built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material). The markdown content is stored in **`docs/`**, and it is configured to build into **`.docs/`** (which is gitignored). A Django view in the `iris` app passes built docs content to the proper urls (http://localhost:8000/docs).
+This documentation is built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material) and deployed/hosted through ReadTheDocs. The source markdown content is stored in **`docs/`**.
 
-Use `mkdocs serve -a localhost:8001` to view the docs in a browser during development (separate from the AFRH-IRIS frontend).
+### Writing docs
 
-Use `mkdocs build` to regenerate the static docs pages that will be served to the AFRH-IRIS frontend.
+Make sure you have installed mkdocs-material.
 
-The docs can be hidden behind specific Django user permissions, but this is not implemented at the moment (doesn't make a lot of sense as the raw markdown is available on GitHub anyway).
+```
+pip install mkdocs-material
+```
+
+Use `mkdocs serve -a localhost:8001` to preview the docs in a browser during development.
+
+To run the buid process locally (could be helpful in some case), use `mkdocs build` and the content will be written to `.docs/` (which is gitignored).
