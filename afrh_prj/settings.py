@@ -12,10 +12,8 @@ except ImportError:
 
 APP_NAME = 'AFRH IRIS'
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-DOCS_ROOT = os.path.join(os.path.dirname(APP_ROOT), ".docs")
 STATICFILES_DIRS =  (
     os.path.join(APP_ROOT, 'media'),
-    os.path.join(DOCS_ROOT, "assets")
 ) + STATICFILES_DIRS
 
 DATATYPE_LOCATIONS.append('afrh_prj.datatypes')

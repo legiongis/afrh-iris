@@ -1,4 +1,2 @@
 boto3
 django-storages
-py-staticmaps==0.2.2
-mkdocs-material

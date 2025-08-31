@@ -4,7 +4,7 @@ We have 12 historical maps that are added as Overlays for the Arches search inte
 
     python manage.py loaddata historic-map-overlays
 
-The georeferenced maps are GeoTIFFs stored in an S3-compatible bucket, and served to Arches as XYZ tile layers using the [Titiler](https://developmentseed.org/titiler) installation at [titiler.oldinsurancemaps.net](https://titiler.oldinsurancemaps.net).
+The georeferenced maps are GeoTIFFs stored in an S3-compatible bucket, and served to Arches as XYZ tile layers using the [TiTiler](https://developmentseed.org/titiler) installation at [titiler.oldinsurancemaps.net](https://titiler.oldinsurancemaps.net).
 
 |Source name|Layer name|File location|
 |---|---|---|

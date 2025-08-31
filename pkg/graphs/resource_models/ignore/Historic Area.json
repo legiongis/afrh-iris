@@ -170,10 +170,10 @@
                             "7db447f0-1adf-11ea-8211-acde48001122"
                         ],
                         "sortedWidgetIds": [
-                            "b3c22cae-1adf-11ea-8211-acde48001122",
-                            "c1a491fe-1adf-11ea-8211-acde48001122",
-                            "858a5b5a-1ade-11ea-8211-acde48001122",
-                            "7db3cabe-1adf-11ea-8211-acde48001122"
+                            "d5944c0e-1adf-11ea-8211-acde48001122",
+                            "db821d62-1adf-11ea-8211-acde48001122",
+                            "94bc10a0-1ade-11ea-8211-acde48001122",
+                            "7d712cd9-1d1c-11ea-b9b7-027f24e6fd6b"
                         ]
                     },
                     "constraints": [
@@ -351,23 +351,16 @@
                     "cardid": "faa3703f-46c3-11ea-b9b7-027f24e6fd6b",
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
-                        "basemap": "Streets",
-                        "centerX": -77.01355945723337,
-                        "centerY": 38.9374682156819,
+                        "basemap": "streets",
+                        "centerX": 0,
+                        "centerY": 0,
                         "overlayConfigs": [],
                         "selectSource": "",
                         "selectSourceLayer": "",
                         "selectText": "",
                         "zoom": 0
                     },
-                    "constraints": [
-                        {
-                            "card_id": "faa3703f-46c3-11ea-b9b7-027f24e6fd6b",
-                            "constraintid": "6b0bb85f-8699-4f78-ab8f-0ffc7ca11d06",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "e82df82c-1adc-11ea-8211-acde48001122",
@@ -540,7 +533,7 @@
                     "node_id": "45afbace-1adf-11ea-8211-acde48001122",
                     "sortorder": 2,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "7db447f0-1adf-11ea-8211-acde48001122",
@@ -570,7 +563,7 @@
                     "node_id": "858a5b5a-1ade-11ea-8211-acde48001122",
                     "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "9d99117e-1add-11ea-8211-acde48001122",
@@ -971,51 +964,6 @@
                     "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
-                },
-                {
-                    "card_id": "faa3703f-46c3-11ea-b9b7-027f24e6fd6b",
-                    "config": {
-                        "basemap": "Streets",
-                        "bearing": 0,
-                        "centerX": -77.01355945723337,
-                        "centerY": 38.9374682156819,
-                        "defaultValue": "",
-                        "defaultValueType": "",
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "Spatial Coordinates",
-                        "maxZoom": 20,
-                        "minZoom": 0,
-                        "overlayConfigs": [],
-                        "overlayOpacity": 0,
-                        "pitch": 0,
-                        "rerender": true,
-                        "zoom": 0
-                    },
-                    "id": "f786aa8e-995c-4375-920e-c1c05685b94a",
-                    "label": "Spatial Coordinates",
-                    "node_id": "faa37040-46c3-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
                     "card_id": "faa3703f-46c3-11ea-b9b7-027f24e6fd6b",
@@ -1542,7 +1490,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "e82df82c-1adc-11ea-8211-acde48001122",
-                    "id": "3c2b49c9-85b6-4c26-964c-a80f12d3c4e8"
+                    "id": "6ea97ed7-19a7-11ed-811b-99846913423a"
                 }
             ],
             "graphid": "e82df82c-1adc-11ea-8211-acde48001122",
@@ -2719,9 +2667,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
-        "git hash": "d69d11e8a 2022-10-26 11:54:47 -0700",
+        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "git hash": "8d98d33b3 2022-07-25 15:21:17 -0700",
         "os": "Linux",
-        "os version": "5.15.0-92-generic"
+        "os version": "5.15.0-48-generic"
     }
 }

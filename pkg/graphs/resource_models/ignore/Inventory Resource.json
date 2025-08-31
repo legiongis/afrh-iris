@@ -3742,7 +3742,7 @@
                     "node_id": "ed7aad08-3bce-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 }
             ],
             "color": null,
@@ -7218,9 +7218,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
-        "git hash": "d69d11e8a 2022-10-26 11:54:47 -0700",
+        "db": "PostgreSQL 12.16 (Ubuntu 12.16-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "git hash": "b6d8053c0 2022-11-14 10:45:03 -0600",
         "os": "Linux",
-        "os version": "5.15.0-92-generic"
+        "os version": "5.15.0-88-generic"
     }
 }

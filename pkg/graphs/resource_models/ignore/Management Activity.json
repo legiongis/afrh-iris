@@ -165,6 +165,51 @@
                 },
                 {
                     "active": true,
+                    "cardid": "344a823a-f47a-11ea-a92a-a683e74f6c3a",
+                    "component_id": "2d2e0ca3-089c-4f4c-96a5-fb7eb53963bd",
+                    "config": {
+                        "basemap": "streets",
+                        "colorpalette": [
+                            "#A4DB6E",
+                            "#F0C200",
+                            "#fdb462",
+                            "#22ff33",
+                            "#D29EFF"
+                        ],
+                        "defaultcolor": "#F0C200",
+                        "fillopacity": 0.2,
+                        "hovercolor": "#ff0000",
+                        "linewidth": 2,
+                        "minzoom": 15,
+                        "overlayConfigs": [],
+                        "overviewzoom": 11,
+                        "pointradius": 4,
+                        "selectRelatedSource": "direct-impacts",
+                        "selectRelatedSourceLayer": "",
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectioncolor": "#427AFF",
+                        "strokecolor": "#fff",
+                        "strokelinewidth": 4,
+                        "strokepointopacity": 1,
+                        "strokepointradius": 6
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Direct Impacts",
+                    "nodegroup_id": "344a48d8-f47a-11ea-a92a-a683e74f6c3a",
+                    "sortorder": 9,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "354df404-72c1-11ea-a7fa-acde48001122",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -791,38 +836,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "ac745787-bc28-4fc2-b8ec-b27714ff6d90",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "ac745787-bc28-4fc2-b8ec-b27714ff6d90",
-                            "constraintid": "7f2399c3-c114-4170-a773-f9c36b8ca26f",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "ac745787-bc28-4fc2-b8ec-b27714ff6d90",
-                            "constraintid": "6e52c514-8826-4b35-9cc9-e070553a3aa1",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Direct Impacts",
-                    "nodegroup_id": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "sortorder": null,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "ad6ff55e-e116-11ea-b3e5-784f435179ea",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -1099,19 +1112,39 @@
                 },
                 {
                     "active": true,
-                    "cardid": "ed852c27-06d7-47f1-9610-ca0a08e976ab",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
+                    "cardid": "f36b87a0-f479-11ea-a92a-a683e74f6c3a",
+                    "component_id": "2d2e0ca3-089c-4f4c-96a5-fb7eb53963bd",
+                    "config": {
+                        "basemap": "streets",
+                        "colorpalette": [
+                            "#A4DB6E",
+                            "#F0C200",
+                            "#fdb462",
+                            "#22ff33",
+                            "#D29EFF"
+                        ],
+                        "defaultcolor": "#F0C200",
+                        "fillopacity": 0.2,
+                        "hovercolor": "#ff0000",
+                        "linewidth": 2,
+                        "minzoom": 15,
+                        "overlayConfigs": [],
+                        "overviewzoom": 11,
+                        "pointradius": 4,
+                        "selectRelatedSource": "indirect-impacts",
+                        "selectRelatedSourceLayer": "",
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectioncolor": "#427AFF",
+                        "strokecolor": "#fff",
+                        "strokelinewidth": 4,
+                        "strokepointopacity": 1,
+                        "strokepointradius": 6
+                    },
                     "constraints": [
                         {
-                            "card_id": "ed852c27-06d7-47f1-9610-ca0a08e976ab",
-                            "constraintid": "718dc8c8-d15b-40d5-ae3c-97f1e1333081",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "ed852c27-06d7-47f1-9610-ca0a08e976ab",
-                            "constraintid": "a82df1d5-98e5-47db-98ad-cd0e79d34d0a",
+                            "card_id": "f36b87a0-f479-11ea-a92a-a683e74f6c3a",
+                            "constraintid": "bba9278d-b978-42cc-9a4a-469cbd6bc058",
                             "nodes": [],
                             "uniquetoallinstances": false
                         }
@@ -1125,8 +1158,8 @@
                     "instructions": null,
                     "is_editable": true,
                     "name": "Indirect Impacts",
-                    "nodegroup_id": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "sortorder": null,
+                    "nodegroup_id": "f36b5244-f479-11ea-a92a-a683e74f6c3a",
+                    "sortorder": 10,
                     "visible": true
                 },
                 {
@@ -1196,20 +1229,6 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "ac745787-bc28-4fc2-b8ec-b27714ff6d90",
-                    "config": {
-                        "defaultResourceInstance": [],
-                        "label": "Direct Impact Area",
-                        "placeholder": ""
-                    },
-                    "id": "10da10c4-6967-42d1-8135-6fbee7c09313",
-                    "label": "Direct Impact Area",
-                    "node_id": "8186e6ea-cf3e-11ee-9936-a994176fe529",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
-                },
-                {
                     "card_id": "0eb4e71a-3d6e-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
@@ -1231,6 +1250,20 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "f36b87a0-f479-11ea-a92a-a683e74f6c3a",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "label": "Indirect Impacts",
+                        "placeholder": ""
+                    },
+                    "id": "31683ada-f47a-11ea-a92a-a683e74f6c3a",
+                    "label": "Indirect Impacts",
+                    "node_id": "f36b5244-f479-11ea-a92a-a683e74f6c3a",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "83f05a07-3c8c-11ea-b9b7-027f24e6fd6b",
@@ -1278,20 +1311,6 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "ed852c27-06d7-47f1-9610-ca0a08e976ab",
-                    "config": {
-                        "defaultResourceInstance": [],
-                        "label": "Indirect Impact Area",
-                        "placeholder": ""
-                    },
-                    "id": "3bfd0aaa-5945-4bd4-9da3-4aa72129a717",
-                    "label": "Indirect Impact Area",
-                    "node_id": "826689ea-cf3d-11ee-9936-a994176fe529",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "4152d7e7-3c8c-11ea-b9b7-027f24e6fd6b",
@@ -1389,49 +1408,18 @@
                     "widget_id": "10000000-0000-0000-0000-000000000015"
                 },
                 {
-                    "card_id": "ac745787-bc28-4fc2-b8ec-b27714ff6d90",
+                    "card_id": "344a823a-f47a-11ea-a92a-a683e74f6c3a",
                     "config": {
-                        "basemap": "Streets",
-                        "bearing": 0,
-                        "centerX": -77.01355945723337,
-                        "centerY": 38.9374682156819,
-                        "defaultValue": "",
-                        "defaultValueType": "",
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "Direct Impact Location",
-                        "maxZoom": 20,
-                        "minZoom": 0,
-                        "overlayConfigs": [],
-                        "overlayOpacity": 0,
-                        "pitch": 0,
-                        "rerender": true,
-                        "zoom": 0
+                        "defaultResourceInstance": [],
+                        "label": "Direct Impacts",
+                        "placeholder": ""
                     },
-                    "id": "57298f36-e415-4781-856a-26f2aa04f4ff",
-                    "label": "Direct Impact Location",
-                    "node_id": "af0bbbb8-cf3e-11ee-9936-a994176fe529",
-                    "sortorder": 1,
+                    "id": "58181bc8-f47a-11ea-a92a-a683e74f6c3a",
+                    "label": "Direct Impacts",
+                    "node_id": "344a48d8-f47a-11ea-a92a-a683e74f6c3a",
+                    "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "5a8422af-3cac-11ea-b9b7-027f24e6fd6b",
@@ -1565,6 +1553,51 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "344a823a-f47a-11ea-a92a-a683e74f6c3a",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": null,
+                        "centerX": -77.01255423806342,
+                        "centerY": 38.937774865817794,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Direct Impact Location",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": null
+                    },
+                    "id": "6b91d9e4-f47c-11ea-a92a-a683e74f6c3a",
+                    "label": "Direct Impact Location",
+                    "node_id": "5a824e92-f47a-11ea-a92a-a683e74f6c3a",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
                     "card_id": "6da8cd36-3c8a-11ea-b9b7-027f24e6fd6b",
@@ -1920,6 +1953,51 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
+                    "card_id": "f36b87a0-f479-11ea-a92a-a683e74f6c3a",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": null,
+                        "centerX": -77.01255423806342,
+                        "centerY": 38.937774865817794,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Indirect Impact Location",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": null
+                    },
+                    "id": "79b569e6-f47c-11ea-a92a-a683e74f6c3a",
+                    "label": "Indirect Impact Location",
+                    "node_id": "88b36b84-f47a-11ea-a92a-a683e74f6c3a",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
                     "card_id": "83f05a07-3c8c-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
@@ -2192,51 +2270,6 @@
                     "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "ed852c27-06d7-47f1-9610-ca0a08e976ab",
-                    "config": {
-                        "basemap": "Streets",
-                        "bearing": 0,
-                        "centerX": -77.01355945723337,
-                        "centerY": 38.9374682156819,
-                        "defaultValue": "",
-                        "defaultValueType": "",
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "Indirect Impact Location",
-                        "maxZoom": 20,
-                        "minZoom": 0,
-                        "overlayConfigs": [],
-                        "overlayOpacity": 0,
-                        "pitch": 0,
-                        "rerender": true,
-                        "zoom": 0
-                    },
-                    "id": "ad69e9ae-a2d3-47a9-9f14-02b17483d213",
-                    "label": "Indirect Impact Location",
-                    "node_id": "d82016b2-cf3d-11ee-9936-a994176fe529",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
                     "card_id": "91be642a-415f-11ea-b9b7-027f24e6fd6b",
@@ -2840,24 +2873,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "edgeid": "1e49fe2e-32cc-4c42-8749-1989dd7c1875",
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
-                    "rangenode_id": "8186e6ea-cf3e-11ee-9936-a994176fe529"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "edgeid": "2265381d-b2d8-4ab6-a401-9fca4c729130",
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "d82016b2-cf3d-11ee-9936-a994176fe529"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "6da8cd25-3c8a-11ea-b9b7-027f24e6fd6b",
                     "edgeid": "250df214-72c2-11ea-a7fa-acde48001122",
                     "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
@@ -2891,6 +2906,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P10i_contains",
                     "rangenode_id": "2cbbe1ec-3d6b-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "6da8cd40-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "344ab304-f47a-11ea-a92a-a683e74f6c3a",
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
+                    "rangenode_id": "344a48d8-f47a-11ea-a92a-a683e74f6c3a"
                 },
                 {
                     "description": null,
@@ -3137,6 +3161,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "344a48d8-f47a-11ea-a92a-a683e74f6c3a",
+                    "edgeid": "5a825180-f47a-11ea-a92a-a683e74f6c3a",
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "5a824e92-f47a-11ea-a92a-a683e74f6c3a"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "5a8422ad-3cac-11ea-b9b7-027f24e6fd6b",
                     "edgeid": "5a8422b3-3cac-11ea-b9b7-027f24e6fd6b",
                     "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
@@ -3242,15 +3275,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
                     "rangenode_id": "63cf4fa0-72c4-11ea-a7fa-acde48001122"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "6da8cd40-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "edgeid": "6649e36c-9d10-41c6-b12d-1adc0591f236",
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
-                    "rangenode_id": "ca3893cc-cf3c-11ee-9936-a994176fe529"
                 },
                 {
                     "description": null,
@@ -3533,6 +3557,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "f36b5244-f479-11ea-a92a-a683e74f6c3a",
+                    "edgeid": "88b36f12-f47a-11ea-a92a-a683e74f6c3a",
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "88b36b84-f47a-11ea-a92a-a683e74f6c3a"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "2cbbe1ec-3d6b-11ea-b9b7-027f24e6fd6b",
                     "edgeid": "8aa0adc3-3d6d-11ea-b9b7-027f24e6fd6b",
                     "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
@@ -3548,15 +3581,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "8c7db446-3cdc-11ea-b9b7-027f24e6fd6b"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "edgeid": "8f09036c-be5c-4646-a978-23a1a1ddd640",
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "af0bbbb8-cf3e-11ee-9936-a994176fe529"
                 },
                 {
                     "description": null,
@@ -3683,15 +3707,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.w3.org/2004/02/skos/core#exactMatch",
                     "rangenode_id": "ab4e3c2b-3c8b-11ea-b9b7-027f24e6fd6b"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "6da8cd40-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "edgeid": "ab612802-f46a-4aac-9f4d-3707f49a210a",
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
-                    "rangenode_id": "4f820422-cf3e-11ee-9936-a994176fe529"
                 },
                 {
                     "description": null,
@@ -3938,21 +3953,21 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "edgeid": "e78ce948-e047-4c15-b98b-60547bed3278",
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
-                    "rangenode_id": "826689ea-cf3d-11ee-9936-a994176fe529"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "6da8cd25-3c8a-11ea-b9b7-027f24e6fd6b",
                     "edgeid": "eec46e22-72c1-11ea-a7fa-acde48001122",
                     "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "rangenode_id": "eec46bfc-72c1-11ea-a7fa-acde48001122"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "6da8cd40-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "f36bb81a-f479-11ea-a92a-a683e74f6c3a",
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
+                    "rangenode_id": "f36b5244-f479-11ea-a92a-a683e74f6c3a"
                 },
                 {
                     "description": null,
@@ -4039,14 +4054,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "96efa95a-1e2c-4562-ac1f-b415796f9f75",
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "id": "24f85311-2dd4-4415-a5c6-a86d084beb31"
-                },
-                {
-                    "config": {
                         "description": {
                             "nodegroup_id": "6da8cd37-3c8a-11ea-b9b7-027f24e6fd6b",
                             "string_template": "<Management Activity Name>"
@@ -4077,7 +4084,15 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "id": "e97f3d80-6772-4176-a5ab-82504592769f"
+                    "id": "7ec18767-19a7-11ed-811b-99846913423a"
+                },
+                {
+                    "config": {
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "96efa95a-1e2c-4562-ac1f-b415796f9f75",
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "id": "7ec18768-19a7-11ed-811b-99846913423a"
                 }
             ],
             "graphid": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
@@ -4143,6 +4158,12 @@
                     "parentnodegroup_id": null
                 },
                 {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "344a48d8-f47a-11ea-a92a-a683e74f6c3a",
+                    "parentnodegroup_id": null
+                },
+                {
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "354df1de-72c1-11ea-a7fa-acde48001122",
@@ -4183,12 +4204,6 @@
                     "legacygroupid": null,
                     "nodegroupid": "4809fc74-3d6e-11ea-b9b7-027f24e6fd6b",
                     "parentnodegroup_id": "2cbbe1ec-3d6b-11ea-b9b7-027f24e6fd6b"
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
@@ -4355,12 +4370,6 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
                     "nodegroupid": "d218a19e-e116-11ea-b3e5-784f435179ea",
                     "parentnodegroup_id": "b8c57f42-e115-11ea-b3e5-784f435179ea"
                 },
@@ -4381,6 +4390,12 @@
                     "legacygroupid": null,
                     "nodegroupid": "eec46bfc-72c1-11ea-a7fa-acde48001122",
                     "parentnodegroup_id": "6da8cd25-3c8a-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "f36b5244-f479-11ea-a92a-a683e74f6c3a",
+                    "parentnodegroup_id": null
                 },
                 {
                     "cardinality": "n",
@@ -4414,7 +4429,7 @@
                     "nodeid": "086248f4-e0c7-11ea-8120-784f435179ea",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
-                    "sortorder": 13
+                    "sortorder": 0
                 },
                 {
                     "alias": "section_106_submission_type",
@@ -4654,7 +4669,47 @@
                     "nodeid": "2cbbe1ec-3d6b-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10i_contains",
-                    "sortorder": 9
+                    "sortorder": 0
+                },
+                {
+                    "alias": "direct_impacts",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
+                                "name": "Inventory Resource",
+                                "ontologyProperty": null
+                            },
+                            {
+                                "graphid": "e82df82c-1adc-11ea-8211-acde48001122",
+                                "name": "Historic Area",
+                                "ontologyProperty": null
+                            },
+                            {
+                                "graphid": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                                "name": "Archaeological Zone",
+                                "ontologyProperty": null
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Direct Impacts",
+                    "nodegroup_id": "344a48d8-f47a-11ea-a92a-a683e74f6c3a",
+                    "nodeid": "344a48d8-f47a-11ea-a92a-a683e74f6c3a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
+                    "sortorder": 0
                 },
                 {
                     "alias": "consultants",
@@ -5076,7 +5131,7 @@
                     "nodeid": "4152d7e5-3c8c-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type",
-                    "sortorder": 6
+                    "sortorder": 0
                 },
                 {
                     "alias": "review_notes",
@@ -5116,7 +5171,7 @@
                     "nodeid": "429130d2-6b27-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "alias": "map_file_number",
@@ -5226,26 +5281,6 @@
                     "sortorder": 0
                 },
                 {
-                    "alias": "direct_impacts",
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Direct Impacts",
-                    "nodegroup_id": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "nodeid": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
-                    "sortorder": 0
-                },
-                {
                     "alias": "consultation_type",
                     "config": {
                         "rdmCollection": "8585ac75-0665-43dd-ad1b-3083a4a7ec9f"
@@ -5268,6 +5303,49 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "direct_impact_location",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Direct Impact Location",
+                    "nodegroup_id": "344a48d8-f47a-11ea-a92a-a683e74f6c3a",
+                    "nodeid": "5a824e92-f47a-11ea-a92a-a683e74f6c3a",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
                     "alias": "scope_of_work",
                     "config": {
                         "rdmCollection": "a33a02b5-a0ae-483f-b033-cecd6141fd4f"
@@ -5287,7 +5365,7 @@
                     "nodeid": "5a8422ad-3cac-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type",
-                    "sortorder": 8
+                    "sortorder": 0
                 },
                 {
                     "alias": "scope_of_work_description",
@@ -5347,7 +5425,7 @@
                     "nodeid": "5b18a71e-72bd-11ea-a7fa-acde48001122",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P120_occurs_before",
-                    "sortorder": 11
+                    "sortorder": 0
                 },
                 {
                     "alias": "unanticipated_discovery_documentation_date",
@@ -5582,7 +5660,7 @@
                     "nodeid": "6da8cd01-3c8a-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P116_starts",
-                    "sortorder": 19
+                    "sortorder": 0
                 },
                 {
                     "alias": "milestone_type",
@@ -5604,7 +5682,7 @@
                     "nodeid": "6da8cd10-3c8a-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 20
+                    "sortorder": 0
                 },
                 {
                     "alias": "consultations",
@@ -5624,7 +5702,7 @@
                     "nodeid": "6da8cd16-3c8a-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
-                    "sortorder": 18
+                    "sortorder": 0
                 },
                 {
                     "alias": "nepa_documentation",
@@ -5666,7 +5744,7 @@
                     "nodeid": "6da8cd25-3c8a-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant",
-                    "sortorder": 21
+                    "sortorder": 0
                 },
                 {
                     "alias": "action_agent",
@@ -5686,7 +5764,7 @@
                     "nodeid": "6da8cd28-3c8a-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
-                    "sortorder": 10
+                    "sortorder": 0
                 },
                 {
                     "alias": "regulatory_citation_type",
@@ -5728,7 +5806,7 @@
                     "nodeid": "6da8cd37-3c8a-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "sortorder": 17
+                    "sortorder": 0
                 },
                 {
                     "alias": "management_activity",
@@ -6153,76 +6231,6 @@
                     "sortorder": 0
                 },
                 {
-                    "alias": "direct_impact_area",
-                    "config": {
-                        "graphs": [
-                            {
-                                "graphid": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
-                                "name": "Archaeological Zone"
-                            },
-                            {
-                                "graphid": "e82df82c-1adc-11ea-8211-acde48001122",
-                                "name": "Historic Area"
-                            },
-                            {
-                                "graphid": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
-                                "name": "Inventory Resource"
-                            }
-                        ],
-                        "searchDsl": "",
-                        "searchString": ""
-                    },
-                    "datatype": "resource-instance-list",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Direct Impact Area",
-                    "nodegroup_id": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "nodeid": "8186e6ea-cf3e-11ee-9936-a994176fe529",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
-                    "sortorder": 0
-                },
-                {
-                    "alias": "indirect_impact_area",
-                    "config": {
-                        "graphs": [
-                            {
-                                "graphid": "12581535-3a08-11ea-b9b7-027f24e6fd6b",
-                                "name": "Master Plan Zone"
-                            },
-                            {
-                                "graphid": "f3ab0a3a-1aca-11ea-8211-acde48001122",
-                                "name": "Character Area"
-                            }
-                        ],
-                        "searchDsl": "",
-                        "searchString": ""
-                    },
-                    "datatype": "resource-instance-list",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Indirect Impact Area",
-                    "nodegroup_id": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "nodeid": "826689ea-cf3d-11ee-9936-a994176fe529",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
-                    "sortorder": 0
-                },
-                {
                     "alias": "current_status",
                     "config": {
                         "rdmCollection": "39a2f8b7-7e4e-45f9-88ec-3ea6cea97e7f"
@@ -6242,7 +6250,7 @@
                     "nodeid": "83f05a05-3c8c-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type",
-                    "sortorder": 7
+                    "sortorder": 0
                 },
                 {
                     "alias": "current_status_description",
@@ -6262,6 +6270,49 @@
                     "nodeid": "83f05a08-3c8c-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.w3.org/2001/XMLSchema#string",
                     "parentproperty": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "indirect_impact_location",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Indirect Impact Location",
+                    "nodegroup_id": "f36b5244-f479-11ea-a92a-a683e74f6c3a",
+                    "nodeid": "88b36b84-f47a-11ea-a92a-a683e74f6c3a",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -6328,7 +6379,7 @@
                     "nodeid": "91be6428-415f-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 16
+                    "sortorder": 0
                 },
                 {
                     "alias": "section_106_urr_number",
@@ -6742,49 +6793,6 @@
                     "sortorder": 0
                 },
                 {
-                    "alias": "direct_impact_location",
-                    "config": {
-                        "addToMap": false,
-                        "advancedStyle": "",
-                        "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
-                        "haloWeight": 4,
-                        "layerActivated": true,
-                        "layerIcon": "",
-                        "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
-                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
-                        "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
-                        "simplification": 0.3,
-                        "weight": 2
-                    },
-                    "datatype": "geojson-feature-collection",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Direct Impact Location",
-                    "nodegroup_id": "4f820422-cf3e-11ee-9936-a994176fe529",
-                    "nodeid": "af0bbbb8-cf3e-11ee-9936-a994176fe529",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
-                },
-                {
                     "alias": "agent",
                     "config": null,
                     "datatype": "string",
@@ -6866,7 +6874,7 @@
                     "nodeid": "b5c7a463-3c8a-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of",
-                    "sortorder": 14
+                    "sortorder": 0
                 },
                 {
                     "alias": "work_order_number",
@@ -6948,7 +6956,7 @@
                     "nodeid": "b8c57f42-e115-11ea-b3e5-784f435179ea",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
-                    "sortorder": 12
+                    "sortorder": 0
                 },
                 {
                     "alias": "section_106_agreement_type",
@@ -7003,7 +7011,7 @@
                     "nodeid": "c2a2b4ae-3cd7-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10i_contains",
-                    "sortorder": 15
+                    "sortorder": 0
                 },
                 {
                     "alias": "ncpc_cfa_submission_review_notes",
@@ -7045,26 +7053,6 @@
                     "nodeid": "ca1562cc-3d6d-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P137i_is_exemplified_by",
-                    "sortorder": 0
-                },
-                {
-                    "alias": "indirect_impacts",
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Indirect Impacts",
-                    "nodegroup_id": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "nodeid": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
                     "sortorder": 0
                 },
                 {
@@ -7146,49 +7134,6 @@
                     "nodegroup_id": "27f126f2-72bf-11ea-a7fa-acde48001122",
                     "nodeid": "d526ce02-72c0-11ea-a7fa-acde48001122",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
-                },
-                {
-                    "alias": "indirect_impact_location",
-                    "config": {
-                        "addToMap": false,
-                        "advancedStyle": "",
-                        "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
-                        "haloWeight": 4,
-                        "layerActivated": true,
-                        "layerIcon": "",
-                        "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
-                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
-                        "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
-                        "simplification": 0.3,
-                        "weight": 2
-                    },
-                    "datatype": "geojson-feature-collection",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Indirect Impact Location",
-                    "nodegroup_id": "ca3893cc-cf3c-11ee-9936-a994176fe529",
-                    "nodeid": "d82016b2-cf3d-11ee-9936-a994176fe529",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
@@ -7315,6 +7260,39 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "indirect_impacts",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "f3ab0a3a-1aca-11ea-8211-acde48001122",
+                                "name": "Character Area"
+                            },
+                            {
+                                "graphid": "12581535-3a08-11ea-b9b7-027f24e6fd6b",
+                                "name": "Master Plan Zone"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Indirect Impacts",
+                    "nodegroup_id": "f36b5244-f479-11ea-a92a-a683e74f6c3a",
+                    "nodeid": "f36b5244-f479-11ea-a92a-a683e74f6c3a",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
+                    "sortorder": 0
+                },
+                {
                     "alias": "communication_type",
                     "config": {
                         "rdmCollection": "f9e9bc24-00f6-42d2-88ba-0fbfabbee4a2"
@@ -7342,12 +7320,7 @@
                         "graphid": [
                             "29f3613d-72b9-11ea-b9b7-027f24e6fd6b"
                         ],
-                        "graphs": [
-                            {
-                                "graphid": "29f3613d-72b9-11ea-b9b7-027f24e6fd6b",
-                                "name": "ARPA Review"
-                            }
-                        ],
+                        "graphs": [],
                         "searchDsl": "",
                         "searchString": ""
                     },
@@ -7366,7 +7339,7 @@
                     "nodeid": "f8fffd38-72bd-11ea-a7fa-acde48001122",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "alias": "related_arpa_review_resource_relation_type",
@@ -7474,7 +7447,7 @@
                     "nodeid": "feb5caf5-3c8b-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "alias": "procedure_description",
@@ -7546,9 +7519,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
-        "git hash": "d69d11e8a 2022-10-26 11:54:47 -0700",
+        "db": "PostgreSQL 12.12 (Ubuntu 12.12-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "git hash": "8d98d33b3 2022-07-25 15:21:17 -0700",
         "os": "Linux",
-        "os version": "5.15.0-92-generic"
+        "os version": "5.15.0-48-generic"
     }
 }
