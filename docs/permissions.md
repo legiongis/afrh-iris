@@ -53,67 +53,67 @@ The following tables provide a guide for how this should be implemented on each 
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | **x**      | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | **x**          | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**          | **x**      | &#10004; |
-| development     | **x**          | **x**      | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
 
 ### Master Plan Zone
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | &#10004;   | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | **x**          | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**          | &#10004;   | &#10004; |
-| development     | **x**          | &#10004;   | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
 
 ### Character Area
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | &#10004;   | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | **x**          | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**          | &#10004;   | &#10004; |
-| development     | **x**          | &#10004;   | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
 
 ### Archaeological Zone
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | **x**      | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | **x**          | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**          | **x**      | &#10004; |
-| development     | **x**          | **x**      | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
 
 ### Historic Area
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | &#10004;   | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | **x**          | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**          | &#10004;   | &#10004; |
-| development     | **x**          | &#10004;   | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
 
 ### Information Resource
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | &#10004;   | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | **x**          | &#10004;   | &#10004; |
-| afrh_volunteer  | &#10004;       | &#10004;   | &#10004; |
-| development     | **x**          | &#10004;   | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
 
 ### Person
 
@@ -122,12 +122,12 @@ The following tables provide a guide for how this should be implemented on each 
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | **x**      | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
-| afrh_volunteer  | &#10004;       | &#10004;   | &#10004; |
-| development     | &#10004;       | &#10004;   | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
 
 ### Organization
 
@@ -136,12 +136,12 @@ The following tables provide a guide for how this should be implemented on each 
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | **x**      | &#10004; |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
-| afrh_volunteer  | &#10004;       | &#10004;   | &#10004; |
-| development     | &#10004;       | &#10004;   | &#10004; |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:green">&#10004;</span> |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| development     | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
 
 ### ARPA Review
 
@@ -150,12 +150,12 @@ The following tables provide a guide for how this should be implemented on each 
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | **x**      | **x**    |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**          | **x**      | **x**    |
-| development     | **x**          | **x**      | **x**    |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:red">&cross;</span>    |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:red">&cross;</span>    |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:red">&cross;</span>    |
 
 ### Management Activity
 
@@ -164,9 +164,9 @@ The following tables provide a guide for how this should be implemented on each 
 
 | Group           | CREATE/EDIT    | FULLREPORT | VIEW     |
 | --------------- | :------------: | :--------: | :------: |
-| public*         | **x**          | **x**      | **x**    |
-| admin1          | &#10004;       | &#10004;   | &#10004; |
-| admin2          | &#10004;       | &#10004;   | &#10004; |
-| afrh_staff      | &#10004;       | &#10004;   | &#10004; |
-| afrh_volunteer  | **x**          | **x**      | **x**    |
-| development     | **x**          | **x**      | **x**    |
+| public*         | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:red">&cross;</span>    |
+| admin1          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| admin2          | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_staff      | <span style="color:green">&#10004;</span>       | <span style="color:green">&#10004;</span>   | <span style="color:green">&#10004;</span> |
+| afrh_volunteer  | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:red">&cross;</span>    |
+| development     | <span style="color:red">&cross;</span>          | <span style="color:red">&cross;</span>      | <span style="color:red">&cross;</span>    |

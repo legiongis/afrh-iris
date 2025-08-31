@@ -15,10 +15,10 @@ There are 10 resource models in the package:
 - **Historic Area** Designated historic areas of the grounds
 - **Master Plan Zone** Management zones as defined in the AFRH-W master plan
 - **Archaeological Zone** Archaeological Zones as defined in the AFRH-W development plan
-- **Person** To store records for people that are associated with the Inventory Resources (e.g.,historical builders and architects)
+- **Person** To store records for people that are associated with the Inventory Resources (e.g. historical builders and architects)
 - **Organization** To store records for organizations
 - **Information Resource** Photos, documents, architectural drawings
-- **Management Activity** To track and manage development projects that take place throughout the grounds 9more below)
+- **Management Activity** To track and manage development projects that take place throughout the grounds (more below)
 - **ARPA Review** For ARPA reviews to be recorded and connected to relevant resources
 
 ### Management Activities
@@ -39,4 +39,4 @@ The resource models were designed using the Linked Art ontology, which in turn i
 
 ## Reference Data
 
-A single thesuarus and set of collections is stored in the package. These populate the dropdowns that appear in various resource model nodes (`concept` and `concept-list` datatypes).
+A single thesaurus and set of collections is stored in the package. These populate the dropdowns that appear in various resource model nodes (`concept` and `concept-list` datatypes).

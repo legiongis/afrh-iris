@@ -45,9 +45,9 @@ The `initialize` command is also used within the clean install script. For more 
 !!! Warning
     Arches does not support the load of resource model-level permissions from packages. This means all permissions described in [permissions > Permissions by Resource Model](/docs/permissions.html#permissions-by-resource-model) must be implemented manually after installation.
 
-## Building the Docs
+## Building these docs
 
-This documentation is built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material). The markdown content is stored in **`docs/`**, and it is configured to build into **`.docs/`** (which is gitignored). A view in the `iris` app passes built docs content to the proper urls (http://localhost:8000/docs).
+This documentation is built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material). The markdown content is stored in **`docs/`**, and it is configured to build into **`.docs/`** (which is gitignored). A Django view in the `iris` app passes built docs content to the proper urls (http://localhost:8000/docs).
 
 Use `mkdocs serve -a localhost:8001` to view the docs in a browser during development (separate from the AFRH-IRIS frontend).
 
