@@ -70,27 +70,122 @@ class Command(BaseCommand):
         test_users = [
             {
                 "username": "admin1",
-                "groups": ["RDM Administrator"]
+                "groups": [
+                    "ArchaeologicalZone:Full",
+                    "CharacterArea:Full",
+                    "HistoricArea:Full",
+                    "MasterPlanZone:Full",
+                    "InventoryResource:Full",
+                    "InformationResource:Full",
+                    "Person:Full",
+                    "Organization:Full",
+                    "ARPAReview:Full",
+                    "ManagementActivity:Full",
+                    "Resource Editor",
+                    "InventoryResource:Edit",
+                    "CharacterArea:Edit",
+                    "HistoricArea:Edit",
+                    "MasterPlanZone:Edit",
+                    "ArchaeologicalZone:Edit",
+                    "Person:Edit",
+                    "Organization:Edit",
+                    "InformationResource:Edit",
+                    "ManagementActivity:Edit",
+                    "ARPAReview:Edit",
+                ]
             },
             {
                 "username": "admin2",
-                "groups": []
+                "groups": [
+                    "ArchaeologicalZone:Full",
+                    "CharacterArea:Full",
+                    "HistoricArea:Full",
+                    "MasterPlanZone:Full",
+                    "InventoryResource:Full",
+                    "InformationResource:Full",
+                    "Person:Full",
+                    "Organization:Full",
+                    "ARPAReview:Full",
+                    "ManagementActivity:Full",
+                    "Resource Editor",
+                    "InventoryResource:Edit",
+                    "Person:Edit",
+                    "Organization:Edit",
+                    "InformationResource:Edit",
+                    "ManagementActivity:Edit",
+                ]
             },
             {
                 "username": "afrh_staff",
-                "groups": []
+                "groups": [
+                    "ArchaeologicalZone:Full",
+                    "CharacterArea:Full",
+                    "HistoricArea:Full",
+                    "MasterPlanZone:Full",
+                    "InventoryResource:Full",
+                    "InformationResource:Full",
+                    "Person:Full",
+                    "Organization:Full",
+                    "ARPAReview:Deny",
+                    "ManagementActivity:Full",
+                    "Resource Editor",
+                    "InventoryResource:Edit",
+                    "Person:Edit",
+                    "Organization:Edit",
+                    "InformationResource:Edit",
+                ]
             },
             {
                 "username": "afrh_volunteer",
-                "groups": []
+                "groups": [
+                    "ArchaeologicalZone:Limited",
+                    "CharacterArea:Full",
+                    "HistoricArea:Full",
+                    "MasterPlanZone:Full",
+                    "InventoryResource:Limited",
+                    "InformationResource:Limited",
+                    "Person:Full",
+                    "Organization:Full",
+                    "ARPAReview:Deny",
+                    "ManagementActivity:Full",
+                    "Resource Editor",
+                    "InventoryResource:Edit",
+                    "Person:Edit",
+                    "Organization:Edit",
+                    "InformationResource:Edit",
+                ]
             },
             {
                 "username": "plc_staff",
-                "groups": []
+                "groups": [
+                    "ArchaeologicalZone:Limited",
+                    "CharacterArea:Full",
+                    "HistoricArea:Full",
+                    "MasterPlanZone:Full",
+                    "InventoryResource:Full",
+                    "InformationResource:Limited",
+                    "Person:Full",
+                    "Organization:Full",
+                    "ARPAReview:Full",
+                    "ManagementActivity:Deny",
+                ]
             },
             {
                 "username": "contractor",
-                "groups": []
+                "groups": [
+                    "ArchaeologicalZone:Limited",
+                    "CharacterArea:Full",
+                    "HistoricArea:Full",
+                    "MasterPlanZone:Full",
+                    "InventoryResource:Full",
+                    "InformationResource:Limited",
+                    "Person:Full",
+                    "Organization:Full",
+                    "ARPAReview:Deny",
+                    "ManagementActivity:Deny",
+                    "Resource Editor",
+                    "InformationResource:Edit",
+                ]
             },
         ]
 
