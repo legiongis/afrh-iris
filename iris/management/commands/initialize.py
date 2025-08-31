@@ -96,6 +96,7 @@ class Command(BaseCommand):
                     "InformationResource:Edit",
                     "ManagementActivity:Edit",
                     "ARPAReview:Edit",
+                    "RDM Administrator",
                 ]
             },
             {
