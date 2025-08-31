@@ -40,10 +40,10 @@ To create a set of test user accounts, one per permissions level, use
 
 See [permissions > Test Accounts](permissions.md#test-accounts) > Test Accounts to learn more about these accounts (and permissions in general).
 
-The `initialize` command is also used within the clean install script. For more on that command, see [Management Commands](/docs/management.html).
+The `initialize` command is also used within the clean install script. For more on that command, see [Management Commands](management.md).
 
 !!! Warning
-    Arches does not support the load of resource model-level permissions from packages. This means all permissions described in [permissions > Permissions by Resource Model](/docs/permissions.html#permissions-by-resource-model) must be implemented manually after installation.
+    Arches does not support the load of resource model-level permissions from packages. This means all permissions described in [permissions > Permissions by Resource Model](permissions.md#permissions-by-resource-model) must be implemented manually after installation.
 
 ## Docs build
 
