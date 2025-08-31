@@ -45,18 +45,20 @@ class Command(BaseCommand):
             self.load_historical_maps()
 
     def make_groups(self):
-        admin1, _ = Group.objects.get_or_create(name="admin1")
-        admin2, _ = Group.objects.get_or_create(name="admin2")
-        afrh_staff, _ = Group.objects.get_or_create(name="afrh_staff")
-        afrh_volunteer, _ = Group.objects.get_or_create(name="afrh_volunteer")
-        development, _ = Group.objects.get_or_create(name="development")
+        admin1, _ = Group.objects.get_or_create(name="Admin 1")
+        admin2, _ = Group.objects.get_or_create(name="Admin 2")
+        afrh_staff, _ = Group.objects.get_or_create(name="AFRH Staff")
+        afrh_volunteer, _ = Group.objects.get_or_create(name="AFRH Volunteer")
+        plc_staff, _ = Group.objects.get_or_create(name="PLC Staff")
+        contractor, _ = Group.objects.get_or_create(name="Contractor")
 
         return {
             'admin1': admin1,
             'admin2': admin2,
             'afrh_staff': afrh_staff,
             'afrh_volunteer': afrh_volunteer,
-            'development': development,
+            'plc_staff': plc_staff,
+            'contractor': contractor,
         }
 
     def make_test_users(self):
@@ -68,35 +70,38 @@ class Command(BaseCommand):
         test_users = [
             {
                 "username": "admin1",
-                "extra_groups": ["RDM Administrator"]
+                "groups": ["RDM Administrator"]
             },
             {
                 "username": "admin2",
-                "extra_groups": []
+                "groups": []
             },
             {
                 "username": "afrh_staff",
-                "extra_groups": []
+                "groups": []
             },
             {
                 "username": "afrh_volunteer",
-                "extra_groups": []
+                "groups": []
             },
             {
-                "username": "development",
-                "extra_groups": []
+                "username": "plc_staff",
+                "groups": []
+            },
+            {
+                "username": "contractor",
+                "groups": []
             },
         ]
 
         for user in test_users:
             username = user["username"]
-            groups = [username] + user["extra_groups"]
 
             u, _ = get_user_model().objects.get_or_create(username=username)
             u.set_password(username)
             u.save()
 
-            for group in groups:
+            for group in user["groups"]:
                 g = Group.objects.get(name=group)
                 g.user_set.add(u)
 

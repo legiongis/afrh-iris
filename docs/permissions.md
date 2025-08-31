@@ -10,7 +10,8 @@ The five groups are:
 - **admin2**
 - **afrh_staff**
 - **afrh_volunteer**
-- **development**
+- **plc_staff**
+- **contractor**
 
 ## Creating a New User
 
@@ -39,6 +40,9 @@ The following users will be created and assigned to these groups:
 |afrh_volunteer|afrh_volunteer|TBD afrh_volunteer, Resource Editor|
 |plc_staff|plc_staff|TBD plc_staff, Resource Editor|
 |contractor|contractor|TBD development, Resource Editor|
+
+!!! Warning
+    Group names and memberships still need to be finalized.
 
 ## Permissions by Resource Model
 
@@ -134,9 +138,6 @@ The following tables provide a guide for how this should be implemented on each 
 | contractor      | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
 
 ### Organization
-
-!!! Warning
-    Is this correct?
 
 | Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
 | --------------- | :------------: | :--------: | :------: |
