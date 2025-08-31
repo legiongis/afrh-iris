@@ -19,7 +19,7 @@ class Command(BaseCommand):
         parser.add_argument(
             "operation",
             choices=[
-                "groups",
+                "anonymous-permissions",
                 "map-layers",
                 "test-users",
             ],
@@ -34,8 +34,8 @@ class Command(BaseCommand):
 
         self.verbosity = options['verbosity']
 
-        if options['operation'] == "groups":
-            self.make_groups()
+        if options['operation'] == "anonymous-permissions":
+            self.set_anonymous_permissions()
 
         if options['operation'] == "test-users":
             self.make_test_users()
@@ -44,22 +44,26 @@ class Command(BaseCommand):
             self.update_default_layer_names(undo=options['undo'])
             self.load_historical_maps()
 
-    def make_groups(self):
-        admin1, _ = Group.objects.get_or_create(name="Admin 1")
-        admin2, _ = Group.objects.get_or_create(name="Admin 2")
-        afrh_staff, _ = Group.objects.get_or_create(name="AFRH Staff")
-        afrh_volunteer, _ = Group.objects.get_or_create(name="AFRH Volunteer")
-        plc_staff, _ = Group.objects.get_or_create(name="PLC Staff")
-        contractor, _ = Group.objects.get_or_create(name="Contractor")
+    def set_anonymous_permissions(self):
 
-        return {
-            'admin1': admin1,
-            'admin2': admin2,
-            'afrh_staff': afrh_staff,
-            'afrh_volunteer': afrh_volunteer,
-            'plc_staff': plc_staff,
-            'contractor': contractor,
-        }
+        user = get_user_model().objects.get(username="anonymous")
+
+        groups = [
+            "ArchaeologicalZone:Limited",
+            "CharacterArea:Full",
+            "HistoricArea:Full",
+            "MasterPlanZone:Full",
+            "InventoryResource:Limited",
+            "InformationResource:Limited",
+            "Person:Full",
+            "Organization:Full",
+            "ARPAReview:Deny",
+            "ManagementActivity:Deny",
+        ]
+
+        for group in groups:
+            g = Group.objects.get(name=group)
+            g.user_set.add(user)
 
     def make_test_users(self):
 
