@@ -79,7 +79,9 @@
                         {
                             "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
                             "constraintid": "afa7ed55-b4c2-48d7-b8e6-ed430c8d942e",
-                            "nodes": [],
+                            "nodes": [
+                                "41ff1f70-39ff-11ea-b9b7-027f24e6fd6b"
+                            ],
                             "uniquetoallinstances": false
                         }
                     ],
@@ -129,7 +131,7 @@
                     "name": "Spatial Location",
                     "nodegroup_id": "b25075f1-46c3-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 4,
-                    "visible": true
+                    "visible": false
                 }
             ],
             "cards_x_nodes_x_widgets": [
@@ -230,13 +232,13 @@
                     "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Area of Probability Notes",
+                        "label": "Notes",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
                     "id": "32252d8e-39ff-11ea-b9b7-027f24e6fd6b",
-                    "label": "Area of Probability Notes",
+                    "label": "Notes",
                     "node_id": "32252d8c-39ff-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 2,
                     "visible": true,
@@ -246,14 +248,14 @@
                     "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Area of Probability Type",
+                        "label": "Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "6a4e8f3a-39ff-11ea-b9b7-027f24e6fd6b",
-                    "label": "Area of Probability Type",
+                    "label": "Type",
                     "node_id": "41ff1f70-39ff-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000015"
                 },
@@ -392,7 +394,7 @@
                                 "text": "Polygon"
                             }
                         ],
-                        "label": "Area of Probability Geometry",
+                        "label": "Geometry",
                         "maxZoom": 20,
                         "minZoom": null,
                         "overlayConfigs": [],
@@ -402,15 +404,48 @@
                         "zoom": 0
                     },
                     "id": "f28ac642-6a19-11ea-8a3e-acde48001122",
-                    "label": "Area of Probability Geometry",
+                    "label": "Geometry",
                     "node_id": "50df0a08-4159-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": null,
-                    "visible": true,
+                    "sortorder": 1,
+                    "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 }
             ],
             "color": null,
-            "config": {},
+            "config": {
+                "basemap": "Streets",
+                "bearing": 0,
+                "centerX": -122.3979693,
+                "centerY": 37.79,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 10
+            },
             "deploymentdate": null,
             "deploymentfile": null,
             "description": "",
@@ -557,7 +592,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
-                    "id": "cc12aff8-3bce-412e-9212-12c0d02a15d8"
+                    "id": "3b0b0dff-2deb-4ee1-896e-161ede7fcc4c"
                 }
             ],
             "graphid": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
@@ -587,7 +622,7 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "n",
+                    "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "b25075f1-46c3-11ea-b9b7-027f24e6fd6b",
                     "parentnodegroup_id": null
@@ -734,7 +769,7 @@
                     "nodeid": "32252d8c-39ff-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
+                    "sortorder": 2
                 },
                 {
                     "alias": "area_of_probability_type",
@@ -789,18 +824,18 @@
                         "clusterDistance": 20,
                         "clusterMaxZoom": 5,
                         "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "fillColor": "rgba(255,0,0,0.5)",
                         "haloRadius": 4,
                         "haloWeight": 4,
                         "layerActivated": true,
                         "layerIcon": "",
                         "layerLegend": "",
                         "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineColor": "rgba(255,0,0,0.7)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
                         "outlineColor": "rgba(200, 200, 200, 0.7)",
                         "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointColor": "rgba(250,0,0,0.7)",
                         "pointHaloColor": "rgba(200, 200, 200, 0.5)",
                         "radius": 2,
                         "simplification": 0.3,
@@ -821,7 +856,7 @@
                     "nodeid": "50df0a08-4159-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
+                    "sortorder": 1
                 },
                 {
                     "alias": "spatial_location",
@@ -951,7 +986,7 @@
             },
             "slug": null,
             "subtitle": "",
-            "template_id": "50000000-0000-0000-0000-000000000001",
+            "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
     ],
