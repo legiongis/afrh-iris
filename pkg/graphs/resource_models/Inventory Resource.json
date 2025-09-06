@@ -1053,7 +1053,7 @@
                     "id": "34379224-3bce-11ea-b9b7-027f24e6fd6b",
                     "label": "Type",
                     "node_id": "cf1f3a66-3bcb-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1068,7 +1068,7 @@
                     "id": "34379226-3bce-11ea-b9b7-027f24e6fd6b",
                     "label": "Unit",
                     "node_id": "de5d1d5e-3bcb-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
