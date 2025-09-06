@@ -733,16 +733,16 @@
                     "card_id": "e3cb1087-3bc1-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Heritage Asset Information",
+                        "label": "Notes",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "09fe8472-ea72-4297-b014-38f6f037e3fb",
-                    "label": "Heritage Asset Information",
+                    "label": "Notes",
                     "node_id": "e3cb1085-3bc1-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": null,
+                    "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
