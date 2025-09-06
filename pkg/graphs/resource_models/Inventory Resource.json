@@ -1046,12 +1046,12 @@
                     "card_id": "bab672e4-3bcb-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Measurement Type",
+                        "label": "Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "34379224-3bce-11ea-b9b7-027f24e6fd6b",
-                    "label": "Measurement Type",
+                    "label": "Type",
                     "node_id": "cf1f3a66-3bcb-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 1,
                     "visible": true,
@@ -1061,12 +1061,12 @@
                     "card_id": "bab672e4-3bcb-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Measurement Unit",
+                        "label": "Unit",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "34379226-3bce-11ea-b9b7-027f24e6fd6b",
-                    "label": "Measurement Unit",
+                    "label": "Unit",
                     "node_id": "de5d1d5e-3bcb-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 2,
                     "visible": true,
@@ -3775,6 +3775,23 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "bab672e4-3bcb-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Notes",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "ff7ac66e-288e-4ec0-a367-124e682381f2",
+                    "label": "Notes",
+                    "node_id": "efbe528e-8b43-11f0-81bc-94659cf754cc",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -3878,6 +3895,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
                     "rangenode_id": "c7ff7f28-6523-11ed-adda-09c2399aacac"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "bab672e2-3bcb-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "1df46e3e-aae7-4db3-8d99-fce8a7738d1e",
+                    "graph_id": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "efbe528e-8b43-11f0-81bc-94659cf754cc"
                 },
                 {
                     "description": null,
@@ -6788,7 +6814,7 @@
                     "nodeid": "cf1f3a66-3bcb-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
+                    "sortorder": 1
                 },
                 {
                     "alias": "criterion_a_score",
@@ -7115,6 +7141,26 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
+                },
+                {
+                    "alias": "measurement_notes",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Measurement Notes",
+                    "nodegroup_id": "bab672e2-3bcb-11ea-b9b7-027f24e6fd6b",
+                    "nodeid": "efbe528e-8b43-11f0-81bc-94659cf754cc",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 2
                 },
                 {
                     "alias": "modification_date",
