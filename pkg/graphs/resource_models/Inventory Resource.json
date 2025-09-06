@@ -796,6 +796,21 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
+                    "card_id": "df433da6-5283-11ea-8789-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Building Number Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "0f38d799-51db-49af-83bf-8eea43a50028",
+                    "label": "Building Number Type",
+                    "node_id": "ee8329ac-5283-11ea-8789-acde48001122",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
                     "card_id": "6dfb564a-71ab-404b-91b8-a47cba2fb588",
                     "config": {
                         "defaultValue": "",
@@ -1720,6 +1735,23 @@
                     "sortorder": 12,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "df433da6-5283-11ea-8789-acde48001122",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Building Number",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "81558183-dffd-4f1f-ae08-f33a5b4a1c5e",
+                    "label": "Building Number",
+                    "node_id": "df42a922-5283-11ea-8789-acde48001122",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "6dfb564a-71ab-404b-91b8-a47cba2fb588",
@@ -4745,7 +4777,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
-                    "id": "44e59363-4df7-432e-9519-20512f08f0d4"
+                    "id": "61fdfd72-d7ef-4c52-be05-b8da44dc7bae"
                 }
             ],
             "graphid": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
@@ -4901,7 +4933,7 @@
                     "parentnodegroup_id": "b23a70c2-6473-11ed-adda-09c2399aacac"
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "df42a922-5283-11ea-8789-acde48001122",
                     "parentnodegroup_id": null
@@ -7219,7 +7251,7 @@
     ],
     "metadata": {
         "db": "PostgreSQL 17.5 (Debian 17.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
-        "git hash": "9aea14709e 2025-08-30 15:51:27 -0500",
+        "git hash": "c3d890ee7e 2025-09-06 10:48:37 -0500",
         "os": "Linux",
         "os version": "6.1.0-38-amd64"
     }
