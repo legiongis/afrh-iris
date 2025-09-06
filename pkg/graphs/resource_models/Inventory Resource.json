@@ -183,7 +183,7 @@
                     "is_editable": true,
                     "name": "Areas/Zones",
                     "nodegroup_id": "48aa02fc-6523-11ed-adda-09c2399aacac",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true
                 },
                 {
@@ -226,9 +226,9 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Spatial Location Note",
+                    "name": "Location Note",
                     "nodegroup_id": "87fad7bd-46c4-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -3779,7 +3779,7 @@
             ],
             "color": null,
             "config": {
-                "basemap": "streets",
+                "basemap": "Streets",
                 "bearing": 0,
                 "centerX": -122.3979693,
                 "centerY": 37.79,
@@ -4777,7 +4777,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
-                    "id": "61fdfd72-d7ef-4c52-be05-b8da44dc7bae"
+                    "id": "04b927f1-5950-442b-8353-311ec592b181"
                 }
             ],
             "graphid": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
