@@ -17,7 +17,7 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "AFRH Condition Assesment",
+                    "name": "AFRH Condition Assessment",
                     "nodegroup_id": "79a31ed4-3bc3-11ea-b9b7-027f24e6fd6b",
                     "sortorder": null,
                     "visible": true
@@ -110,7 +110,7 @@
             "isactive": true,
             "isresource": false,
             "jsonldcontext": null,
-            "name": "AFRH Condition Assesment",
+            "name": "AFRH Condition Assessment",
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -131,7 +131,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "AFRH Condition Assesment",
+                    "name": "AFRH Condition Assessment",
                     "nodegroup_id": "79a31ed4-3bc3-11ea-b9b7-027f24e6fd6b",
                     "nodeid": "79a31ed4-3bc3-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
@@ -320,7 +320,7 @@
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "AFRH Condition Assesment",
+                "name": "AFRH Condition Assessment",
                 "nodegroup_id": "79a31ed4-3bc3-11ea-b9b7-027f24e6fd6b",
                 "nodeid": "79a31ed4-3bc3-11ea-b9b7-027f24e6fd6b",
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
