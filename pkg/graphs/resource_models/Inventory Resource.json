@@ -757,7 +757,7 @@
                     "id": "0d788c1c-3bc0-11ea-b9b7-027f24e6fd6b",
                     "label": "Type",
                     "node_id": "b1d27a06-3bbf-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3474,13 +3474,13 @@
                     "card_id": "b1d27a08-3bbf-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "displayOnlySelectedNode": false,
-                        "label": "Modified Component",
+                        "label": "Modified Component (optional)",
                         "placeholder": ""
                     },
                     "id": "c90cf9ab-6efb-4ec9-8883-c01655a23dfa",
-                    "label": "Modified Component",
+                    "label": "Modified Component (optional)",
                     "node_id": "6216b034-4161-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "f5d6b190-bbf0-4dc9-b991-1debab8cb4a9"
                 },
@@ -5124,7 +5124,7 @@
                     "nodeid": "20b57492-3d77-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
+                    "sortorder": 3
                 },
                 {
                     "alias": "descriptions",
@@ -5582,7 +5582,7 @@
                     "nodeid": "6695b7d8-3d77-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
+                    "sortorder": 2
                 },
                 {
                     "alias": "area_of_significance",
@@ -6792,7 +6792,7 @@
                     "nodeid": "cb4e5c66-6475-11ed-adda-09c2399aacac",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by",
-                    "sortorder": 0
+                    "sortorder": 1
                 },
                 {
                     "alias": "measurement_type",
