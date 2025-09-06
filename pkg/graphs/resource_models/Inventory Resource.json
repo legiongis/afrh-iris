@@ -891,7 +891,7 @@
                     "node_id": "13b82d1e-3bc5-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 1,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "13b82d1d-3bc5-11ea-b9b7-027f24e6fd6b",
@@ -4745,7 +4745,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
-                    "id": "95b40796-7971-4e7e-a78f-066a30f80200"
+                    "id": "44e59363-4df7-432e-9519-20512f08f0d4"
                 }
             ],
             "graphid": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
@@ -4987,7 +4987,7 @@
                     "config": {
                         "rdmCollection": "c30ad4e7-6b2a-45da-8f4e-654cd89886aa"
                     },
-                    "datatype": "concept-list",
+                    "datatype": "concept",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
@@ -7218,9 +7218,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
-        "git hash": "d69d11e8a 2022-10-26 11:54:47 -0700",
+        "db": "PostgreSQL 17.5 (Debian 17.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
+        "git hash": "9aea14709e 2025-08-30 15:51:27 -0500",
         "os": "Linux",
-        "os version": "5.15.0-92-generic"
+        "os version": "6.1.0-38-amd64"
     }
 }
