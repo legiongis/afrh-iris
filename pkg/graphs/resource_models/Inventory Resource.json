@@ -153,7 +153,14 @@
                     "cardid": "43497845-3bbe-11ea-b9b7-027f24e6fd6b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [],
+                    "constraints": [
+                        {
+                            "card_id": "43497845-3bbe-11ea-b9b7-027f24e6fd6b",
+                            "constraintid": "0aa3080d-e0fd-453b-a83a-fad22e4706a5",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
@@ -271,7 +278,7 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "HPMP",
+                    "name": "HPMP Priority",
                     "nodegroup_id": "912ba828-3d76-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 0,
                     "visible": true
@@ -474,7 +481,7 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Related Actor Resources",
+                    "name": "Related People/Organizations",
                     "nodegroup_id": "9c72c618-689a-11ea-9c7f-acde48001122",
                     "sortorder": 16,
                     "visible": true
@@ -591,13 +598,13 @@
                     "constraints": [
                         {
                             "card_id": "df433da6-5283-11ea-8789-acde48001122",
-                            "constraintid": "f7d2995e-a286-4460-b892-04b76130a590",
+                            "constraintid": "0fdeff97-ac89-430c-a96d-529901779fc8",
                             "nodes": [],
                             "uniquetoallinstances": false
                         },
                         {
                             "card_id": "df433da6-5283-11ea-8789-acde48001122",
-                            "constraintid": "0fdeff97-ac89-430c-a96d-529901779fc8",
+                            "constraintid": "f7d2995e-a286-4460-b892-04b76130a590",
                             "nodes": [],
                             "uniquetoallinstances": false
                         }
@@ -773,12 +780,12 @@
                     "card_id": "df433da6-5283-11ea-8789-acde48001122",
                     "config": {
                         "defaultValue": "",
-                        "label": "Building Number Type",
+                        "label": "Number Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "0f38d799-51db-49af-83bf-8eea43a50028",
-                    "label": "Building Number Type",
+                    "label": "Number Type",
                     "node_id": "ee8329ac-5283-11ea-8789-acde48001122",
                     "sortorder": null,
                     "visible": true,
@@ -803,14 +810,14 @@
                     "card_id": "9c72c866-689a-11ea-9c7f-acde48001122",
                     "config": {
                         "defaultValue": "",
-                        "label": "Related Actor Relation Type",
+                        "label": "Relationship",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "12d2a5b2-689b-11ea-9c7f-acde48001122",
-                    "label": "Related Actor Relation Type",
+                    "label": "Relationship",
                     "node_id": "9c72ca3c-689a-11ea-9c7f-acde48001122",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -819,16 +826,16 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": "",
-                        "label": "Related Actor From Date",
+                        "label": "From Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
                         "viewMode": "days"
                     },
                     "id": "12d345a8-689b-11ea-9c7f-acde48001122",
-                    "label": "Related Actor From Date",
+                    "label": "From Date",
                     "node_id": "9c72cb5e-689a-11ea-9c7f-acde48001122",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
@@ -837,16 +844,16 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": "",
-                        "label": "Related Actor To Date",
+                        "label": "To Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
                         "viewMode": "days"
                     },
                     "id": "12d3b344-689b-11ea-9c7f-acde48001122",
-                    "label": "Related Actor To Date",
+                    "label": "To Date",
                     "node_id": "9c72cc44-689a-11ea-9c7f-acde48001122",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
@@ -854,16 +861,16 @@
                     "card_id": "9c72c866-689a-11ea-9c7f-acde48001122",
                     "config": {
                         "defaultValue": "",
-                        "label": "Related Actor Notes",
+                        "label": "Notes",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "12d4363e-689b-11ea-9c7f-acde48001122",
-                    "label": "Related Actor Notes",
+                    "label": "Notes",
                     "node_id": "9c72cd16-689a-11ea-9c7f-acde48001122",
-                    "sortorder": null,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -871,12 +878,12 @@
                     "card_id": "13b82d1d-3bc5-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Type of Name",
+                        "label": "Name Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "13b82d20-3bc5-11ea-b9b7-027f24e6fd6b",
-                    "label": "Type of Name",
+                    "label": "Name Type",
                     "node_id": "13b82d1e-3bc5-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 1,
                     "visible": true,
@@ -886,14 +893,14 @@
                     "card_id": "13b82d1d-3bc5-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Text of Name",
+                        "label": "Name",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "13b82d21-3bc5-11ea-b9b7-027f24e6fd6b",
-                    "label": "Text of Name",
+                    "label": "Name",
                     "node_id": "13b82d1f-3bc5-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 0,
                     "visible": true,
@@ -1050,13 +1057,13 @@
                     "card_id": "43497845-3bbe-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "External Cross Reference Notes",
+                        "label": "Notes",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
                     "id": "4349784a-3bbe-11ea-b9b7-027f24e6fd6b",
-                    "label": "External Cross Reference Notes",
+                    "label": "Notes",
                     "node_id": "43497848-3bbe-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 3,
                     "visible": true,
@@ -1066,16 +1073,16 @@
                     "card_id": "43497845-3bbe-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "External Cross Reference Number",
+                        "label": "Reference Number",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "4349784b-3bbe-11ea-b9b7-027f24e6fd6b",
-                    "label": "External Cross Reference Number",
+                    "label": "Reference Number",
                     "node_id": "43497846-3bbe-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1083,14 +1090,14 @@
                     "card_id": "43497845-3bbe-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "External Cross Reference Source",
+                        "label": "Source",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "4349784c-3bbe-11ea-b9b7-027f24e6fd6b",
-                    "label": "External Cross Reference Source",
+                    "label": "Source",
                     "node_id": "43497847-3bbe-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 2,
                     "visible": true,
@@ -1100,14 +1107,14 @@
                     "card_id": "43497845-3bbe-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "External Cross Reference Type",
+                        "label": "Reference Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "4349784d-3bbe-11ea-b9b7-027f24e6fd6b",
-                    "label": "External Cross Reference Type",
+                    "label": "Reference Type",
                     "node_id": "43497849-3bbe-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 0,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1677,11 +1684,11 @@
                     "card_id": "76f32c54-6ac3-11ea-b559-acde48001122",
                     "config": {
                         "defaultResourceInstance": [],
-                        "label": "Related Actor",
+                        "label": "Information Resource",
                         "placeholder": ""
                     },
                     "id": "76f3306e-6ac3-11ea-b559-acde48001122",
-                    "label": "Related Actor",
+                    "label": "Information Resource",
                     "node_id": "76f329c0-6ac3-11ea-b559-acde48001122",
                     "sortorder": null,
                     "visible": true,
@@ -1714,14 +1721,14 @@
                     "card_id": "df433da6-5283-11ea-8789-acde48001122",
                     "config": {
                         "defaultValue": "",
-                        "label": "Building Number",
+                        "label": "Number",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "81558183-dffd-4f1f-ae08-f33a5b4a1c5e",
-                    "label": "Building Number",
+                    "label": "Number",
                     "node_id": "df42a922-5283-11ea-8789-acde48001122",
                     "sortorder": null,
                     "visible": true,
@@ -1944,13 +1951,13 @@
                     "card_id": "9c72c866-689a-11ea-9c7f-acde48001122",
                     "config": {
                         "defaultResourceInstance": [],
-                        "label": "Related Actor",
+                        "label": "Name",
                         "placeholder": ""
                     },
                     "id": "9c72cd84-689a-11ea-9c7f-acde48001122",
-                    "label": "Related Actor",
+                    "label": "Name",
                     "node_id": "9c72c618-689a-11ea-9c7f-acde48001122",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
@@ -2067,14 +2074,14 @@
                     "card_id": "76f32c54-6ac3-11ea-b559-acde48001122",
                     "config": {
                         "defaultValue": "",
-                        "label": "Related Information Resource Notes",
+                        "label": "Notes",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "a6732c7e-627d-11eb-847b-3af9d3749918",
-                    "label": "Related Information Resource Notes",
+                    "label": "Notes",
                     "node_id": "76f3300a-6ac3-11ea-b559-acde48001122",
                     "sortorder": null,
                     "visible": true,
@@ -2085,14 +2092,14 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": "",
-                        "label": "Related Information Resource To Date",
+                        "label": "To Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
                         "viewMode": "days"
                     },
                     "id": "a674c62e-627d-11eb-847b-3af9d3749918",
-                    "label": "Related Information Resource To Date",
+                    "label": "To Date",
                     "node_id": "76f32f42-6ac3-11ea-b559-acde48001122",
                     "sortorder": null,
                     "visible": true,
@@ -2103,14 +2110,14 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": "",
-                        "label": "Related Information Resource From Date",
+                        "label": "From Date",
                         "maxDate": false,
                         "minDate": false,
                         "placeholder": "Enter date",
                         "viewMode": "days"
                     },
                     "id": "a67605fc-627d-11eb-847b-3af9d3749918",
-                    "label": "Related Information Resource From Date",
+                    "label": "From Date",
                     "node_id": "76f32e7a-6ac3-11ea-b559-acde48001122",
                     "sortorder": null,
                     "visible": true,
@@ -2120,12 +2127,12 @@
                     "card_id": "76f32c54-6ac3-11ea-b559-acde48001122",
                     "config": {
                         "defaultValue": "",
-                        "label": "Related Information Resource Relation Type",
+                        "label": "Relationship",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "a677baa0-627d-11eb-847b-3af9d3749918",
-                    "label": "Related Information Resource Relation Type",
+                    "label": "Relationship",
                     "node_id": "76f32d80-6ac3-11ea-b559-acde48001122",
                     "sortorder": null,
                     "visible": true,
@@ -4753,7 +4760,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
-                    "id": "415ccc14-46f3-48b0-8616-bdebe42d0c92"
+                    "id": "23188b26-5a4c-4de4-aacb-e70066205b9e"
                 }
             ],
             "graphid": "8fcecadf-3bb2-11ea-b9b7-027f24e6fd6b",
@@ -6156,6 +6163,10 @@
                     "config": {
                         "graphid": null,
                         "graphs": [
+                            {
+                                "graphid": "876ad358-1ac2-11ea-8211-acde48001122",
+                                "name": "Organization"
+                            },
                             {
                                 "graphid": "5b2c8a98-398a-11ea-b9b7-027f24e6fd6b",
                                 "name": "Person"
