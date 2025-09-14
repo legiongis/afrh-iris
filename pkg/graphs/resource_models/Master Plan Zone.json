@@ -227,67 +227,9 @@
                     "nodegroup_id": "c1033fbf-46d3-11ea-b9b7-027f24e6fd6b",
                     "sortorder": 4,
                     "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "f9ef4c24-3bdf-11ea-b9b7-027f24e6fd6b",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "f9ef4c24-3bdf-11ea-b9b7-027f24e6fd6b",
-                            "constraintid": "ba8a3816-c480-46a3-afc7-b0f8ec28c132",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "12581535-3a08-11ea-b9b7-027f24e6fd6b",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Guideline Image",
-                    "nodegroup_id": "3b2cc7b6-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": null,
-                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
-                {
-                    "card_id": "f9ef4c24-3bdf-11ea-b9b7-027f24e6fd6b",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Guideline Image Note",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "040eb87a-3be0-11ea-b9b7-027f24e6fd6b",
-                    "label": "Guideline Image Note",
-                    "node_id": "5f66d9b4-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "f9ef4c24-3bdf-11ea-b9b7-027f24e6fd6b",
-                    "config": {
-                        "acceptedFiles": "",
-                        "label": "Guideline Image",
-                        "maxFilesize": "200",
-                        "rerender": true
-                    },
-                    "id": "040eb87c-3be0-11ea-b9b7-027f24e6fd6b",
-                    "label": "Guideline Image",
-                    "node_id": "3b2cc7b6-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000019"
-                },
                 {
                     "card_id": "1bf3140d-3bb0-11ea-b9b7-027f24e6fd6b",
                     "config": {
@@ -405,15 +347,15 @@
                     "card_id": "865d8c64-3bb0-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Guideline Note",
+                        "label": "Notes",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
                     "id": "a958bf1e-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "label": "Guideline Note",
+                    "label": "Notes",
                     "node_id": "a0b4fbb8-3bb0-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -421,14 +363,14 @@
                     "card_id": "865d8c64-3bb0-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Guideline Type",
+                        "label": "Type",
                         "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "a958bf20-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "label": "Guideline Type",
+                    "label": "Type",
                     "node_id": "2aadc462-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -436,14 +378,14 @@
                     "card_id": "865d8c64-3bb0-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "acceptedFiles": "",
-                        "label": "Guideline Image",
+                        "label": "Image(s)",
                         "maxFilesize": "200",
                         "rerender": true
                     },
                     "id": "a958bf22-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "label": "Guideline Image",
+                    "label": "Image(s)",
                     "node_id": "3b2cc7b6-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000019"
                 },
@@ -451,15 +393,15 @@
                     "card_id": "865d8c64-3bb0-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
-                        "label": "Guideline Image Note",
+                        "label": "Image Notes",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
                     "id": "a958bf24-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "label": "Guideline Image Note",
+                    "label": "Image Notes",
                     "node_id": "5f66d9b4-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 4,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -958,12 +900,6 @@
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
-                    "nodegroupid": "3b2cc7b6-3bb1-11ea-b9b7-027f24e6fd6b",
-                    "parentnodegroup_id": "865d8c62-3bb0-11ea-b9b7-027f24e6fd6b"
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
                     "nodegroupid": "8645bf51-3a08-11ea-b9b7-027f24e6fd6b",
                     "parentnodegroup_id": null
                 },
@@ -1122,12 +1058,12 @@
                     "fieldname": null,
                     "graph_id": "12581535-3a08-11ea-b9b7-027f24e6fd6b",
                     "hascustomalias": false,
-                    "is_collector": true,
+                    "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Guideline Image",
-                    "nodegroup_id": "3b2cc7b6-3bb1-11ea-b9b7-027f24e6fd6b",
+                    "nodegroup_id": "865d8c62-3bb0-11ea-b9b7-027f24e6fd6b",
                     "nodeid": "3b2cc7b6-3bb1-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
@@ -1147,7 +1083,7 @@
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Guideline Image Note",
-                    "nodegroup_id": "3b2cc7b6-3bb1-11ea-b9b7-027f24e6fd6b",
+                    "nodegroup_id": "865d8c62-3bb0-11ea-b9b7-027f24e6fd6b",
                     "nodeid": "5f66d9b4-3bb1-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
