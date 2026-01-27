@@ -1765,9 +1765,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 17.5 (Debian 17.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
-        "git hash": "c3d890ee7e 2025-09-06 10:48:37 -0500",
+        "db": "PostgreSQL 15.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit",
+        "git hash": "c3d890ee7 2025-09-06 10:48:37 -0500",
         "os": "Linux",
-        "os version": "6.1.0-38-amd64"
+        "os version": "6.17.9-76061709-generic"
     }
 }

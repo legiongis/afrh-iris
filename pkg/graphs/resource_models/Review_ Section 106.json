@@ -101,6 +101,38 @@
                 },
                 {
                     "active": true,
+                    "cardid": "91249034-c5dd-425b-9aa0-4c5a0687d019",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "91249034-c5dd-425b-9aa0-4c5a0687d019",
+                            "constraintid": "72579e45-24ef-41b5-9dbd-7419697415c6",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "91249034-c5dd-425b-9aa0-4c5a0687d019",
+                            "constraintid": "f60e4fff-11f5-44c0-bf47-08cfa5e69c64",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Consulting Parties",
+                    "nodegroup_id": "75916202-fbce-11f0-beff-1599e029c344",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "98a5ac24-3172-46cc-8819-983f0f4670c8",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -229,6 +261,38 @@
                 },
                 {
                     "active": true,
+                    "cardid": "e18a0edf-8f1f-447d-a927-03b84f8b6dc7",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "e18a0edf-8f1f-447d-a927-03b84f8b6dc7",
+                            "constraintid": "b4d24729-6554-482e-b01d-4498d4303ab2",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "e18a0edf-8f1f-447d-a927-03b84f8b6dc7",
+                            "constraintid": "316f8624-a726-4353-8554-477e2c6be292",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "DCSHPO Entities",
+                    "nodegroup_id": "f6a2b7e8-fbcd-11f0-beff-1599e029c344",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "f5edc7a7-3b1c-4190-a399-28925df888b3",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -275,6 +339,23 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "e18a0edf-8f1f-447d-a927-03b84f8b6dc7",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "04d64ba2-ac53-45f7-8523-5e6e36944ec7",
+                    "label": "",
+                    "node_id": "f6a2b7e8-fbcd-11f0-beff-1599e029c344",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "b3d00cd9-c65b-4878-b838-3e7668c2625c",
@@ -634,6 +715,23 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "91249034-c5dd-425b-9aa0-4c5a0687d019",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "fa23a405-19af-40ba-93d2-6dc6bc93862d",
+                    "label": "",
+                    "node_id": "75916202-fbce-11f0-beff-1599e029c344",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -761,6 +859,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "da07edfc-3caf-11f0-81bd-94659cf754cc",
+                    "edgeid": "746c99ff-f801-4b99-a897-56704f99c945",
+                    "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "f6a2b7e8-fbcd-11f0-beff-1599e029c344"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "9bfca710-af45-11f0-81bd-94659cf754cc",
                     "edgeid": "7dd88ecb-9a35-4197-bf58-fc0177e02144",
                     "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
@@ -794,6 +901,15 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "rangenode_id": "6a4e5f16-af44-11f0-81bd-94659cf754cc"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "da07edfc-3caf-11f0-81bd-94659cf754cc",
+                    "edgeid": "b43bb9f9-02f5-484d-aea4-0a1b2a6f9b1d",
+                    "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "75916202-fbce-11f0-beff-1599e029c344"
                 },
                 {
                     "description": null,
@@ -871,7 +987,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
-                    "id": "af1978dc-aedc-4abb-9b60-f75a4abd397e"
+                    "id": "88bc402e-d948-41e3-9bc1-e7bff0f6b564"
                 }
             ],
             "graphid": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
@@ -892,6 +1008,12 @@
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "72bf6590-af45-11f0-81bd-94659cf754cc",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "75916202-fbce-11f0-beff-1599e029c344",
                     "parentnodegroup_id": null
                 },
                 {
@@ -928,6 +1050,12 @@
                     "cardinality": "n",
                     "legacygroupid": null,
                     "nodegroupid": "eabb6a2a-3caf-11f0-81bd-94659cf754cc",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "f6a2b7e8-fbcd-11f0-beff-1599e029c344",
                     "parentnodegroup_id": null
                 }
             ],
@@ -1141,6 +1269,26 @@
                     "nodegroup_id": "72bf6590-af45-11f0-81bd-94659cf754cc",
                     "nodeid": "72bf6590-af45-11f0-81bd-94659cf754cc",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "section_106_consulting_parties",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 Consulting Parties",
+                    "nodegroup_id": "75916202-fbce-11f0-beff-1599e029c344",
+                    "nodeid": "75916202-fbce-11f0-beff-1599e029c344",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
@@ -1392,7 +1540,7 @@
                     },
                     "datatype": "concept",
                     "description": null,
-                    "exportable": false,
+                    "exportable": true,
                     "fieldname": null,
                     "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
                     "hascustomalias": false,
@@ -1405,6 +1553,26 @@
                     "nodeid": "eabb6a2a-3caf-11f0-81bd-94659cf754cc",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "section_106_dcshpo_entities",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "0ad8b125-bfce-40d8-9ab2-d3acef492ea2",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Section 106 DCSHPO Entities",
+                    "nodegroup_id": "f6a2b7e8-fbcd-11f0-beff-1599e029c344",
+                    "nodeid": "f6a2b7e8-fbcd-11f0-beff-1599e029c344",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -1479,9 +1647,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 17.5 (Debian 17.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
-        "git hash": "c3d890ee7e 2025-09-06 10:48:37 -0500",
+        "db": "PostgreSQL 15.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit",
+        "git hash": "c3d890ee7 2025-09-06 10:48:37 -0500",
         "os": "Linux",
-        "os version": "6.1.0-38-amd64"
+        "os version": "6.17.9-76061709-generic"
     }
 }
