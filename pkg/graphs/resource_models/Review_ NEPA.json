@@ -5,38 +5,6 @@
             "cards": [
                 {
                     "active": true,
-                    "cardid": "7b9dafac-11ca-4d75-8cd0-3b75ba0cc382",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "7b9dafac-11ca-4d75-8cd0-3b75ba0cc382",
-                            "constraintid": "8d615839-4a50-49b2-8f18-63974c5e79cb",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "7b9dafac-11ca-4d75-8cd0-3b75ba0cc382",
-                            "constraintid": "93c18447-3c2e-4761-9129-2b916e3bfc45",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "7ea4ac81-f775-400c-ab09-36cf7f6f86c5",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Management Activity",
-                    "nodegroup_id": "e64b00cc-b01d-11f0-81bd-94659cf754cc",
-                    "sortorder": 0,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "838048f4-37b9-41a6-879f-6e8f58472928",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -344,20 +312,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
-                    "card_id": "7b9dafac-11ca-4d75-8cd0-3b75ba0cc382",
-                    "config": {
-                        "defaultResourceInstance": [],
-                        "label": "",
-                        "placeholder": ""
-                    },
-                    "id": "da38e716-cb06-4432-9acc-9ee7ab43f72e",
-                    "label": "",
-                    "node_id": "e64b00cc-b01d-11f0-81bd-94659cf754cc",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
                     "card_id": "a4dc9e65-427d-4551-88b5-f2adf9c11dee",
                     "config": {
                         "defaultValue": "",
@@ -396,15 +350,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.w3.org/2000/01/rdf-schema#label",
                     "rangenode_id": "2b8eabee-b01d-11f0-81bd-94659cf754cc"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "0d0b4ed2-b015-11f0-81bd-94659cf754cc",
-                    "edgeid": "1ab70fa3-9859-4d1e-9180-48f3de9354e2",
-                    "graph_id": "7ea4ac81-f775-400c-ab09-36cf7f6f86c5",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
-                    "rangenode_id": "e64b00cc-b01d-11f0-81bd-94659cf754cc"
                 },
                 {
                     "description": null,
@@ -500,7 +445,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "7ea4ac81-f775-400c-ab09-36cf7f6f86c5",
-                    "id": "261c49d0-7fa5-41c6-afc8-d1827e519ddc"
+                    "id": "4631c46f-39f0-4a18-b5ce-1a35e15983fa"
                 }
             ],
             "graphid": "7ea4ac81-f775-400c-ab09-36cf7f6f86c5",
@@ -539,12 +484,6 @@
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "e1494332-b01c-11f0-81bd-94659cf754cc",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "e64b00cc-b01d-11f0-81bd-94659cf754cc",
                     "parentnodegroup_id": null
                 }
             ],
@@ -762,35 +701,6 @@
                     "sortorder": 0
                 },
                 {
-                    "alias": "management_activity",
-                    "config": {
-                        "graphs": [
-                            {
-                                "graphid": "6da8cd00-3c8a-11ea-b9b7-027f24e6fd6b",
-                                "name": "Management Activity"
-                            }
-                        ],
-                        "searchDsl": "",
-                        "searchString": ""
-                    },
-                    "datatype": "resource-instance",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "7ea4ac81-f775-400c-ab09-36cf7f6f86c5",
-                    "hascustomalias": false,
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Management Activity",
-                    "nodegroup_id": "e64b00cc-b01d-11f0-81bd-94659cf754cc",
-                    "nodeid": "e64b00cc-b01d-11f0-81bd-94659cf754cc",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
-                    "sortorder": 0
-                },
-                {
                     "alias": "catex_notes",
                     "config": null,
                     "datatype": "string",
@@ -843,6 +753,6 @@
         "db": "PostgreSQL 15.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit",
         "git hash": "c3d890ee7 2025-09-06 10:48:37 -0500",
         "os": "Linux",
-        "os version": "6.17.9-76061709-generic"
+        "os version": "6.18.7-76061807-generic"
     }
 }
