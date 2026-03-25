@@ -1038,7 +1038,7 @@
                             },
                             "name": {
                                 "nodegroup_id": "5b2c8aab-398a-11ea-b9b7-027f24e6fd6b",
-                                "string_template": "<Actor/Organization Name>"
+                                "string_template": "<Name>"
                             }
                         },
                         "map_popup": {
@@ -1053,7 +1053,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "5b2c8a98-398a-11ea-b9b7-027f24e6fd6b",
-                    "id": "083f9d3a-ae56-4268-9356-49f87549d459"
+                    "id": "900fe48c-9b42-45db-aa64-6758b7761790"
                 }
             ],
             "graphid": "5b2c8a98-398a-11ea-b9b7-027f24e6fd6b",
