@@ -6,7 +6,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1850_George_Riggs.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1850_George_Riggs.tif"
     ],
     "tileSize": 512
    }
@@ -41,7 +41,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1865_Barnard.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1865_Barnard.tif"
     ],
     "tileSize": 512
    }
@@ -76,7 +76,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1866-67_Michler_Memory.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1866-67_Michler_Memory.tif"
     ],
     "tileSize": 512
    }
@@ -111,7 +111,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1873_Bootes.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1873_Bootes.tif"
     ],
     "tileSize": 512
    }
@@ -146,7 +146,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1877_JC_Entiwistle.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1877_JC_Entiwistle.tif"
     ],
     "tileSize": 512
    }
@@ -181,7 +181,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1892_USGS.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1892_USGS.tif"
     ],
     "tileSize": 512
    }
@@ -216,7 +216,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1910_ACoE.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1910_ACoE.tif"
     ],
     "tileSize": 512
    }
@@ -251,7 +251,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1914_Topo.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1914_Topo.tif"
     ],
     "tileSize": 512
    }
@@ -286,7 +286,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo.tif"
     ],
     "tileSize": 512
    }
@@ -321,7 +321,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1953_Master_Plan.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1953_Master_Plan.tif"
     ],
     "tileSize": 512
    }
@@ -356,7 +356,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1967_Topo.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1967_Topo.tif"
     ],
     "tileSize": 512
    }
@@ -391,7 +391,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/{z}/{x}/{y}.png?TileMatrixSetId=WebMercatorQuad&url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1975_Schedule_of_Structures.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1975_Schedule_of_Structures.tif"
     ],
     "tileSize": 512
    }
