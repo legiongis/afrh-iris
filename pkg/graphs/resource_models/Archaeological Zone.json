@@ -26,7 +26,7 @@
                     "is_editable": true,
                     "name": "Descriptions",
                     "nodegroup_id": "15cfdbc9-3a05-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -58,43 +58,38 @@
                     "is_editable": true,
                     "name": "Identifications",
                     "nodegroup_id": "1d2ea55d-3a05-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true
                 },
                 {
                     "active": true,
-                    "cardid": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
-                    "config": {
-                        "basemap": "Streets",
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "overlayConfigs": [],
-                        "selectSource": "",
-                        "selectSourceLayer": "",
-                        "selectText": "",
-                        "zoom": 0
-                    },
+                    "cardid": "729a080a-c845-48f0-957e-baf68e849ba1",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
                     "constraints": [
                         {
-                            "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
-                            "constraintid": "afa7ed55-b4c2-48d7-b8e6-ed430c8d942e",
-                            "nodes": [
-                                "41ff1f70-39ff-11ea-b9b7-027f24e6fd6b"
-                            ],
+                            "card_id": "729a080a-c845-48f0-957e-baf68e849ba1",
+                            "constraintid": "d04a3bea-5526-42bf-9d72-bc901fa0e852",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "729a080a-c845-48f0-957e-baf68e849ba1",
+                            "constraintid": "9091bedd-adde-4a39-93d5-6b8c4e9ce2f7",
+                            "nodes": [],
                             "uniquetoallinstances": false
                         }
                     ],
                     "cssclass": null,
-                    "description": "",
+                    "description": null,
                     "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
                     "helpenabled": false,
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Area of Probability",
-                    "nodegroup_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
+                    "name": "Native American Resources",
+                    "nodegroup_id": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
                     "sortorder": 3,
                     "visible": true
                 },
@@ -104,13 +99,13 @@
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
                         "basemap": "Streets",
-                        "centerX": 3,
-                        "centerY": 8.5,
+                        "centerX": -77.0115315307774,
+                        "centerY": 38.9373057950701,
                         "overlayConfigs": [],
                         "selectSource": "",
                         "selectSourceLayer": "",
                         "selectText": "",
-                        "zoom": 0
+                        "zoom": 14.431934372667056
                     },
                     "constraints": [
                         {
@@ -128,13 +123,146 @@
                     "helptitle": null,
                     "instructions": null,
                     "is_editable": true,
-                    "name": "Spatial Location",
+                    "name": "Zone Boundary",
                     "nodegroup_id": "b25075f1-46c3-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 4,
+                    "sortorder": 2,
                     "visible": false
+                },
+                {
+                    "active": true,
+                    "cardid": "b8d39f34-2436-4183-9e55-600f1d9b1a88",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "b8d39f34-2436-4183-9e55-600f1d9b1a88",
+                            "constraintid": "573541e7-c7c1-441a-bb29-ca39175d8b4d",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "b8d39f34-2436-4183-9e55-600f1d9b1a88",
+                            "constraintid": "db350a35-16d5-49a6-8762-e1986fa641c4",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Disturbed Areas",
+                    "nodegroup_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "sortorder": 5,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "d0b12cff-4a5f-42cf-8c8e-4e46c5cffb5b",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "d0b12cff-4a5f-42cf-8c8e-4e46c5cffb5b",
+                            "constraintid": "a6ee2d32-f989-49f1-a1b0-9b947ee131d7",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "d0b12cff-4a5f-42cf-8c8e-4e46c5cffb5b",
+                            "constraintid": "733b091f-6967-4ec9-86fd-a39394c9739a",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Paleosols",
+                    "nodegroup_id": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "sortorder": 6,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "e8136278-6e55-4bb4-bcf9-2475ddee9af4",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "e8136278-6e55-4bb4-bcf9-2475ddee9af4",
+                            "constraintid": "4ccc0dd4-6f76-4b92-8714-629520e5d65a",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "e8136278-6e55-4bb4-bcf9-2475ddee9af4",
+                            "constraintid": "b1ee56eb-e4bf-4e20-9362-726885719f13",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Historic Resources",
+                    "nodegroup_id": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "sortorder": 4,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "729a080a-c845-48f0-957e-baf68e849ba1",
+                    "config": {
+                        "basemap": "Streets",
+                        "bearing": 0,
+                        "centerX": "-77.0115315307774",
+                        "centerY": "38.9373057950701",
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Boundary",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 14.431934372667056
+                    },
+                    "id": "1501869a-673c-4a26-a5bf-41880e9d469f",
+                    "label": "Boundary",
+                    "node_id": "f9608e58-2a15-11f1-a74e-ade5432e2a16",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
                 {
                     "card_id": "15cfdbcb-3a05-11ea-b9b7-027f24e6fd6b",
                     "config": {
@@ -167,6 +295,23 @@
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
+                    "card_id": "729a080a-c845-48f0-957e-baf68e849ba1",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Note",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "1d214fe6-cd53-46d6-a69c-6b07181fba26",
+                    "label": "Note",
+                    "node_id": "0761d3fe-2a16-11f1-a74e-ade5432e2a16",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
                     "card_id": "1d2ea55f-3a05-11ea-b9b7-027f24e6fd6b",
                     "config": {
                         "defaultValue": "",
@@ -179,93 +324,17 @@
                     "id": "1d2ea563-3a05-11ea-b9b7-027f24e6fd6b",
                     "label": "Identification",
                     "node_id": "1d2ea561-3a05-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 1,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
-                    "config": {
-                        "basemap": "streets",
-                        "bearing": 0,
-                        "centerX": 3,
-                        "centerY": 4.5654760950831985,
-                        "defaultValue": "",
-                        "defaultValueType": 0,
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "Areas of Probability",
-                        "maxZoom": 20,
-                        "minZoom": 0,
-                        "overlayConfigs": [],
-                        "overlayOpacity": 0,
-                        "pitch": 0,
-                        "rerender": true,
-                        "zoom": 0
-                    },
-                    "id": "32252d8d-39ff-11ea-b9b7-027f24e6fd6b",
-                    "label": "Areas of Probability",
-                    "node_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Notes",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "32252d8e-39ff-11ea-b9b7-027f24e6fd6b",
-                    "label": "Notes",
-                    "node_id": "32252d8c-39ff-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "6a4e8f3a-39ff-11ea-b9b7-027f24e6fd6b",
-                    "label": "Type",
-                    "node_id": "41ff1f70-39ff-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000015"
-                },
-                {
-                    "card_id": "b25075f3-46c3-11ea-b9b7-027f24e6fd6b",
+                    "card_id": "d0b12cff-4a5f-42cf-8c8e-4e46c5cffb5b",
                     "config": {
                         "basemap": "Streets",
                         "bearing": 0,
-                        "centerX": 3,
-                        "centerY": 8.5,
+                        "centerX": "-77.0115315307774",
+                        "centerY": "38.9373057950701",
                         "defaultValue": "",
                         "defaultValueType": "",
                         "featureColor": "#FF0000",
@@ -276,31 +345,151 @@
                         "geocoderVisible": true,
                         "geometryTypes": [
                             {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
                                 "id": "Polygon",
                                 "text": "Polygon"
                             }
                         ],
-                        "label": "Spatial Coordinates",
+                        "label": "Boundary",
                         "maxZoom": 20,
                         "minZoom": 0,
                         "overlayConfigs": [],
                         "overlayOpacity": 0,
                         "pitch": 0,
                         "rerender": true,
-                        "zoom": 0
+                        "zoom": "14.431934372667056"
+                    },
+                    "id": "405f41f6-ba9c-4748-987a-a2653aecb56c",
+                    "label": "Boundary",
+                    "node_id": "883f6f46-2a15-11f1-a74e-ade5432e2a16",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "e8136278-6e55-4bb4-bcf9-2475ddee9af4",
+                    "config": {
+                        "basemap": "Streets",
+                        "bearing": 0,
+                        "centerX": -77.01355945723337,
+                        "centerY": "38.9374682156819",
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Boundary",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": "14.431934372667056"
+                    },
+                    "id": "48406610-26ca-4c2c-840d-e1a7abad5a51",
+                    "label": "Boundary",
+                    "node_id": "2d3e5278-2a16-11f1-a74e-ade5432e2a16",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "b8d39f34-2436-4183-9e55-600f1d9b1a88",
+                    "config": {
+                        "basemap": "Streets",
+                        "bearing": 0,
+                        "centerX": "-77.0115315307774",
+                        "centerY": "38.9373057950701",
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Boundary",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": "14.431934372667056"
+                    },
+                    "id": "4da1011b-a36f-4d9f-a102-ce2f226168f0",
+                    "label": "Boundary",
+                    "node_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "b8d39f34-2436-4183-9e55-600f1d9b1a88",
+                    "config": {
+                        "defaultValue": "",
+                        "label": " Note",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "8be5bc0d-51ef-4769-8371-62de08cbf871",
+                    "label": " Note",
+                    "node_id": "c6882956-2a14-11f1-a74e-ade5432e2a16",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "b25075f3-46c3-11ea-b9b7-027f24e6fd6b",
+                    "config": {
+                        "basemap": "Streets",
+                        "bearing": 0,
+                        "centerX": "-77.0115315307774",
+                        "centerY": "38.9373057950701",
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Coordinates",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": "14.431934372667056"
                     },
                     "id": "a1bc2c48-4927-11ea-b9b7-027f24e6fd6b",
-                    "label": "Spatial Coordinates",
+                    "label": "Coordinates",
                     "node_id": "b25075f4-46c3-11ea-b9b7-027f24e6fd6b",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
@@ -366,49 +555,38 @@
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
-                    "card_id": "32252d8b-39ff-11ea-b9b7-027f24e6fd6b",
+                    "card_id": "e8136278-6e55-4bb4-bcf9-2475ddee9af4",
                     "config": {
-                        "basemap": "Streets",
-                        "bearing": null,
-                        "centerX": 3,
-                        "centerY": 8.5,
-                        "defaultValue": null,
-                        "defaultValueType": null,
-                        "featureColor": "#FF0000",
-                        "featureLineWidth": 1,
-                        "featurePointSize": 3,
-                        "geocodePlaceholder": "Search",
-                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
-                        "geocoderVisible": true,
-                        "geometryTypes": [
-                            {
-                                "id": "Point",
-                                "text": "Point"
-                            },
-                            {
-                                "id": "Line",
-                                "text": "Line"
-                            },
-                            {
-                                "id": "Polygon",
-                                "text": "Polygon"
-                            }
-                        ],
-                        "label": "Geometry",
-                        "maxZoom": 20,
-                        "minZoom": null,
-                        "overlayConfigs": [],
-                        "overlayOpacity": null,
-                        "pitch": null,
-                        "rerender": true,
-                        "zoom": 0
+                        "defaultValue": "",
+                        "label": "Note",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
                     },
-                    "id": "f28ac642-6a19-11ea-8a3e-acde48001122",
-                    "label": "Geometry",
-                    "node_id": "50df0a08-4159-11ea-b9b7-027f24e6fd6b",
+                    "id": "d2c3ef2c-bfb0-4c70-a48e-e3be6fcac2e0",
+                    "label": "Note",
+                    "node_id": "6929f3aa-2a16-11f1-a74e-ade5432e2a16",
                     "sortorder": 1,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "d0b12cff-4a5f-42cf-8c8e-4e46c5cffb5b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Note",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d8769781-3ecc-431e-b3cb-4366bc824c42",
+                    "label": "Note",
+                    "node_id": "c8ed1fc0-2a15-11f1-a74e-ade5432e2a16",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 }
             ],
             "color": null,
@@ -450,6 +628,15 @@
             "deploymentfile": null,
             "description": "",
             "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "ddb9385c-39fe-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "149d3025-1af8-4c53-812e-930e7a6f187d",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "rangenode_id": "1433923e-2a16-11f1-a74e-ade5432e2a16"
+                },
                 {
                     "description": null,
                     "domainnode_id": "15cfdbc9-3a05-11ea-b9b7-027f24e6fd6b",
@@ -497,39 +684,66 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "edgeid": "32252d8f-39ff-11ea-b9b7-027f24e6fd6b",
+                    "domainnode_id": "ddb9385c-39fe-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "1da4041a-d9a5-465b-8716-74b0ed800314",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "rangenode_id": "e2a63276-2a15-11f1-a74e-ade5432e2a16"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "edgeid": "43922c03-55a1-4456-a552-2863a303853b",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "rangenode_id": "2d3e5278-2a16-11f1-a74e-ade5432e2a16"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
+                    "edgeid": "455e7365-d873-4bd0-8a68-000e7ab1871e",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "rangenode_id": "f9608e58-2a15-11f1-a74e-ade5432e2a16"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "edgeid": "73a99e54-2aac-47ed-8945-07808e5fc660",
                     "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "rangenode_id": "32252d8c-39ff-11ea-b9b7-027f24e6fd6b"
+                    "rangenode_id": "6929f3aa-2a16-11f1-a74e-ade5432e2a16"
                 },
                 {
                     "description": null,
                     "domainnode_id": "ddb9385c-39fe-11ea-b9b7-027f24e6fd6b",
-                    "edgeid": "32252d90-39ff-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "7d2e225e-ed53-4d65-b31a-26936a20628f",
                     "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
                     "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P189i_is_approximated_by",
-                    "rangenode_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "rangenode_id": "d7e56524-2a14-11f1-a74e-ade5432e2a16"
                 },
                 {
                     "description": null,
-                    "domainnode_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "edgeid": "41ff1f71-39ff-11ea-b9b7-027f24e6fd6b",
+                    "domainnode_id": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "edgeid": "809f7ed4-cbf7-4e31-bd08-30ab706858d4",
                     "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
                     "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "41ff1f70-39ff-11ea-b9b7-027f24e6fd6b"
+                    "ontologyproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "rangenode_id": "883f6f46-2a15-11f1-a74e-ade5432e2a16"
                 },
                 {
                     "description": null,
-                    "domainnode_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "edgeid": "50df0a09-4159-11ea-b9b7-027f24e6fd6b",
+                    "domainnode_id": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
+                    "edgeid": "86c6ed1f-3bce-4a93-a84c-6da1adcf0417",
                     "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
                     "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "50df0a08-4159-11ea-b9b7-027f24e6fd6b"
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "0761d3fe-2a16-11f1-a74e-ade5432e2a16"
                 },
                 {
                     "description": null,
@@ -557,6 +771,42 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
                     "rangenode_id": "b25075f1-46c3-11ea-b9b7-027f24e6fd6b"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "edgeid": "c3e6242b-8c72-4454-a647-cf2ae042ca48",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "c8ed1fc0-2a15-11f1-a74e-ade5432e2a16"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ddb9385c-39fe-11ea-b9b7-027f24e6fd6b",
+                    "edgeid": "cc32654c-1b80-4cfa-9ff3-6366da318daf",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "rangenode_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "edgeid": "d25ffb0e-aa85-450c-b2cb-e8406a574bf8",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "c6882956-2a14-11f1-a74e-ade5432e2a16"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "edgeid": "eefe91e7-491d-4568-a1f7-7322141bb36f",
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "name": null,
+                    "ontologyproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "rangenode_id": "5d8a1008-2a15-11f1-a74e-ade5432e2a16"
                 }
             ],
             "functions_x_graphs": [
@@ -592,7 +842,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
-                    "id": "3b0b0dff-2deb-4ee1-896e-161ede7fcc4c"
+                    "id": "4a8a103e-15d2-47b6-a3eb-0d212bfd45d2"
                 }
             ],
             "graphid": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
@@ -603,6 +853,12 @@
             "jsonldcontext": null,
             "name": "Archaeological Zone",
             "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "parentnodegroup_id": null
+                },
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
@@ -616,9 +872,9 @@
                     "parentnodegroup_id": null
                 },
                 {
-                    "cardinality": "n",
+                    "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
+                    "nodegroupid": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
                     "parentnodegroup_id": null
                 },
                 {
@@ -626,9 +882,61 @@
                     "legacygroupid": null,
                     "nodegroupid": "b25075f1-46c3-11ea-b9b7-027f24e6fd6b",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
+                    "parentnodegroup_id": null
                 }
             ],
             "nodes": [
+                {
+                    "alias": "native_american_resources_note_n1",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Native American Resources Note",
+                    "nodegroup_id": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
+                    "nodeid": "0761d3fe-2a16-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "area_of_probability_historic_resources",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Area of Probability Historic Resources",
+                    "nodegroup_id": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "nodeid": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "sortorder": 0
+                },
                 {
                     "alias": "descriptions",
                     "config": null,
@@ -732,91 +1040,7 @@
                     "sortorder": 0
                 },
                 {
-                    "alias": "areas_of_probability",
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": "",
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Areas of Probability",
-                    "nodegroup_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "nodeid": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P189i_is_approximated_by",
-                    "sortorder": 0
-                },
-                {
-                    "alias": "area_of_probability_notes",
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Area of Probability Notes",
-                    "nodegroup_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "nodeid": "32252d8c-39ff-11ea-b9b7-027f24e6fd6b",
-                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 2
-                },
-                {
-                    "alias": "area_of_probability_type",
-                    "config": {
-                        "options": [
-                            {
-                                "id": "e0bda5ae-b21e-439f-83a5-acf2415bc199",
-                                "selected": false,
-                                "text": "Historic Resources"
-                            },
-                            {
-                                "id": "de0ba0e8-7253-45da-aefc-5d429a0200c7",
-                                "selected": false,
-                                "text": "Native American Resources"
-                            },
-                            {
-                                "id": "30e69aaa-020f-4435-a635-9f2cb325be93",
-                                "selected": false,
-                                "text": "Paleosols"
-                            },
-                            {
-                                "id": "c60c247a-9e44-450a-bcf7-5041e8b15b00",
-                                "selected": false,
-                                "text": "Disturbed Area"
-                            }
-                        ],
-                        "rdmCollection": null
-                    },
-                    "datatype": "domain-value",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Area of Probability Type",
-                    "nodegroup_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "nodeid": "41ff1f70-39ff-11ea-b9b7-027f24e6fd6b",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "alias": "area_of_probability_geometry",
+                    "alias": "historic_resources_boundary",
                     "config": {
                         "addToMap": false,
                         "advancedStyle": "",
@@ -824,19 +1048,19 @@
                         "clusterDistance": 20,
                         "clusterMaxZoom": 5,
                         "clusterMinPoints": 3,
-                        "fillColor": "rgba(255,0,0,0.5)",
+                        "fillColor": "rgba(8,95,29,0.5)",
                         "haloRadius": 4,
                         "haloWeight": 4,
                         "layerActivated": true,
                         "layerIcon": "",
                         "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(255,0,0,0.7)",
-                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "layerName": "Historic Resources - Area of Probability",
+                        "lineColor": "rgba(8,95,29,0.7)",
+                        "lineHaloColor": "rgba(8,95,29,0.5)",
+                        "outlineColor": "rgba(8,95,29,0.7)",
                         "outlineWeight": 2,
-                        "pointColor": "rgba(250,0,0,0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "pointColor": "rgba(8,95,29,0.7)",
+                        "pointHaloColor": "rgba(8,95,29,0.5)",
                         "radius": 2,
                         "simplification": 0.3,
                         "weight": 2
@@ -851,12 +1075,138 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Area of Probability Geometry",
-                    "nodegroup_id": "32252d89-39ff-11ea-b9b7-027f24e6fd6b",
-                    "nodeid": "50df0a08-4159-11ea-b9b7-027f24e6fd6b",
+                    "name": "Historic Resources Boundary",
+                    "nodegroup_id": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "nodeid": "2d3e5278-2a16-11f1-a74e-ade5432e2a16",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 1
+                    "parentproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "disturbed_area_boundary",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Disturbed Area Boundary",
+                    "nodegroup_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "nodeid": "5d8a1008-2a15-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "historic_resources_note",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Historic Resources Note",
+                    "nodegroup_id": "1433923e-2a16-11f1-a74e-ade5432e2a16",
+                    "nodeid": "6929f3aa-2a16-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "paleosols_boundary_n1",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(129,3,3,0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "Paleosols",
+                        "lineColor": "rgba(129,3,3,0.7)",
+                        "lineHaloColor": "rgba(129,3,3,0.5)",
+                        "outlineColor": "rgba(129,3,3,0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(129,3,3,0.7)",
+                        "pointHaloColor": "rgba(129,3,3,0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Paleosols Boundary",
+                    "nodegroup_id": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "nodeid": "883f6f46-2a15-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "area_of_probability_disturbed_area",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "Disturbed Areas",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Area of Probability Disturbed Area",
+                    "nodegroup_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "nodeid": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "sortorder": 0
                 },
                 {
                     "alias": "spatial_location",
@@ -893,7 +1243,7 @@
                         "layerActivated": true,
                         "layerIcon": "",
                         "layerLegend": "",
-                        "layerName": "",
+                        "layerName": "Archaeological Zones",
                         "lineColor": "rgba(14,255,0,0.7)",
                         "lineHaloColor": "rgba(200, 200, 200, 0.5)",
                         "outlineColor": "rgba(14,255,0,1)",
@@ -942,6 +1292,66 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "disturbed_area_note_n1",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Disturbed Area Note",
+                    "nodegroup_id": "b21fbab0-2a14-11f1-a74e-ade5432e2a16",
+                    "nodeid": "c6882956-2a14-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "paleosols_note_n1",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Paleosols Note",
+                    "nodegroup_id": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "nodeid": "c8ed1fc0-2a15-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "area_of_probability_paleosols",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Area of Probability Paleosols",
+                    "nodegroup_id": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "nodeid": "d7e56524-2a14-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "sortorder": 0
+                },
+                {
                     "alias": "archaeological_zone",
                     "config": null,
                     "datatype": "semantic",
@@ -959,6 +1369,69 @@
                     "nodeid": "ddb9385c-39fe-11ea-b9b7-027f24e6fd6b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "area_of_probability_native_american_resources",
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Area of Probability Native American Resources",
+                    "nodegroup_id": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
+                    "nodeid": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "native_american_resources_boundary_n1",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(6,70,154,0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "Native American Resources - Area of Probability",
+                        "lineColor": "rgba(6,70,154,0.7)",
+                        "lineHaloColor": "rgba(6,70,154,0.5)",
+                        "outlineColor": "rgba(6,70,154,0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(6,70,154,0.7)",
+                        "pointHaloColor": "rgba(6,70,154,0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "ddb9385d-39fe-11ea-b9b7-027f24e6fd6b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Native American Resources Boundary",
+                    "nodegroup_id": "e2a63276-2a15-11f1-a74e-ade5432e2a16",
+                    "nodeid": "f9608e58-2a15-11f1-a74e-ade5432e2a16",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.w3.org/2004/02/skos/core#closeMatch",
                     "sortorder": 0
                 }
             ],
@@ -991,9 +1464,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 17.5 (Debian 17.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
-        "git hash": "c3d890ee7e 2025-09-06 10:48:37 -0500",
+        "db": "PostgreSQL 15.15 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit",
+        "git hash": "c3d890ee7 2025-09-06 10:48:37 -0500",
         "os": "Linux",
-        "os version": "6.1.0-38-amd64"
+        "os version": "6.18.7-76061807-generic"
     }
 }
