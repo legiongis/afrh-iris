@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "afrh-iris"
+version = "2.0.0"
+description = "Arches implementation for the Armed Forces Retirement Home - Information Retrieval Inventory System."
+readme = "README.md"
+license = {text = "GNU AGPL3"}
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+    "django-storages==1.13",
+    "boto3==1.24",
+    "setuptools<=80.9.0",
+    "arches",
+    "arches_extensions",
+    "zensical"
+]
+
+[project.optional-dependencies]
+
+[tool.setuptools]
+packages = [
+    "afrh_prj"
+]
+
+[tool.uv.sources]
+arches = { path = "../arches", editable = true }
+arches_extensions = { path = "../arches-extensions", editable = true }
