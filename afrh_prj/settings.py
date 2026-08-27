@@ -2,8 +2,8 @@
 Django settings for afrh_iris project.
 """
 
-import os
 import inspect
+import os
 
 try:
     from arches.settings import *
@@ -12,18 +12,38 @@ except ImportError:
 
 APP_NAME = 'AFRH IRIS'
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-STATICFILES_DIRS =  (
-    os.path.join(APP_ROOT, 'media'),
-) + STATICFILES_DIRS
+
+APP_TITLE = 'AFRH-IRIS'
+APP_NAME = "afrh_prj"
+
+MEDIA_ROOT = os.path.join(APP_ROOT)
+STATIC_ROOT = os.path.join(APP_ROOT, "staticfiles")
+
+STATICFILES_DIRS =  build_staticfiles_dirs(app_root=APP_ROOT)
+
+WEBPACK_LOADER = {
+    "DEFAULT": {
+        "STATS_FILE": os.path.join(APP_ROOT, "..", "webpack/webpack-stats.json"),
+    },
+}
 
 DATATYPE_LOCATIONS.append('afrh_prj.datatypes')
 FUNCTION_LOCATIONS.append('afrh_prj.functions')
-SEARCH_COMPONENT_LOCATIONS.append('afrh_prj.search_components')
-TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'functions', 'templates'))
-TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
-TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
 
-LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
+TEMPLATES = build_templates_config(
+    debug=DEBUG,
+    app_root=APP_ROOT,
+)
+
+LOCALE_PATHS.insert(0, os.path.join(APP_ROOT, "locale"))
+
+USE_I18N = False
+LANGUAGE_CODE = "en"
+LANGUAGES = [
+    ("en", "English"),
+]
+
+SHOW_LANGUAGE_SWITCH = False
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'xxxx'
@@ -37,10 +57,6 @@ ROOT_URLCONF = 'afrh_prj.urls'
 ELASTICSEARCH_PREFIX = 'afrh_iris'
 
 ELASTICSEARCH_CUSTOM_INDEXES = []
-# [{
-#     'module': 'afrh_iris.search_indexes.sample_index.SampleIndex',
-#     'name': 'my_new_custom_index' <-- follow ES index naming rules
-# }]
 
 DATABASES = {
     "default": {
@@ -72,11 +88,18 @@ INSTALLED_APPS += (
 
 ALLOWED_HOSTS = ["*"]
 
+ROOT_HOSTCONF = "afrh_prj.hosts"
+DEFAULT_HOST = "afrh_prj"
+
 ARCHES_NAMESPACE_FOR_DATA_EXPORT = "http://afrh-iris.com/"
 
 HIDE_EMPTY_NODES_IN_REPORT = True
 
 ENABLE_USER_SIGNUP = False
+
+ENABLE_PROVISIONAL_EDITING = False
+# retained for backward compatibility, but will be removed eventually
+DISABLE_PROVISIONAL_EDITING = not ENABLE_PROVISIONAL_EDITING
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'afrh_prj.wsgi.application'
@@ -113,9 +136,6 @@ LOGGING = {
     }
 }
 
-# Absolute filesystem path to the directory that will hold user-uploaded files.
-MEDIA_ROOT =  os.path.join(APP_ROOT)
-
 # Sets default max upload size to 15MB
 DATA_UPLOAD_MAX_MEMORY_SIZE = 15728640
 
@@ -128,10 +148,6 @@ CACHE_BY_USER = {'anonymous': 3600 * 24}
 MOBILE_OAUTH_CLIENT_ID = ''  #'9JCibwrWQ4hwuGn5fu2u1oRZSs9V6gK8Vu8hpRC4'
 MOBILE_DEFAULT_ONLINE_BASEMAP = {'default': 'mapbox://styles/mapbox/streets-v9'}
 
-APP_TITLE = 'AFRH-IRIS'
-APP_NAME = APP_TITLE
-COPYRIGHT_TEXT = 'All Rights Reserved.'
-COPYRIGHT_YEAR = '2022'
 
 CELERY_BROKER_URL = 'amqp://guest:guest@localhost'
 CELERY_ACCEPT_CONTENT = ['json']
