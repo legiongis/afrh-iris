@@ -16,7 +16,8 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
-{% load static %}
+
+{% load webpack_static from webpack_loader %}
 {% load template_tags %}
 {% load i18n %}
 <!DOCTYPE html>
@@ -32,50 +33,50 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         <!-- Meta -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="apple-touch-icon" sizes="57x57" href="{% static 'img/favicon/apple-icon-57x57.png' %}">
-        <link rel="apple-touch-icon" sizes="60x60" href="{% static 'img/favicon/apple-icon-60x60.png' %}">
-        <link rel="apple-touch-icon" sizes="72x72" href="{% static 'img/favicon/apple-icon-72x72.png' %}">
-        <link rel="apple-touch-icon" sizes="76x76" href="{% static 'img/favicon/apple-icon-76x76.png' %}">
-        <link rel="apple-touch-icon" sizes="114x114" href="{% static 'img/favicon/apple-icon-114x114.png' %}">
-        <link rel="apple-touch-icon" sizes="120x120" href="{% static 'img/favicon/apple-icon-120x120.png' %}">
-        <link rel="apple-touch-icon" sizes="144x144" href="{% static 'img/favicon/apple-icon-144x144.png' %}">
-        <link rel="apple-touch-icon" sizes="152x152" href="{% static 'img/favicon/apple-icon-152x152.png' %}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon/apple-icon-180x180.png' %}">
-        <link rel="icon" type="image/png" sizes="192x192"  href="{% static 'img/favicon/android-icon-192x192.png' %}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png' %}">
-        <link rel="icon" type="image/png" sizes="96x96" href="{% static 'img/favicon/favicon-96x96.png' %}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png' %}">
-        <link rel="manifest" href="{% static 'img/favicon/manifest.json' %}">
+        <link rel="apple-touch-icon" sizes="57x57" href="{% webpack_static 'img/favicon/apple-icon-57x57.png' %}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{% webpack_static 'img/favicon/apple-icon-60x60.png' %}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{% webpack_static 'img/favicon/apple-icon-72x72.png' %}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{% webpack_static 'img/favicon/apple-icon-76x76.png' %}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{% webpack_static 'img/favicon/apple-icon-114x114.png' %}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{% webpack_static 'img/favicon/apple-icon-120x120.png' %}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{% webpack_static 'img/favicon/apple-icon-144x144.png' %}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{% webpack_static 'img/favicon/apple-icon-152x152.png' %}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{% webpack_static 'img/favicon/apple-icon-180x180.png' %}">
+        <link rel="icon" type="image/png" sizes="192x192"  href="{% webpack_static 'img/favicon/android-icon-192x192.png' %}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{% webpack_static 'img/favicon/favicon-32x32.png' %}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{% webpack_static 'img/favicon/favicon-96x96.png' %}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{% webpack_static 'img/favicon/favicon-16x16.png' %}">
+        <link rel="manifest" href="{% webpack_static 'img/favicon/manifest.json' %}">
         <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="{% static 'img/favicon/ms-icon-144x144.png' %}">
+        <meta name="msapplication-TileImage" content="{% webpack_static 'img/favicon/ms-icon-144x144.png' %}">
         <meta name="theme-color" content="#ffffff">
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i|Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <!-- Icons -->
-        <link rel="stylesheet" href="{% static 'plugins/hamburgers/hamburgers.min.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'plugins/hamburgers/hamburgers.min.css' %}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
 
         <!-- CSS Implementing Plugins -->
-        <link rel="stylesheet" href="{% static 'css/unify/animate.css' %}">
-        <link rel="stylesheet" href="{% static 'css/unify/slick.css' %}">
-        <link rel="stylesheet" href="{% static 'css/unify/hs.megamenu.css' %}">
-        <link  rel="stylesheet" href="{% static 'plugins/custombox/custombox.min.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'css/unify/animate.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'css/unify/slick.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'css/unify/hs.megamenu.css' %}">
+        <link  rel="stylesheet" href="{% webpack_static 'plugins/custombox/custombox.min.css' %}">
 
         <!-- Unify -->
-        <link rel="stylesheet" href="{% static 'css/unify/unify.css' %}">
-        <link rel="stylesheet" href="{% static 'css/unify/unify-core.css' %}">
-        <link rel="stylesheet" href="{% static 'css/unify/unify-components.css' %}">
-        <link rel="stylesheet" href="{% static 'css/unify/unify-globals.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'css/unify/unify.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'css/unify/unify-core.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'css/unify/unify-components.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'css/unify/unify-globals.css' %}">
 
         <!-- Revolution Slider -->
-        <link rel="stylesheet" href="{% static 'plugins/rev-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css' %}">
-        <link rel="stylesheet" href="{% static 'plugins/rev-slider/revolution/css/settings.css' %}">
-        <link rel="stylesheet" href="{% static 'plugins/rev-slider/revolution/css/layers.css' %}">
-        <link rel="stylesheet" href="{% static 'plugins/rev-slider/revolution/css/navigation.css' %}">	
+        <link rel="stylesheet" href="{% webpack_static 'plugins/rev-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'plugins/rev-slider/revolution/css/settings.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'plugins/rev-slider/revolution/css/layers.css' %}">
+        <link rel="stylesheet" href="{% webpack_static 'plugins/rev-slider/revolution/css/navigation.css' %}">	
 
         <!-- Overrides -->
-        <link href="{% static 'css/index.css' %}" rel="stylesheet">
-        <link href="{% static 'css/custom.css' %}" rel="stylesheet">
+        <link href="{% webpack_static 'css/index.css' %}" rel="stylesheet">
+        <link href="{% webpack_static 'css/custom.css' %}" rel="stylesheet">
 
         <script defer data-domain="afrh-iris.com" src="https://plausible.io/js/plausible.js"></script>
     </head>
@@ -96,7 +97,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                 </button>
                                 <!-- End Responsive Toggle Button -->
                             <a class="navbar-brand" style="padding-top: 5px;" href="#">
-                                <img src="{% static 'img/afrh_logo.png' %}" style="height: 80px; width: 80px;" alt="AFRH Logo">
+                                <img src="{% webpack_static 'img/afrh_logo.png' %}" style="height: 80px; width: 80px;" alt="AFRH Logo">
                             </a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -127,18 +128,11 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                         {% trans "Login" %}
                                     </a>
                                     {% else %}
-                                    <a id="auth-link" data-bind="click: function(){showAuthMenu(!showAuthMenu())}" class="nav-link px-0">
+                                    <a id="auth-link" href="{% url 'user_profile_manager' %}" class="nav-link px-0">
                                         {% trans "Welcome" %} {{ user.first_name|default:user.username }}
                                     </a>
-                                    <span class="fa fa-chevron-circle-down auth-options" data-bind="click: function(){showAuthMenu(!showAuthMenu())}"></span>
                                     {% endif %}
                                 </li>
-                                <!-- ko if: showAuthMenu -->
-                                <ul class="auth-options">
-                                    <li><a href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}"><i class="fas fa-sign-out-alt"></i> {% trans 'Logout' %}</a></li>
-                                    <li><a href="{% url 'user_profile_manager' %}">{% trans 'User Profile' %}</a></li>
-                                </ul>
-                                <!-- /ko -->
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -153,9 +147,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             <div id="rev_slider_477_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                 <ul>	
                     <!-- SLIDE  -->
-                    <li data-index="rs-1651" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/slides/1magnus_thumb.jpg' %}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1651" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% webpack_static 'img/slides/1magnus_thumb.jpg' %}"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% static 'img/slides/1magnus.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% webpack_static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% webpack_static 'img/slides/1magnus.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -270,9 +264,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             style="z-index: 9; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><i class="fas fa-search-location" style="font-size:1.5em; float:left; margin-top:15px;margin-right:10px;"></i> Start Exploring</div></a>
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-1652" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/slides/2eagle_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1652" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% webpack_static 'img/slides/2eagle_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% static 'img/slides/2eagle.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% webpack_static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% webpack_static 'img/slides/2eagle.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 6 -->
@@ -387,9 +381,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             style="z-index: 14; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><i class="fas fa-search-location" style="font-size:1.5em; float:left; margin-top:15px;margin-right:10px;"></i> Start Exploring</div>
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-1653" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/slides/3aerial_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1653" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% webpack_static 'img/slides/3aerial_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% static 'img/slides/3aerial.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% webpack_static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% webpack_static 'img/slides/3aerial.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 11 -->
@@ -504,9 +498,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             style="z-index: 19; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><i class="fas fa-search-location" style="font-size:1.5em; float:left; margin-top:15px;margin-right:10px;"></i> Start Exploring</div>
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-1654" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/slides/4air_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1654" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% webpack_static 'img/slides/4air_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% static 'img/slides/4air.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% webpack_static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% webpack_static 'img/slides/4air.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 16 -->
@@ -621,9 +615,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             style="z-index: 24; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><i class="fas fa-search-location" style="font-size:1.5em; float:left; margin-top:15px;margin-right:10px;"></i> Start Exploring</div>
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-1655" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/slides/51921air_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1655" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% webpack_static 'img/slides/51921air_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% static 'img/slides/51921air.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% webpack_static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% webpack_static 'img/slides/51921air.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 21 -->
@@ -738,9 +732,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             style="z-index: 29; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><i class="fas fa-search-location" style="font-size:1.5em; float:left; margin-top:15px;margin-right:10px;"></i> Start Exploring</div>
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-1656" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/slides/6hospital_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1656" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% webpack_static 'img/slides/6hospital_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% static 'img/slides/6hospital.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% webpack_static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% webpack_static 'img/slides/6hospital.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 26 -->
@@ -855,9 +849,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             style="z-index: 29; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"><i class="fas fa-search-location" style="font-size:1.5em; float:left; margin-top:15px;margin-right:10px;"></i> Start Exploring</div>
                     </li>
                     <!-- SLIDE  -->
-                    <li data-index="rs-1657" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/slides/7scottrev_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1657" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% webpack_static 'img/slides/7scottrev_thumb.jpg' %}"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% static 'img/slides/7scottrev.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% webpack_static 'img/slides/dummy.png' %}"  alt=""  data-lazyload="{% webpack_static 'img/slides/7scottrev.jpg' %}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 31 -->
@@ -991,7 +985,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 	  </div>
       <div class="row">
         <div class="col-lg-6 g-mb-50">
-          <img class="img-fluid" src="{% static 'img/laptop.png' %}" alt="Arches Map on a Laptop">
+          <img class="img-fluid" src="{% webpack_static 'img/laptop.png' %}" alt="Arches Map on a Laptop">
         </div>
         <div class="col-lg-6">
           <div class="mb-5" id="help">
@@ -1052,7 +1046,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
               </div>
               <div class="col-md-6 g-mb-40 g-mb-0--lg text-right">
                   <a href="http://www.archesproject.org">
-                    <img class="arches-logo" id="logo-footer" src="{% static 'img/PoweredByArches.png' %}" alt="">
+                    <img class="arches-logo" id="logo-footer" src="{% webpack_static 'img/PoweredByArches.png' %}" alt="">
                 </a>
               </div>    
             </div>
@@ -1072,37 +1066,35 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
 	
     <!-- JS Implementing Plugins -->
-    <script src="{% static 'js/unify/plugins/masonry.pkgd.min.js.download' %}"></script>
-    <script src="{% static 'js/unify/plugins/imagesloaded.pkgd.min.js.download' %}"></script>
-    <script src="{% static 'js/unify/plugins/slick.js.download' %}"></script>
-    <script src="{% static 'js/unify/plugins/hs.megamenu.js.download' %}"></script>
+    <script src="{% webpack_static 'js/unify/plugins/masonry.pkgd.min.js' %}"></script>
+    <script src="{% webpack_static 'js/unify/plugins/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% webpack_static 'js/unify/plugins/slick.js' %}"></script>
+    <script src="{% webpack_static 'js/unify/plugins/hs.megamenu.js' %}"></script>
 
     <!-- JS Unify -->
-	<script src="{% static 'js/unify/hs.core.js' %}"></script>
-	<script src="{% static 'js/unify/components/hs.carousel.js' %}"></script>
-	<script src="{% static 'js/unify/components/hs.header.js' %}"></script>
-	<script src="{% static 'js/unify/helpers/hs.hamburgers.js' %}"></script>
-	<script src="{% static 'js/unify/components/hs.tabs.js' %}"></script>
-	<script src="{% static 'js/unify/components/hs.counter.js' %}"></script>
-	<script src="{% static 'js/unify/components/hs.go-to.js' %}"></script>
+	<script src="{% webpack_static 'js/unify/hs.core.js' %}"></script>
+	<script src="{% webpack_static 'js/unify/components/hs.carousel.js' %}"></script>
+	<script src="{% webpack_static 'js/unify/components/hs.header.js' %}"></script>
+	<script src="{% webpack_static 'js/unify/helpers/hs.hamburgers.js' %}"></script>
+	<script src="{% webpack_static 'js/unify/components/hs.tabs.js' %}"></script>
+	<script src="{% webpack_static 'js/unify/components/hs.counter.js' %}"></script>
+	<script src="{% webpack_static 'js/unify/components/hs.go-to.js' %}"></script>
 	<!-- JS Revolution Slider -->
-	<script src="{% static 'plugins/rev-slider/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
-	<script src="{% static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
-    
-	<script src="{% static 'plugins/one.app.js' %}"></script>
-    <script src="{% static 'packages/knockout/build/output/knockout-latest.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+	<script src="{% webpack_static 'plugins/rev-slider/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
 
- 
+	<script src="{% webpack_static 'plugins/one.app.js' %}"></script>
+
         <script type="text/javascript">
             var tpj=jQuery;
 			
@@ -1113,7 +1105,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 				}else{
 					revapi477 = tpj("#rev_slider_477_1").show().revolution({
 						sliderType:"standard",
-                        jsFileLocation:"{% static 'plugins/rev-slider/revolution/js/' %}",
+                        jsFileLocation:"{% webpack_static 'plugins/rev-slider/revolution/js/' %}",
 						sliderLayout:"auto",
 						dottedOverlay:"none",
 						delay:9000,
