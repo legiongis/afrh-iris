@@ -16,7 +16,7 @@ The georeferenced maps are GeoTIFFs stored in an S3-compatible bucket, and serve
 |1892-layer|1892 USGS Map|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1892_USGS.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1892_USGS.tif)|
 |1910-layer|1910 Army Corps of Engineers Map|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1910_ACoE.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1910_ACoE.tif)|
 |1914-layer|1914 Topographical Map|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1914_Topo.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1914_Topo.tif)|
-|1944-layer|1944 Topographical Map|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo.tif)|
+|1944-layer|1944 Topographical Map|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo-opt.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo-opt.tif)|
 |1953-layer|1953 Master Plan Map|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1953_Master_Plan.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1953_Master_Plan.tif)|
 |1967-layer|1967 Topographical Map|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1967_Topo.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1967_Topo.tif)|
 |1975-layer|1975 Schedule of Structures|[https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1975_Schedule_of_Structures.tif](https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1975_Schedule_of_Structures.tif)|
