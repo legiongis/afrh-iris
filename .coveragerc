@@ -1,6 +1,6 @@
 [run]
 source =
-    AFRH-IRIS/
+    afrh_prj/
 
 omit =
     */python?.?/*

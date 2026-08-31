@@ -1,7 +1,7 @@
 
 module.exports = {
   input: {
-    path: "./AFRH-IRIS/src", // only files in this directory are considered for extraction
+    path: "./afrh_prj/src", // only files in this directory are considered for extraction
     include: ["**/*.vue", "**/*.ts"], // glob patterns to select files for extraction
     exclude: [], // glob patterns to exclude files from extraction
     jsExtractorOpts: [ // custom extractor keyword. default empty.
@@ -32,7 +32,7 @@ module.exports = {
     compileTemplate: false, // do not compile <template> tag when its lang is not html
   },
   output: {
-    path: "./AFRH-IRIS/locale", // output path of all created files
+    path: "./afrh_prj/locale", // output path of all created files
     potPath: "./messages.pot", // relative to output.path, so by default "./src/language/messages.pot"
     jsonPath: "./", // relative to output.path, so by default "./src/language/translations.json"
     locales: ["en"],
