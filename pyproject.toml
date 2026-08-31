@@ -14,9 +14,10 @@ dependencies = [
     "django-storages==1.13",
     "boto3==1.24",
     "setuptools<=80.9.0",
-    "arches",
+    "arches<8",
     "arches_extensions",
-    "zensical"
+    "zensical",
+    "uwsgi>=2.0.31",
 ]
 
 [project.optional-dependencies]
