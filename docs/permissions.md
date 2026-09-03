@@ -1,5 +1,7 @@
 # Permissions System
 
+## Overview
+
 Arches provides capabilities for granting specific permissions for data access and editing to individual users, or to groups of users. You can read more about how Arches handles permissions [here](https://arches.readthedocs.io/en/stable/administering/managing-permissions/).
 
 AFRH-IRIS must facilitate access by seven of different categories of users, which we classify as the following:
