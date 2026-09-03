@@ -21130,7 +21130,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   white-space: nowrap;
 }
 
-.u-marker-bg-primary {
+/* .u-marker-bg-primary {
   background-image: url(../img/bg/marker/marker-bg-primary.png);
 }
 
@@ -21152,7 +21152,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 
 .u-marker-bg-yellow {
   background-image: url(../img/bg/marker/marker-bg-yellow.png);
-}
+} */
 
 /*------------------------------------
   Tooltips
@@ -28022,9 +28022,9 @@ pre[class*="language-"] .toolbar-item a {
           transition-timing-function: ease-in;
 }
 
-.js-carousel {
+/* .js-carousel {
   background: url(../../assets/img/preloaders/preloader-black.svg) no-repeat 50% 50%;
-}
+} */
 
 .js-carousel .js-next,
 .js-carousel .js-prev {

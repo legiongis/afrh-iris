@@ -286,7 +286,7 @@
    "source": {
     "type": "raster",
     "tiles": [
-     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo.tif"
+     "https://titiler.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@2x.png?url=https://legion-maps.us-southeast-1.linodeobjects.com/afrh/1944_Topo-opt.tif"
     ],
     "tileSize": 512
    }

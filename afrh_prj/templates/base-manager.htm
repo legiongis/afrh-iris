@@ -17,7 +17,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 {% extends "base-afrh.htm" %}
-{% load static %}
+{% load webpack_static from webpack_loader %}
 {% load template_tags %}
 {% load i18n %}
 
@@ -36,7 +36,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                 <div id="navbar-container" class="boxed" style="background-color: #2b328c; width: 50px; padding-right: 0px">
                     <div class="navbar-header">
                         <a href="#" class="navbar-brand" data-bind="click: function () { navExpanded(!navExpanded()) }">
-                            <img src="{% static 'img/afrh_logo.png' %}" style="width: 42px;" alt="AFRH Logo">
+                            <img src="{% webpack_static 'img/afrh_logo.png' %}" style="width: 42px;" alt="AFRH Logo">
                             <div class="brand-title">
                                 <span class="brand-text">{{ app_name }}</span>
                             </div>
@@ -319,15 +319,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                                 </li>
                                             </ul>
                                         </li>
-
-                                        <li{% if "views/mobile-survey-manager" in main_script %} class="active-sub"{% endif %}>
-                                            <a href="{% url 'collector_manager' %}" data-bind="click: navigate.bind(this, '{% url 'collector_manager' %}') ">
-                                                <i class="fa fa-globe"></i>
-                                                <span class="menu-title">
-                                                    <strong>{% trans "Arches Collector Manager" %}</strong>
-                                                </span>
-                                            </a>
-                                        </li>
                                         {% endif %}
 
 
@@ -435,15 +426,15 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 
 {% block pre_require_js %}
-    <script>
-        {% autoescape off %}
-        define('view-data', [], function () {
-            return {
-                graphs: {{graphs}},
-                createableResources: {{createable_resources}},
-                help: "{{nav.help.template}}",
-            };
-        });
-        {% endautoescape %}
-    </script>
+    <div 
+        id="viewData"
+        style="display: none;"
+        viewData='{
+            "graphs": {{graphs}},
+            "createableResources": {{createable_resources}},
+            "help": "{{nav.help.template}}",
+            "userCanEditResources": "{{ user_can_edit }}",
+            "userCanReadResources": "{{ user_can_read }}"
+        }'
+    ></div>
 {% endblock pre_require_js %}

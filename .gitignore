@@ -1,10 +1,21 @@
-pkg/business_data/local
+.elasticsearch
+.db_backups
+.services
+celerybeat-schedule*
+pkg/business_data
 env
 .docs
+coverage/
+
+# frontend webpack stuff
+node_modules
+webpack
+staticfiles
+.tsconfig-paths.json
+.frontend-configuration-settings.json
 
 *.pyc
 arches.log
-afrh_prj/media/packages
 afrh_prj/logs/*.log
 afrh_prj/uploadedfiles
 afrh_prj/settings_local.py

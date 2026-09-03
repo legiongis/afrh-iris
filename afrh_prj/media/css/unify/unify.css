@@ -16293,7 +16293,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   background-position: 0 50%;
   background-size: 100% 70%;
   white-space: nowrap; }
-
+/* 
 .u-marker-bg-primary {
   background-image: url(../img/bg/marker/marker-bg-primary.png); }
 
@@ -16310,7 +16310,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
   background-image: url(../img/bg/marker/marker-bg-red.png); }
 
 .u-marker-bg-yellow {
-  background-image: url(../img/bg/marker/marker-bg-yellow.png); }
+  background-image: url(../img/bg/marker/marker-bg-yellow.png); } */
 
 /*------------------------------------
   Tooltips
@@ -21533,8 +21533,8 @@ pre[class*="language-"] .toolbar-item a {
   transition-duration: .4s;
   transition-timing-function: ease-in; }
 
-.js-carousel {
-  background: url(../../assets/img/preloaders/preloader-black.svg) no-repeat 50% 50%; }
+/* .js-carousel {
+  background: url(../../assets/img/preloaders/preloader-black.svg) no-repeat 50% 50%; } */
 
 .js-carousel .js-next,
 .js-carousel .js-prev {
@@ -22838,7 +22838,7 @@ pre[class*="language-"] .toolbar-item a {
 /*------------------------------------
   Images Grid
 ------------------------------------*/
-.g-bg-grid-v1--before::before {
+/* .g-bg-grid-v1--before::before {
   background-image: url(../img/bg/grid/wave.png); }
 
 .g-bg-grid-v2--before::after {
@@ -22857,7 +22857,7 @@ pre[class*="language-"] .toolbar-item a {
   background-image: url(../img/bg/grid/zigzag-left.png); }
 
 .g-bg-grid-v7--before::after {
-  background-image: url(../img/bg/grid/zigzag-right.png); }
+  background-image: url(../img/bg/grid/zigzag-right.png); } */
 
 /*------------------------------------
   Covers
@@ -22895,8 +22895,8 @@ pre[class*="language-"] .toolbar-item a {
 /*------------------------------------
   Background Patterns
 ------------------------------------*/
-.g-bg-pattern-green {
-  background-image: url("../img/bg/pattern--green.png"); }
+/* .g-bg-pattern-green {
+  background-image: url("../img/bg/pattern--green.png"); } */
 
 /*------------------------------------
   Background Position
