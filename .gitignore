@@ -2,7 +2,7 @@
 .db_backups
 .services
 celerybeat-schedule*
-pkg/business_data/local
+pkg/business_data
 env
 .docs
 coverage/
