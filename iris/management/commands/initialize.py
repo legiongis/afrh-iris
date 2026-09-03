@@ -1,12 +1,10 @@
-import json
-from pathlib import Path
 
+from arches.app.models.models import MapLayer
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import Group
 from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
-from arches.app.models.models import Concept, MapLayer
 
 class Command(BaseCommand):
     """
@@ -19,7 +17,6 @@ class Command(BaseCommand):
         parser.add_argument(
             "operation",
             choices=[
-                "anonymous-permissions",
                 "map-layers",
                 "test-users",
             ],
@@ -34,36 +31,12 @@ class Command(BaseCommand):
 
         self.verbosity = options['verbosity']
 
-        if options['operation'] == "anonymous-permissions":
-            self.set_anonymous_permissions()
-
         if options['operation'] == "test-users":
             self.make_test_users()
 
         if options['operation'] == "map-layers":
             self.update_default_layer_names(undo=options['undo'])
             self.load_historical_maps()
-
-    def set_anonymous_permissions(self):
-
-        user = get_user_model().objects.get(username="anonymous")
-
-        groups = [
-            "ArchaeologicalZone:Limited",
-            "CharacterArea:Full",
-            "HistoricArea:Full",
-            "MasterPlanZone:Full",
-            "InventoryResource:Limited",
-            "InformationResource:Limited",
-            "Person:Full",
-            "Organization:Full",
-            "ARPAReview:Deny",
-            "ManagementActivity:Deny",
-        ]
-
-        for group in groups:
-            g = Group.objects.get(name=group)
-            g.user_set.add(user)
 
     def make_test_users(self):
 
@@ -75,121 +48,37 @@ class Command(BaseCommand):
             {
                 "username": "admin1",
                 "groups": [
-                    "ArchaeologicalZone:Full",
-                    "CharacterArea:Full",
-                    "HistoricArea:Full",
-                    "MasterPlanZone:Full",
-                    "InventoryResource:Full",
-                    "InformationResource:Full",
-                    "Person:Full",
-                    "Organization:Full",
-                    "ARPAReview:Full",
-                    "ManagementActivity:Full",
-                    "Resource Editor",
-                    "InventoryResource:Edit",
-                    "CharacterArea:Edit",
-                    "HistoricArea:Edit",
-                    "MasterPlanZone:Edit",
-                    "ArchaeologicalZone:Edit",
-                    "Person:Edit",
-                    "Organization:Edit",
-                    "InformationResource:Edit",
-                    "ManagementActivity:Edit",
-                    "ARPAReview:Edit",
-                    "RDM Administrator",
+                    "Admin 1",
                 ]
             },
             {
                 "username": "admin2",
                 "groups": [
-                    "ArchaeologicalZone:Full",
-                    "CharacterArea:Full",
-                    "HistoricArea:Full",
-                    "MasterPlanZone:Full",
-                    "InventoryResource:Full",
-                    "InformationResource:Full",
-                    "Person:Full",
-                    "Organization:Full",
-                    "ARPAReview:Full",
-                    "ManagementActivity:Full",
-                    "Resource Editor",
-                    "InventoryResource:Edit",
-                    "Person:Edit",
-                    "Organization:Edit",
-                    "InformationResource:Edit",
-                    "ManagementActivity:Edit",
+                    "Admin 2",
                 ]
             },
             {
                 "username": "afrh_staff",
                 "groups": [
-                    "ArchaeologicalZone:Full",
-                    "CharacterArea:Full",
-                    "HistoricArea:Full",
-                    "MasterPlanZone:Full",
-                    "InventoryResource:Full",
-                    "InformationResource:Full",
-                    "Person:Full",
-                    "Organization:Full",
-                    "ARPAReview:Deny",
-                    "ManagementActivity:Full",
-                    "Resource Editor",
-                    "InventoryResource:Edit",
-                    "Person:Edit",
-                    "Organization:Edit",
-                    "InformationResource:Edit",
+                    "AFRH Staff",
                 ]
             },
             {
                 "username": "afrh_volunteer",
                 "groups": [
-                    "ArchaeologicalZone:Limited",
-                    "CharacterArea:Full",
-                    "HistoricArea:Full",
-                    "MasterPlanZone:Full",
-                    "InventoryResource:Limited",
-                    "InformationResource:Limited",
-                    "Person:Full",
-                    "Organization:Full",
-                    "ARPAReview:Deny",
-                    "ManagementActivity:Full",
-                    "Resource Editor",
-                    "InventoryResource:Edit",
-                    "Person:Edit",
-                    "Organization:Edit",
-                    "InformationResource:Edit",
+                    "AFRH Volunteer",
                 ]
             },
             {
                 "username": "plc_staff",
                 "groups": [
-                    "ArchaeologicalZone:Limited",
-                    "CharacterArea:Full",
-                    "HistoricArea:Full",
-                    "MasterPlanZone:Full",
-                    "InventoryResource:Full",
-                    "InformationResource:Limited",
-                    "Person:Full",
-                    "Organization:Full",
-                    "ARPAReview:Full",
-                    "ManagementActivity:Deny",
+                    "PLC Staff",
                 ]
             },
             {
                 "username": "contractor",
                 "groups": [
-                    "ArchaeologicalZone:Limited",
-                    "CharacterArea:Full",
-                    "HistoricArea:Full",
-                    "MasterPlanZone:Full",
-                    "InventoryResource:Full",
-                    "InformationResource:Limited",
-                    "Person:Full",
-                    "Organization:Full",
-                    "ARPAReview:Deny",
-                    "ManagementActivity:Deny",
-                    "Resource Editor",
-                    "InformationResource:Edit",
+                    "Contractor",
                 ]
             },
         ]

@@ -4,52 +4,119 @@ Arches provides capabilities for granting specific permissions for data access a
 
 AFRH-IRIS must facilitate access by seven of different categories of users, which we classify as the following:
 
-- **public** (visitors to the site that aren't signed in)
-- **admin1**
-- **admin2**
-- **afrh_staff**
-- **afrh_volunteer**
-- **plc_staff**
-- **contractor**
+- **Public** (any visitors to the site who aren't signed in)
+- **Admin 1**
+- **Admin 2**
+- **AFRH Staff**
+- **AFRH Volunteer**
+- **PLC Staff**
+- **Contractor**
 
-Each category of user has a different level of access to each resource model in the system, with regard to
+Each category of user has a different level of access to each Resource Model in the system, with regard to viewing, creating, editing, and deleting instances.
 
-1. Viewing resource instances
-    - Full view, limited view, or access denied
-2. Creating/editing resource intances
+For a full breakdown by resource model, see [Permissions by Resource Model](#permissions-by-resource-model).
 
-For a full breakdown by resource model, see [Permissions by Resource Model](#permissions-by-resource-model) below.
+## Creating a new user
 
-## Creating a New User
+1. Enter the Django admin site (https://afrh-iris.com/admin) with your admin credentials.
+2. Create a new user in the **Authentication and Authorization** > **User** section.
+3. In the **Permissions** section of the new user's profile, select one or more items in the **Available groups** list and click the arrow to chose them (**Chosed groups**)
 
-When a new user is created in the Django admin interface (afrh-iris.com/admin), they must be added to a series of groups in order to properly situate them within one of the permissions categories. The following table should be used to guide group assignment. Groups in **bold** are defalt Arches groups, all others are custom to the AFRH-IRIS system.
+## Pre-configured group permissions by Resource Model
 
-| admin1                   | admin2                   | afrh_staff               | afrh_volunteer              | plc_staff                   | contractor                  |
-|--------------------------|--------------------------|--------------------------|-----------------------------|-----------------------------|-----------------------------|
-| ArchaeologicalZone:Full  | ArchaeologicalZone:Full  | ArchaeologicalZone:Full  | ArchaeologicalZone:Limited  | ArchaeologicalZone:Limited  | ArchaeologicalZone:Limited  |
-| CharacterArea:Full       | CharacterArea:Full       | CharacterArea:Full       | CharacterArea:Full          | CharacterArea:Full          | CharacterArea:Full          |
-| HistoricArea:Full        | HistoricArea:Full        | HistoricArea:Full        | HistoricArea:Full           | HistoricArea:Full           | HistoricArea:Full           |
-| MasterPlanZone:Full      | MasterPlanZone:Full      | MasterPlanZone:Full      | MasterPlanZone:Full         | MasterPlanZone:Full         | MasterPlanZone:Full         |
-| InventoryResource:Full   | InventoryResource:Full   | InventoryResource:Full   | InventoryResource:Limited   | InventoryResource:Full      | InventoryResource:Full      |
-| InformationResource:Full | InformationResource:Full | InformationResource:Full | InformationResource:Limited | InformationResource:Limited | InformationResource:Limited |
-| Person:Full              | Person:Full              | Person:Full              | Person:Full                 | Person:Full                 | Person:Full                 |
-| Organization:Full        | Organization:Full        | Organization:Full        | Organization:Full           | Organization:Full           | Organization:Full           |
-| ARPAReview:Full          | ARPAReview:Full          | ARPAReview:Deny          | ARPAReview:Deny             | ARPAReview:Full             | ARPAReview:Deny             |
-| ManagementActivity:Full  | ManagementActivity:Full  | ManagementActivity:Full  | ManagementActivity:Full     | ManagementActivity:Deny     | ManagementActivity:Deny     |
-| **Resource Editor**         | **Resource Editor**          | **Resource Editor**          | **Resource Editor**             |                             | **Resource Editor**            |
-| InventoryResource:Edit   | InventoryResource:Edit   | InventoryResource:Edit   | InventoryResource:Edit      |                             | InformationResource:Edit    |
-| CharacterArea:Edit       | Person:Edit              | Person:Edit              | Person:Edit                 |                             |                             |
-| HistoricArea:Edit        | Organization:Edit        | Organization:Edit        | Organization:Edit           |                             |                             |
-| MasterPlanZone:Edit      | InformationResource:Edit | InformationResource:Edit | InformationResource:Edit    |                             |                             |
-| ArchaeologicalZone:Edit  | ManagementActivity:Edit  |                          |                             |                             |                             |
-| Person:Edit              |                          |                          |                             |                             |                             |
-| Organization:Edit        |                          |                          |                             |                             |                             |
-| InformationResource:Edit |                          |                          |                             |                             |                             |
-| ManagementActivity:Edit  |                          |                          |                             |                             |                             |
-| ARPAReview:Edit          |                          |                          |                             |                             |                             |
-| **RDM Administrator**        |                          |                          |                             |                             |                             |
+The following configurations have been made in the Arches Graph Designer.
 
-## Test Accounts
+### Inventory Resource
+
+| Group           | VIEW    | CREATE/EDIT/DELETE |
+| --------------- | :------------: | :--------: |
+| Public*         | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| Admin 1         | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
+| Admin 2         | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |
+| AFRH Staff      | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| AFRH Volunteer  | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| PLC Staff       | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| Contractor      | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+
+### Information Resource
+
+| Group           | VIEW    | CREATE/EDIT/DELETE |
+| --------------- | :------------: | :--------: |
+| Public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+| Admin 1         | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |
+| Admin 2         | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |
+| AFRH Staff      | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |
+| AFRH Volunteer  | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+| PLC Staff       | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+| Contractor      | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+
+Note: In order to properly filter Information Resources, we will likely need to use resource instance based rules,
+i.e. we will disallow groups of users from seeing specific information resources, but allow them to
+see others. For now, **no access** is granted to any public or non-AFRH users.
+
+### Master Plan Zone, Character Area, Historic Area
+
+| Group           | VIEW    | CREATE/EDIT/DELETE |
+| --------------- | :------------: | :--------: |
+| Public*         | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| Admin 1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
+| Admin 2          | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| AFRH Staff      | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| AFRH Volunteer  | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| PLC Staff       | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| Contractor      | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+
+### Archaeological Zone
+
+| Group           | VIEW:LIMITED* | VIEW:FULL | CREATE/EDIT/DELETE |
+| --------------- | :------------: | :--------: | :------: |
+| Public*         | <span style="color:green">✔</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+| Admin 1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
+| Admin 2         | <span style="color:green">✔</span>   | <span style="color:green">✔</span> | <span style="color:red">✗</span> |
+| AFRH Staff      | <span style="color:green">✔</span>   | <span style="color:green">✔</span> | <span style="color:red">✗</span> |
+| AFRH Volunteer  | <span style="color:green">✔</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+| PLC Staff       | <span style="color:green">✔</span>   | <span style="color:green">✔</span> | <span style="color:red">✗</span> |
+| Contractor      | <span style="color:green">✔</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+
+**\*** _Only allowed to view the Identification (name), Description, and Zone Boundary nodes. Not allowed to see the smaller boundaries of different types of resource concentrations within the zone._
+
+### Person/Organization
+
+| Group           | VIEW    | CREATE/EDIT | DELETE |
+| --------------- | :------------: | :--------: | :--------: |
+| Public*         | <span style="color:green">✔</span>   | <span style="color:red">✗</span> | <span style="color:red">✗</span> |
+| Admin 1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> |<span style="color:green">✔</span> |
+| Admin 2          | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |<span style="color:green">✔</span> |
+| AFRH Staff      | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |<span style="color:red">✗</span> |
+| AFRH Volunteer  | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |<span style="color:red">✗</span> |
+| PLC Staff       | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |<span style="color:red">✗</span> |
+| Contractor      | <span style="color:green">✔</span>   | <span style="color:green">✔</span> |<span style="color:red">✗</span> |
+
+### Management Activity
+
+| Group           | VIEW    | CREATE/EDIT/DELETE |
+| --------------- | :------------: | :--------: |
+| Public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+| Admin 1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
+| Admin 2          | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
+| AFRH Staff      | <span style="color:green">✔</span>   | <span style="color:red">✗</span> |
+| AFRH Volunteer  | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+| PLC Staff       | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+| Contractor      | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+
+### All reviews (ARPA, NEPA, CFA, NCPC, Section 106)
+
+| Group           | VIEW    | CREATE/EDIT/DELETE |
+| --------------- | :------------: | :--------: |
+| Public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+| Admin 1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
+| Admin 2          | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
+| AFRH Staff      | <span style="color:red">✗</span>   | <span style="color:red">✗</span> |
+| AFRH Volunteer  | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+| PLC Staff       | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+| Contractor      | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+
+## Test accounts
 
 A suite of example user accounts, one per permission level, can be created with
 
@@ -57,142 +124,13 @@ A suite of example user accounts, one per permission level, can be created with
 python manage.py initialize test-users
 ```
 
-The following users will be created and automatically assigned to groups as described above:
+The following users will be created and automatically assigned to the appropriate group (passwords same as username):
 
-|username|password|
+|username|group
 |---|---|
-|admin1|admin1|
-|admin2|admin2|
-|afrh_staff|afrh_staff|
-|afrh_volunteer|afrh_volunteer|
-|plc_staff|plc_staff|
-|contractor|contractor|
-
-## Permissions by Resource Model
-
-To implement permissions on specific parts of a resource model so that certain users have edit, read-only, or no access at all, we must use the Permissions tab on that resource model in the Arches designer. **This must be performed manually after the initial installation of the package**.
-
-The following tables provide a guide for how this should be implemented on each model.
-
-!!! Important
-    We still need to determine which fields should hidden for the VIEW:LIMITED level for each resource model.
-
-### Inventory Resource
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-
-### Master Plan Zone
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-
-### Character Area
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-
-### Archaeological Zone
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-
-### Historic Area
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-
-### Information Resource
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:green">✔</span> | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| contractor      | <span style="color:green">✔</span> | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-
-### Person
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-
-### Organization
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-
-### ARPA Review
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| contractor      | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
-
-### Management Activity
-
-| Group           | CREATE/EDIT    | VIEW:FULL | VIEW:LIMITED |
-| --------------- | :------------: | :--------: | :------: |
-| public*         | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
-| admin1          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| admin2          | <span style="color:green">✔</span> | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_staff      | <span style="color:red">✗</span>   | <span style="color:green">✔</span> | <span style="color:green">✔</span> |
-| afrh_volunteer  | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
-| plc_staff       | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:green">✔</span> |
-| contractor      | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   | <span style="color:red">✗</span>   |
+|admin1|Admin 1|
+|admin2|Admin 2|
+|afrh_staff|AFRH Staff|
+|afrh_volunteer|AFRH Volunteer|
+|plc_staff|PLC Staff|
+|contractor|Contractor|
