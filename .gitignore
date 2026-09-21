@@ -9,10 +9,10 @@ coverage/
 
 # frontend webpack stuff
 node_modules
-webpack
 staticfiles
 .tsconfig-paths.json
 .frontend-configuration-settings.json
+webpack-stats.json
 
 *.pyc
 arches.log
