@@ -22,7 +22,7 @@ For a full breakdown by resource model, see [Permissions by Resource Model](#per
 
 1. Enter the Django admin site (https://afrh-iris.com/admin) with your admin credentials.
 2. Create a new user in the **Authentication and Authorization** > **User** section.
-3. In the **Permissions** section of the new user's profile, select one or more items in the **Available groups** list and click the arrow to chose them (**Chosed groups**)
+3. In the **Permissions** section of the new user's profile, select one or more items in the **Available groups** list and click the arrow to chose them (**Chosen groups**)
 
 ## Pre-configured group permissions by Resource Model
 
